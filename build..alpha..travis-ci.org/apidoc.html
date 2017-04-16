@@ -63,6 +63,12 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">function <span class="apidocSignatureSpan"></span>lodash</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">function <span class="apidocSignatureSpan">lodash.</span>_</span>
 
         </li>
@@ -153,15 +159,6 @@
             <a class="apidocElementLiA" href="#apidoc.element.lodash.before">
             function <span class="apidocSignatureSpan">lodash.</span>before
             <span class="apidocSignatureSpan">(n, func)</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.lodash.bind">
-            function <span class="apidocSignatureSpan">lodash.</span>bind
-            <span class="apidocSignatureSpan">(func, thisArg, partials)</span>
             </a>
 
         </li>
@@ -2508,6 +2505,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.lodash.toString">
+            function <span class="apidocSignatureSpan">lodash.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.lodash.toUpper">
             function <span class="apidocSignatureSpan">lodash.</span>toUpper
             <span class="apidocSignatureSpan">(value)</span>
@@ -2832,25 +2838,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.lodash.bind">module lodash.bind</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.lodash.bind.bind">
-            function <span class="apidocSignatureSpan">lodash.</span>bind
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <span class="apidocSignatureSpan">function <span class="apidocSignatureSpan">lodash.bind.</span>placeholder</span>
-
-        </li>
-
-    </ol></li>
-
     <li class="apidocModuleLi"><a href="#apidoc.module.lodash.bindKey">module lodash.bindKey</a><ol>
 
         <li>
@@ -3034,6 +3021,8 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.lodash" id="apidoc.module.lodash">module lodash</a></h1>
+
+
 
 
 
@@ -3446,42 +3435,6 @@ function before(n, func) {
   if (typeof func != &#x27;function&#x27;) {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
-...</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.lodash.bind" id="apidoc.element.lodash.bind">
-        function <span class="apidocSignatureSpan">lodash.</span>bind
-        <span class="apidocSignatureSpan">(func, thisArg, partials)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">bind = function (func, thisArg, partials) {
-  var bitmask = WRAP_BIND_FLAG;
-  if (partials.length) {
-    var holders = replaceHolders(partials, getHolder(bind));
-    bitmask |= WRAP_PARTIAL_FLAG;
-  }
-  return createWrap(func, bitmask, thisArg, partials, holders);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-*
-* function greet(greeting, punctuation) {
-*   return greeting + &#x27; &#x27; + this.user + punctuation;
-* }
-*
-* var object = { &#x27;user&#x27;: &#x27;fred&#x27; };
-*
-* var bound = _.<span class="apidocCodeKeywordSpan">bind</span>(greet, object, &#x27;hi&#x27;);
-* bound(&#x27;!&#x27;);
-* // =&#x3e; &#x27;hi fred!&#x27;
-*
-* // Bound with placeholders.
-* var bound = _.bind(greet, object, _, &#x27;!&#x27;);
-* bound(&#x27;hi&#x27;);
-* // =&#x3e; &#x27;hi fred!&#x27;
 ...</pre></li>
     </ul>
 
@@ -12853,6 +12806,37 @@ function toPlainObject(value) {
 
 
     <h2>
+        <a href="#apidoc.element.lodash.toString" id="apidoc.element.lodash.toString">
+        function <span class="apidocSignatureSpan">lodash.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return toString;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* @memberOf _
+* @since 4.0.0
+* @category Lang
+* @param {*} value The value to convert.
+* @returns {string} Returns the converted string.
+* @example
+*
+* _.<span class="apidocCodeKeywordSpan">toString</span>(null);
+* // =&#x3e; &#x27;&#x27;
+*
+* _.toString(-0);
+* // =&#x3e; &#x27;-0&#x27;
+*
+* _.toString([1, 2, 3]);
+* // =&#x3e; &#x27;1,2,3&#x27;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.lodash.toUpper" id="apidoc.element.lodash.toUpper">
         function <span class="apidocSignatureSpan">lodash.</span>toUpper
         <span class="apidocSignatureSpan">(value)</span>
@@ -14086,42 +14070,6 @@ var zipWith = baseRest(function(arrays) {
 
 
 
-
-
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.lodash.bind" id="apidoc.module.lodash.bind">module lodash.bind</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.lodash.bind.bind" id="apidoc.element.lodash.bind.bind">
-        function <span class="apidocSignatureSpan">lodash.</span>bind
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function bind() { [native code] }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-*
-* function greet(greeting, punctuation) {
-*   return greeting + &#x27; &#x27; + this.user + punctuation;
-* }
-*
-* var object = { &#x27;user&#x27;: &#x27;fred&#x27; };
-*
-* var bound = _.<span class="apidocCodeKeywordSpan">bind</span>(greet, object, &#x27;hi&#x27;);
-* bound(&#x27;!&#x27;);
-* // =&#x3e; &#x27;hi fred!&#x27;
-*
-* // Bound with placeholders.
-* var bound = _.bind(greet, object, _, &#x27;!&#x27;);
-* bound(&#x27;hi&#x27;);
-* // =&#x3e; &#x27;hi fred!&#x27;
-...</pre></li>
-    </ul>
 
 
 
