@@ -1,6 +1,6 @@
 # npmdoc-lodash
 
-#### api documentation for  [lodash (v4.17.4)](https://lodash.com/)  [![npm package](https://img.shields.io/npm/v/npmdoc-lodash.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-lodash) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-lodash.svg)](https://travis-ci.org/npmdoc/node-npmdoc-lodash)
+#### basic api documentation for  [lodash (v4.17.4)](https://lodash.com/)  [![npm package](https://img.shields.io/npm/v/npmdoc-lodash.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-lodash) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-lodash.svg)](https://travis-ci.org/npmdoc/node-npmdoc-lodash)
 
 #### Lodash modular utilities.
 
@@ -72,7 +72,8 @@
     "scripts": {
         "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\""
     },
-    "version": "4.17.4"
+    "version": "4.17.4",
+    "bin": {}
 }
 ```
 
