@@ -1,0 +1,2658 @@
+<svg height="25406" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="25406" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26"></tspan>
+
+<tspan x="10" y="42">[MODE_BUILD=buildApp] - 2018-06-10T18:18:00.665Z - npm-testing /home/travis/build/npmdoc/node-np\</tspan>
+<tspan x="10" y="58">mdoc-lodash</tspan>
+
+<tspan x="10" y="74"></tspan>
+
+<tspan x="10" y="90"></tspan>
+
+<tspan x="10" y="106">buildApp - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-lodash/tmp/build/t\</tspan>
+<tspan x="10" y="122">est-report.json</tspan>
+
+<tspan x="10" y="138">&gt; server listening on http-port 62675</tspan>
+
+<tspan x="10" y="154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/pack\</tspan>
+<tspan x="10" y="170">age.json</tspan>
+
+<tspan x="10" y="186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/add.\</tspan>
+<tspan x="10" y="202">js</tspan>
+
+<tspan x="10" y="218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/afte\</tspan>
+<tspan x="10" y="234">r.js</tspan>
+
+<tspan x="10" y="250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_app\</tspan>
+<tspan x="10" y="266">ly.js</tspan>
+
+<tspan x="10" y="282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="298">ayAggregator.js</tspan>
+
+<tspan x="10" y="314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="330">ayEach.js</tspan>
+
+<tspan x="10" y="346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="362">ayEachRight.js</tspan>
+
+<tspan x="10" y="378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="394">ayEvery.js</tspan>
+
+<tspan x="10" y="410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="426">ayFilter.js</tspan>
+
+<tspan x="10" y="442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="458">ayIncludes.js</tspan>
+
+<tspan x="10" y="474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="490">ayIncludesWith.js</tspan>
+
+<tspan x="10" y="506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/arra\</tspan>
+<tspan x="10" y="522">y.js</tspan>
+
+<tspan x="10" y="538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="554">ayLikeKeys.js</tspan>
+
+<tspan x="10" y="570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="586">ayMap.js</tspan>
+
+<tspan x="10" y="602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="618">ayPush.js</tspan>
+
+<tspan x="10" y="634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="650">ayReduce.js</tspan>
+
+<tspan x="10" y="666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="682">ayReduceRight.js</tspan>
+
+<tspan x="10" y="698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="714">aySample.js</tspan>
+
+<tspan x="10" y="730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="746">aySampleSize.js</tspan>
+
+<tspan x="10" y="762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="778">ayShuffle.js</tspan>
+
+<tspan x="10" y="794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="810">aySome.js</tspan>
+
+<tspan x="10" y="826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/ary.\</tspan>
+<tspan x="10" y="842">js</tspan>
+
+<tspan x="10" y="858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_asc\</tspan>
+<tspan x="10" y="874">iiSize.js</tspan>
+
+<tspan x="10" y="890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_asc\</tspan>
+<tspan x="10" y="906">iiToArray.js</tspan>
+
+<tspan x="10" y="922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_asc\</tspan>
+<tspan x="10" y="938">iiWords.js</tspan>
+
+<tspan x="10" y="954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/assi\</tspan>
+<tspan x="10" y="970">gnIn.js</tspan>
+
+<tspan x="10" y="986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/assi\</tspan>
+<tspan x="10" y="1002">gnInWith.js</tspan>
+
+<tspan x="10" y="1018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/assi\</tspan>
+<tspan x="10" y="1034">gn.js</tspan>
+
+<tspan x="10" y="1050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_ass\</tspan>
+<tspan x="10" y="1066">ignMergeValue.js</tspan>
+
+<tspan x="10" y="1082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_ass\</tspan>
+<tspan x="10" y="1098">ignValue.js</tspan>
+
+<tspan x="10" y="1114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/assi\</tspan>
+<tspan x="10" y="1130">gnWith.js</tspan>
+
+<tspan x="10" y="1146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_ass\</tspan>
+<tspan x="10" y="1162">ocIndexOf.js</tspan>
+
+<tspan x="10" y="1178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/at.j\</tspan>
+<tspan x="10" y="1194">s</tspan>
+
+<tspan x="10" y="1210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/atte\</tspan>
+<tspan x="10" y="1226">mpt.js</tspan>
+
+<tspan x="10" y="1242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1258">eAggregator.js</tspan>
+
+<tspan x="10" y="1274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1290">eAssignIn.js</tspan>
+
+<tspan x="10" y="1306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1322">eAssign.js</tspan>
+
+<tspan x="10" y="1338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1354">eAssignValue.js</tspan>
+
+<tspan x="10" y="1370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1386">eAt.js</tspan>
+
+<tspan x="10" y="1402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1418">eClamp.js</tspan>
+
+<tspan x="10" y="1434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1450">eClone.js</tspan>
+
+<tspan x="10" y="1466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1482">eConforms.js</tspan>
+
+<tspan x="10" y="1498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1514">eConformsTo.js</tspan>
+
+<tspan x="10" y="1530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1546">eCreate.js</tspan>
+
+<tspan x="10" y="1562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1578">eDelay.js</tspan>
+
+<tspan x="10" y="1594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1610">eDifference.js</tspan>
+
+<tspan x="10" y="1626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1642">eEach.js</tspan>
+
+<tspan x="10" y="1658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1674">eEachRight.js</tspan>
+
+<tspan x="10" y="1690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1706">eEvery.js</tspan>
+
+<tspan x="10" y="1722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1738">eExtremum.js</tspan>
+
+<tspan x="10" y="1754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1770">eFill.js</tspan>
+
+<tspan x="10" y="1786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1802">eFilter.js</tspan>
+
+<tspan x="10" y="1818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1834">eFindIndex.js</tspan>
+
+<tspan x="10" y="1850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1866">eFindKey.js</tspan>
+
+<tspan x="10" y="1882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1898">eFlatten.js</tspan>
+
+<tspan x="10" y="1914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1930">eFor.js</tspan>
+
+<tspan x="10" y="1946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1962">eForOwn.js</tspan>
+
+<tspan x="10" y="1978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="1994">eForOwnRight.js</tspan>
+
+<tspan x="10" y="2010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2026">eForRight.js</tspan>
+
+<tspan x="10" y="2042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2058">eFunctions.js</tspan>
+
+<tspan x="10" y="2074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2090">eGetAllKeys.js</tspan>
+
+<tspan x="10" y="2106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2122">eGet.js</tspan>
+
+<tspan x="10" y="2138">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2154">eGetTag.js</tspan>
+
+<tspan x="10" y="2170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2186">eGt.js</tspan>
+
+<tspan x="10" y="2202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2218">eHasIn.js</tspan>
+
+<tspan x="10" y="2234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2250">eHas.js</tspan>
+
+<tspan x="10" y="2266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2282">eIndexOf.js</tspan>
+
+<tspan x="10" y="2298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2314">eIndexOfWith.js</tspan>
+
+<tspan x="10" y="2330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2346">eInRange.js</tspan>
+
+<tspan x="10" y="2362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2378">eIntersection.js</tspan>
+
+<tspan x="10" y="2394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2410">eInverter.js</tspan>
+
+<tspan x="10" y="2426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2442">eInvoke.js</tspan>
+
+<tspan x="10" y="2458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2474">eIsArguments.js</tspan>
+
+<tspan x="10" y="2490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2506">eIsArrayBuffer.js</tspan>
+
+<tspan x="10" y="2522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2538">eIsDate.js</tspan>
+
+<tspan x="10" y="2554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2570">eIsEqualDeep.js</tspan>
+
+<tspan x="10" y="2586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2602">eIsEqual.js</tspan>
+
+<tspan x="10" y="2618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2634">eIsMap.js</tspan>
+
+<tspan x="10" y="2650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2666">eIsMatch.js</tspan>
+
+<tspan x="10" y="2682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2698">eIsNaN.js</tspan>
+
+<tspan x="10" y="2714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2730">eIsNative.js</tspan>
+
+<tspan x="10" y="2746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2762">eIsRegExp.js</tspan>
+
+<tspan x="10" y="2778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2794">eIsSet.js</tspan>
+
+<tspan x="10" y="2810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2826">eIsTypedArray.js</tspan>
+
+<tspan x="10" y="2842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2858">eIteratee.js</tspan>
+
+<tspan x="10" y="2874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2890">eKeysIn.js</tspan>
+
+<tspan x="10" y="2906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2922">eKeys.js</tspan>
+
+<tspan x="10" y="2938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2954">eLodash.js</tspan>
+
+<tspan x="10" y="2970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="2986">eLt.js</tspan>
+
+<tspan x="10" y="3002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3018">eMap.js</tspan>
+
+<tspan x="10" y="3034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3050">eMatches.js</tspan>
+
+<tspan x="10" y="3066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3082">eMatchesProperty.js</tspan>
+
+<tspan x="10" y="3098">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3114">eMean.js</tspan>
+
+<tspan x="10" y="3130">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3146">eMergeDeep.js</tspan>
+
+<tspan x="10" y="3162">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3178">eMerge.js</tspan>
+
+<tspan x="10" y="3194">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3210">eNth.js</tspan>
+
+<tspan x="10" y="3226">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3242">eOrderBy.js</tspan>
+
+<tspan x="10" y="3258">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3274">ePickBy.js</tspan>
+
+<tspan x="10" y="3290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3306">ePick.js</tspan>
+
+<tspan x="10" y="3322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3338">ePropertyDeep.js</tspan>
+
+<tspan x="10" y="3354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3370">eProperty.js</tspan>
+
+<tspan x="10" y="3386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3402">ePropertyOf.js</tspan>
+
+<tspan x="10" y="3418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3434">ePullAll.js</tspan>
+
+<tspan x="10" y="3450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3466">ePullAt.js</tspan>
+
+<tspan x="10" y="3482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3498">eRandom.js</tspan>
+
+<tspan x="10" y="3514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3530">eRange.js</tspan>
+
+<tspan x="10" y="3546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3562">eReduce.js</tspan>
+
+<tspan x="10" y="3578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3594">eRepeat.js</tspan>
+
+<tspan x="10" y="3610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3626">eRest.js</tspan>
+
+<tspan x="10" y="3642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3658">eSample.js</tspan>
+
+<tspan x="10" y="3674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3690">eSampleSize.js</tspan>
+
+<tspan x="10" y="3706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3722">eSetData.js</tspan>
+
+<tspan x="10" y="3738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3754">eSet.js</tspan>
+
+<tspan x="10" y="3770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3786">eSetToString.js</tspan>
+
+<tspan x="10" y="3802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3818">eShuffle.js</tspan>
+
+<tspan x="10" y="3834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3850">eSlice.js</tspan>
+
+<tspan x="10" y="3866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3882">eSome.js</tspan>
+
+<tspan x="10" y="3898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3914">eSortBy.js</tspan>
+
+<tspan x="10" y="3930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3946">eSortedIndexBy.js</tspan>
+
+<tspan x="10" y="3962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="3978">eSortedIndex.js</tspan>
+
+<tspan x="10" y="3994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4010">eSortedUniq.js</tspan>
+
+<tspan x="10" y="4026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4042">eSum.js</tspan>
+
+<tspan x="10" y="4058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4074">eTimes.js</tspan>
+
+<tspan x="10" y="4090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4106">eToNumber.js</tspan>
+
+<tspan x="10" y="4122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4138">eToPairs.js</tspan>
+
+<tspan x="10" y="4154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4170">eToString.js</tspan>
+
+<tspan x="10" y="4186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4202">eUnary.js</tspan>
+
+<tspan x="10" y="4218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4234">eUniq.js</tspan>
+
+<tspan x="10" y="4250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4266">eUnset.js</tspan>
+
+<tspan x="10" y="4282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4298">eUpdate.js</tspan>
+
+<tspan x="10" y="4314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4330">eValues.js</tspan>
+
+<tspan x="10" y="4346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4362">eWhile.js</tspan>
+
+<tspan x="10" y="4378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4394">eWrapperValue.js</tspan>
+
+<tspan x="10" y="4410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4426">eXor.js</tspan>
+
+<tspan x="10" y="4442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="4458">eZipObject.js</tspan>
+
+<tspan x="10" y="4474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/befo\</tspan>
+<tspan x="10" y="4490">re.js</tspan>
+
+<tspan x="10" y="4506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/bind\</tspan>
+<tspan x="10" y="4522">All.js</tspan>
+
+<tspan x="10" y="4538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/bind\</tspan>
+<tspan x="10" y="4554">.js</tspan>
+
+<tspan x="10" y="4570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/bind\</tspan>
+<tspan x="10" y="4586">Key.js</tspan>
+
+<tspan x="10" y="4602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cac\</tspan>
+<tspan x="10" y="4618">heHas.js</tspan>
+
+<tspan x="10" y="4634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/came\</tspan>
+<tspan x="10" y="4650">lCase.js</tspan>
+
+<tspan x="10" y="4666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/capi\</tspan>
+<tspan x="10" y="4682">talize.js</tspan>
+
+<tspan x="10" y="4698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/cast\</tspan>
+<tspan x="10" y="4714">Array.js</tspan>
+
+<tspan x="10" y="4730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="4746">tArrayLikeObject.js</tspan>
+
+<tspan x="10" y="4762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="4778">tFunction.js</tspan>
+
+<tspan x="10" y="4794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="4810">tPath.js</tspan>
+
+<tspan x="10" y="4826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="4842">tRest.js</tspan>
+
+<tspan x="10" y="4858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="4874">tSlice.js</tspan>
+
+<tspan x="10" y="4890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/ceil\</tspan>
+<tspan x="10" y="4906">.js</tspan>
+
+<tspan x="10" y="4922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/chai\</tspan>
+<tspan x="10" y="4938">n.js</tspan>
+
+<tspan x="10" y="4954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cha\</tspan>
+<tspan x="10" y="4970">rsEndIndex.js</tspan>
+
+<tspan x="10" y="4986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cha\</tspan>
+<tspan x="10" y="5002">rsStartIndex.js</tspan>
+
+<tspan x="10" y="5018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/chun\</tspan>
+<tspan x="10" y="5034">k.js</tspan>
+
+<tspan x="10" y="5050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clam\</tspan>
+<tspan x="10" y="5066">p.js</tspan>
+
+<tspan x="10" y="5082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="5098">neArrayBuffer.js</tspan>
+
+<tspan x="10" y="5114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="5130">neBuffer.js</tspan>
+
+<tspan x="10" y="5146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="5162">neDataView.js</tspan>
+
+<tspan x="10" y="5178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clon\</tspan>
+<tspan x="10" y="5194">eDeep.js</tspan>
+
+<tspan x="10" y="5210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clon\</tspan>
+<tspan x="10" y="5226">eDeepWith.js</tspan>
+
+<tspan x="10" y="5242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clon\</tspan>
+<tspan x="10" y="5258">e.js</tspan>
+
+<tspan x="10" y="5274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="5290">neRegExp.js</tspan>
+
+<tspan x="10" y="5306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="5322">neSymbol.js</tspan>
+
+<tspan x="10" y="5338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="5354">neTypedArray.js</tspan>
+
+<tspan x="10" y="5370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clon\</tspan>
+<tspan x="10" y="5386">eWith.js</tspan>
+
+<tspan x="10" y="5402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/coll\</tspan>
+<tspan x="10" y="5418">ection.js</tspan>
+
+<tspan x="10" y="5434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/comm\</tspan>
+<tspan x="10" y="5450">it.js</tspan>
+
+<tspan x="10" y="5466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/comp\</tspan>
+<tspan x="10" y="5482">act.js</tspan>
+
+<tspan x="10" y="5498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_com\</tspan>
+<tspan x="10" y="5514">pareAscending.js</tspan>
+
+<tspan x="10" y="5530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_com\</tspan>
+<tspan x="10" y="5546">pareMultiple.js</tspan>
+
+<tspan x="10" y="5562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_com\</tspan>
+<tspan x="10" y="5578">poseArgs.js</tspan>
+
+<tspan x="10" y="5594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_com\</tspan>
+<tspan x="10" y="5610">poseArgsRight.js</tspan>
+
+<tspan x="10" y="5626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/conc\</tspan>
+<tspan x="10" y="5642">at.js</tspan>
+
+<tspan x="10" y="5658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/cond\</tspan>
+<tspan x="10" y="5674">.js</tspan>
+
+<tspan x="10" y="5690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/conf\</tspan>
+<tspan x="10" y="5706">orms.js</tspan>
+
+<tspan x="10" y="5722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/conf\</tspan>
+<tspan x="10" y="5738">ormsTo.js</tspan>
+
+<tspan x="10" y="5754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/cons\</tspan>
+<tspan x="10" y="5770">tant.js</tspan>
+
+<tspan x="10" y="5786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cop\</tspan>
+<tspan x="10" y="5802">yArray.js</tspan>
+
+<tspan x="10" y="5818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cop\</tspan>
+<tspan x="10" y="5834">yObject.js</tspan>
+
+<tspan x="10" y="5850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cop\</tspan>
+<tspan x="10" y="5866">ySymbolsIn.js</tspan>
+
+<tspan x="10" y="5882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cop\</tspan>
+<tspan x="10" y="5898">ySymbols.js</tspan>
+
+<tspan x="10" y="5914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/core\</tspan>
+<tspan x="10" y="5930">.js</tspan>
+
+<tspan x="10" y="5946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cor\</tspan>
+<tspan x="10" y="5962">eJsData.js</tspan>
+
+<tspan x="10" y="5978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/coun\</tspan>
+<tspan x="10" y="5994">tBy.js</tspan>
+
+<tspan x="10" y="6010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cou\</tspan>
+<tspan x="10" y="6026">ntHolders.js</tspan>
+
+<tspan x="10" y="6042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6058">ateAggregator.js</tspan>
+
+<tspan x="10" y="6074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6090">ateAssigner.js</tspan>
+
+<tspan x="10" y="6106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6122">ateBaseEach.js</tspan>
+
+<tspan x="10" y="6138">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6154">ateBaseFor.js</tspan>
+
+<tspan x="10" y="6170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6186">ateBind.js</tspan>
+
+<tspan x="10" y="6202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6218">ateCaseFirst.js</tspan>
+
+<tspan x="10" y="6234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6250">ateCompounder.js</tspan>
+
+<tspan x="10" y="6266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6282">ateCtor.js</tspan>
+
+<tspan x="10" y="6298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6314">ateCurry.js</tspan>
+
+<tspan x="10" y="6330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6346">ateFind.js</tspan>
+
+<tspan x="10" y="6362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6378">ateFlow.js</tspan>
+
+<tspan x="10" y="6394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6410">ateHybrid.js</tspan>
+
+<tspan x="10" y="6426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6442">ateInverter.js</tspan>
+
+<tspan x="10" y="6458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/crea\</tspan>
+<tspan x="10" y="6474">te.js</tspan>
+
+<tspan x="10" y="6490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6506">ateMathOperation.js</tspan>
+
+<tspan x="10" y="6522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6538">ateOver.js</tspan>
+
+<tspan x="10" y="6554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6570">atePadding.js</tspan>
+
+<tspan x="10" y="6586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6602">atePartial.js</tspan>
+
+<tspan x="10" y="6618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6634">ateRange.js</tspan>
+
+<tspan x="10" y="6650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6666">ateRecurry.js</tspan>
+
+<tspan x="10" y="6682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6698">ateRelationalOperation.js</tspan>
+
+<tspan x="10" y="6714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6730">ateRound.js</tspan>
+
+<tspan x="10" y="6746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6762">ateSet.js</tspan>
+
+<tspan x="10" y="6778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6794">ateToPairs.js</tspan>
+
+<tspan x="10" y="6810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="6826">ateWrap.js</tspan>
+
+<tspan x="10" y="6842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/curr\</tspan>
+<tspan x="10" y="6858">y.js</tspan>
+
+<tspan x="10" y="6874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/curr\</tspan>
+<tspan x="10" y="6890">yRight.js</tspan>
+
+<tspan x="10" y="6906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cus\</tspan>
+<tspan x="10" y="6922">tomDefaultsAssignIn.js</tspan>
+
+<tspan x="10" y="6938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cus\</tspan>
+<tspan x="10" y="6954">tomDefaultsMerge.js</tspan>
+
+<tspan x="10" y="6970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cus\</tspan>
+<tspan x="10" y="6986">tomOmitClone.js</tspan>
+
+<tspan x="10" y="7002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_Dat\</tspan>
+<tspan x="10" y="7018">aView.js</tspan>
+
+<tspan x="10" y="7034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/date\</tspan>
+<tspan x="10" y="7050">.js</tspan>
+
+<tspan x="10" y="7066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/debo\</tspan>
+<tspan x="10" y="7082">unce.js</tspan>
+
+<tspan x="10" y="7098">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/debu\</tspan>
+<tspan x="10" y="7114">rr.js</tspan>
+
+<tspan x="10" y="7130">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_deb\</tspan>
+<tspan x="10" y="7146">urrLetter.js</tspan>
+
+<tspan x="10" y="7162">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/defa\</tspan>
+<tspan x="10" y="7178">ultsDeep.js</tspan>
+
+<tspan x="10" y="7194">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/defa\</tspan>
+<tspan x="10" y="7210">ults.js</tspan>
+
+<tspan x="10" y="7226">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/defa\</tspan>
+<tspan x="10" y="7242">ultTo.js</tspan>
+
+<tspan x="10" y="7258">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/defe\</tspan>
+<tspan x="10" y="7274">r.js</tspan>
+
+<tspan x="10" y="7290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_def\</tspan>
+<tspan x="10" y="7306">ineProperty.js</tspan>
+
+<tspan x="10" y="7322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/dela\</tspan>
+<tspan x="10" y="7338">y.js</tspan>
+
+<tspan x="10" y="7354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/diff\</tspan>
+<tspan x="10" y="7370">erenceBy.js</tspan>
+
+<tspan x="10" y="7386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/diff\</tspan>
+<tspan x="10" y="7402">erence.js</tspan>
+
+<tspan x="10" y="7418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/diff\</tspan>
+<tspan x="10" y="7434">erenceWith.js</tspan>
+
+<tspan x="10" y="7450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/divi\</tspan>
+<tspan x="10" y="7466">de.js</tspan>
+
+<tspan x="10" y="7482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/drop\</tspan>
+<tspan x="10" y="7498">.js</tspan>
+
+<tspan x="10" y="7514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/drop\</tspan>
+<tspan x="10" y="7530">Right.js</tspan>
+
+<tspan x="10" y="7546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/drop\</tspan>
+<tspan x="10" y="7562">RightWhile.js</tspan>
+
+<tspan x="10" y="7578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/drop\</tspan>
+<tspan x="10" y="7594">While.js</tspan>
+
+<tspan x="10" y="7610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/each\</tspan>
+<tspan x="10" y="7626">.js</tspan>
+
+<tspan x="10" y="7642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/each\</tspan>
+<tspan x="10" y="7658">Right.js</tspan>
+
+<tspan x="10" y="7674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/ends\</tspan>
+<tspan x="10" y="7690">With.js</tspan>
+
+<tspan x="10" y="7706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/entr\</tspan>
+<tspan x="10" y="7722">iesIn.js</tspan>
+
+<tspan x="10" y="7738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/entr\</tspan>
+<tspan x="10" y="7754">ies.js</tspan>
+
+<tspan x="10" y="7770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/eq.j\</tspan>
+<tspan x="10" y="7786">s</tspan>
+
+<tspan x="10" y="7802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_equ\</tspan>
+<tspan x="10" y="7818">alArrays.js</tspan>
+
+<tspan x="10" y="7834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_equ\</tspan>
+<tspan x="10" y="7850">alByTag.js</tspan>
+
+<tspan x="10" y="7866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_equ\</tspan>
+<tspan x="10" y="7882">alObjects.js</tspan>
+
+<tspan x="10" y="7898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_esc\</tspan>
+<tspan x="10" y="7914">apeHtmlChar.js</tspan>
+
+<tspan x="10" y="7930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/esca\</tspan>
+<tspan x="10" y="7946">pe.js</tspan>
+
+<tspan x="10" y="7962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/esca\</tspan>
+<tspan x="10" y="7978">peRegExp.js</tspan>
+
+<tspan x="10" y="7994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_esc\</tspan>
+<tspan x="10" y="8010">apeStringChar.js</tspan>
+
+<tspan x="10" y="8026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/ever\</tspan>
+<tspan x="10" y="8042">y.js</tspan>
+
+<tspan x="10" y="8058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/exte\</tspan>
+<tspan x="10" y="8074">nd.js</tspan>
+
+<tspan x="10" y="8090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/exte\</tspan>
+<tspan x="10" y="8106">ndWith.js</tspan>
+
+<tspan x="10" y="8122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/fill\</tspan>
+<tspan x="10" y="8138">.js</tspan>
+
+<tspan x="10" y="8154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/filt\</tspan>
+<tspan x="10" y="8170">er.js</tspan>
+
+<tspan x="10" y="8186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="8202">Index.js</tspan>
+
+<tspan x="10" y="8218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="8234">.js</tspan>
+
+<tspan x="10" y="8250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="8266">Key.js</tspan>
+
+<tspan x="10" y="8282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="8298">LastIndex.js</tspan>
+
+<tspan x="10" y="8314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="8330">Last.js</tspan>
+
+<tspan x="10" y="8346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="8362">LastKey.js</tspan>
+
+<tspan x="10" y="8378">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash ...</tspan>
+
+<tspan x="10" y="8394">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash</tspan>
+
+<tspan x="10" y="8410">apidocCreate - libFile add.js</tspan>
+
+<tspan x="10" y="8426">apidocCreate - libFile after.js</tspan>
+
+<tspan x="10" y="8442">apidocCreate - libFile _apply.js</tspan>
+
+<tspan x="10" y="8458">apidocCreate - libFile _arrayAggregator.js</tspan>
+
+<tspan x="10" y="8474">apidocCreate - libFile _arrayEach.js</tspan>
+
+<tspan x="10" y="8490">apidocCreate - libFile _arrayEachRight.js</tspan>
+
+<tspan x="10" y="8506">apidocCreate - libFile _arrayEvery.js</tspan>
+
+<tspan x="10" y="8522">apidocCreate - libFile _arrayFilter.js</tspan>
+
+<tspan x="10" y="8538">apidocCreate - libFile _arrayIncludes.js</tspan>
+
+<tspan x="10" y="8554">apidocCreate - libFile _arrayIncludesWith.js</tspan>
+
+<tspan x="10" y="8570">apidocCreate - libFile array.js</tspan>
+
+<tspan x="10" y="8586">apidocCreate - libFile _arrayLikeKeys.js</tspan>
+
+<tspan x="10" y="8602">apidocCreate - libFile _arrayMap.js</tspan>
+
+<tspan x="10" y="8618">apidocCreate - libFile _arrayPush.js</tspan>
+
+<tspan x="10" y="8634">apidocCreate - libFile _arrayReduce.js</tspan>
+
+<tspan x="10" y="8650">apidocCreate - libFile _arrayReduceRight.js</tspan>
+
+<tspan x="10" y="8666">apidocCreate - libFile _arraySample.js</tspan>
+
+<tspan x="10" y="8682">apidocCreate - libFile _arraySampleSize.js</tspan>
+
+<tspan x="10" y="8698">apidocCreate - libFile _arrayShuffle.js</tspan>
+
+<tspan x="10" y="8714">apidocCreate - libFile _arraySome.js</tspan>
+
+<tspan x="10" y="8730">apidocCreate - libFile ary.js</tspan>
+
+<tspan x="10" y="8746">apidocCreate - libFile _asciiSize.js</tspan>
+
+<tspan x="10" y="8762">apidocCreate - libFile _asciiToArray.js</tspan>
+
+<tspan x="10" y="8778">apidocCreate - libFile _asciiWords.js</tspan>
+
+<tspan x="10" y="8794">apidocCreate - libFile assignIn.js</tspan>
+
+<tspan x="10" y="8810">apidocCreate - libFile assignInWith.js</tspan>
+
+<tspan x="10" y="8826">apidocCreate - libFile assign.js</tspan>
+
+<tspan x="10" y="8842">apidocCreate - libFile _assignMergeValue.js</tspan>
+
+<tspan x="10" y="8858">apidocCreate - libFile _assignValue.js</tspan>
+
+<tspan x="10" y="8874">apidocCreate - libFile assignWith.js</tspan>
+
+<tspan x="10" y="8890">apidocCreate - libFile _assocIndexOf.js</tspan>
+
+<tspan x="10" y="8906">apidocCreate - libFile at.js</tspan>
+
+<tspan x="10" y="8922">apidocCreate - libFile attempt.js</tspan>
+
+<tspan x="10" y="8938">apidocCreate - libFile _baseAggregator.js</tspan>
+
+<tspan x="10" y="8954">apidocCreate - libFile _baseAssignIn.js</tspan>
+
+<tspan x="10" y="8970">apidocCreate - libFile _baseAssign.js</tspan>
+
+<tspan x="10" y="8986">apidocCreate - libFile _baseAssignValue.js</tspan>
+
+<tspan x="10" y="9002">apidocCreate - libFile _baseAt.js</tspan>
+
+<tspan x="10" y="9018">apidocCreate - libFile _baseClamp.js</tspan>
+
+<tspan x="10" y="9034">apidocCreate - libFile _baseClone.js</tspan>
+
+<tspan x="10" y="9050">apidocCreate - libFile _baseConforms.js</tspan>
+
+<tspan x="10" y="9066">apidocCreate - libFile _baseConformsTo.js</tspan>
+
+<tspan x="10" y="9082">apidocCreate - libFile _baseCreate.js</tspan>
+
+<tspan x="10" y="9098">apidocCreate - libFile _baseDelay.js</tspan>
+
+<tspan x="10" y="9114">apidocCreate - libFile _baseDifference.js</tspan>
+
+<tspan x="10" y="9130">apidocCreate - libFile _baseEach.js</tspan>
+
+<tspan x="10" y="9146">apidocCreate - libFile _baseEachRight.js</tspan>
+
+<tspan x="10" y="9162">apidocCreate - libFile _baseEvery.js</tspan>
+
+<tspan x="10" y="9178">apidocCreate - libFile _baseExtremum.js</tspan>
+
+<tspan x="10" y="9194">apidocCreate - libFile _baseFill.js</tspan>
+
+<tspan x="10" y="9210">apidocCreate - libFile _baseFilter.js</tspan>
+
+<tspan x="10" y="9226">apidocCreate - libFile _baseFindIndex.js</tspan>
+
+<tspan x="10" y="9242">apidocCreate - libFile _baseFindKey.js</tspan>
+
+<tspan x="10" y="9258">apidocCreate - libFile _baseFlatten.js</tspan>
+
+<tspan x="10" y="9274">apidocCreate - libFile _baseFor.js</tspan>
+
+<tspan x="10" y="9290">apidocCreate - libFile _baseForOwn.js</tspan>
+
+<tspan x="10" y="9306">apidocCreate - libFile _baseForOwnRight.js</tspan>
+
+<tspan x="10" y="9322">apidocCreate - libFile _baseForRight.js</tspan>
+
+<tspan x="10" y="9338">apidocCreate - libFile _baseFunctions.js</tspan>
+
+<tspan x="10" y="9354">apidocCreate - libFile _baseGetAllKeys.js</tspan>
+
+<tspan x="10" y="9370">apidocCreate - libFile _baseGet.js</tspan>
+
+<tspan x="10" y="9386">apidocCreate - libFile _baseGetTag.js</tspan>
+
+<tspan x="10" y="9402">apidocCreate - libFile _baseGt.js</tspan>
+
+<tspan x="10" y="9418">apidocCreate - libFile _baseHasIn.js</tspan>
+
+<tspan x="10" y="9434">apidocCreate - libFile _baseHas.js</tspan>
+
+<tspan x="10" y="9450">apidocCreate - libFile _baseIndexOf.js</tspan>
+
+<tspan x="10" y="9466">apidocCreate - libFile _baseIndexOfWith.js</tspan>
+
+<tspan x="10" y="9482">apidocCreate - libFile _baseInRange.js</tspan>
+
+<tspan x="10" y="9498">apidocCreate - libFile _baseIntersection.js</tspan>
+
+<tspan x="10" y="9514">apidocCreate - libFile _baseInverter.js</tspan>
+
+<tspan x="10" y="9530">apidocCreate - libFile _baseInvoke.js</tspan>
+
+<tspan x="10" y="9546">apidocCreate - libFile _baseIsArguments.js</tspan>
+
+<tspan x="10" y="9562">apidocCreate - libFile _baseIsArrayBuffer.js</tspan>
+
+<tspan x="10" y="9578">apidocCreate - libFile _baseIsDate.js</tspan>
+
+<tspan x="10" y="9594">apidocCreate - libFile _baseIsEqualDeep.js</tspan>
+
+<tspan x="10" y="9610">apidocCreate - libFile _baseIsEqual.js</tspan>
+
+<tspan x="10" y="9626">apidocCreate - libFile _baseIsMap.js</tspan>
+
+<tspan x="10" y="9642">apidocCreate - libFile _baseIsMatch.js</tspan>
+
+<tspan x="10" y="9658">apidocCreate - libFile _baseIsNaN.js</tspan>
+
+<tspan x="10" y="9674">apidocCreate - libFile _baseIsNative.js</tspan>
+
+<tspan x="10" y="9690">apidocCreate - libFile _baseIsRegExp.js</tspan>
+
+<tspan x="10" y="9706">apidocCreate - libFile _baseIsSet.js</tspan>
+
+<tspan x="10" y="9722">apidocCreate - libFile _baseIsTypedArray.js</tspan>
+
+<tspan x="10" y="9738">apidocCreate - libFile _baseIteratee.js</tspan>
+
+<tspan x="10" y="9754">apidocCreate - libFile _baseKeysIn.js</tspan>
+
+<tspan x="10" y="9770">apidocCreate - libFile _baseKeys.js</tspan>
+
+<tspan x="10" y="9786">apidocCreate - libFile _baseLodash.js</tspan>
+
+<tspan x="10" y="9802">apidocCreate - libFile _baseLt.js</tspan>
+
+<tspan x="10" y="9818">apidocCreate - libFile _baseMap.js</tspan>
+
+<tspan x="10" y="9834">apidocCreate - libFile _baseMatches.js</tspan>
+
+<tspan x="10" y="9850">apidocCreate - libFile _baseMatchesProperty.js</tspan>
+
+<tspan x="10" y="9866">apidocCreate - libFile _baseMean.js</tspan>
+
+<tspan x="10" y="9882">apidocCreate - libFile _baseMergeDeep.js</tspan>
+
+<tspan x="10" y="9898">apidocCreate - libFile _baseMerge.js</tspan>
+
+<tspan x="10" y="9914">apidocCreate - libFile _baseNth.js</tspan>
+
+<tspan x="10" y="9930">apidocCreate - libFile _baseOrderBy.js</tspan>
+
+<tspan x="10" y="9946">apidocCreate - libFile _basePickBy.js</tspan>
+
+<tspan x="10" y="9962">apidocCreate - libFile _basePick.js</tspan>
+
+<tspan x="10" y="9978">apidocCreate - libFile _basePropertyDeep.js</tspan>
+
+<tspan x="10" y="9994">apidocCreate - libFile _baseProperty.js</tspan>
+
+<tspan x="10" y="10010">apidocCreate - libFile _basePropertyOf.js</tspan>
+
+<tspan x="10" y="10026">apidocCreate - libFile _basePullAll.js</tspan>
+
+<tspan x="10" y="10042">apidocCreate - libFile _basePullAt.js</tspan>
+
+<tspan x="10" y="10058">apidocCreate - libFile _baseRandom.js</tspan>
+
+<tspan x="10" y="10074">apidocCreate - libFile _baseRange.js</tspan>
+
+<tspan x="10" y="10090">apidocCreate - libFile _baseReduce.js</tspan>
+
+<tspan x="10" y="10106">apidocCreate - libFile _baseRepeat.js</tspan>
+
+<tspan x="10" y="10122">apidocCreate - libFile _baseRest.js</tspan>
+
+<tspan x="10" y="10138">apidocCreate - libFile _baseSample.js</tspan>
+
+<tspan x="10" y="10154">apidocCreate - libFile _baseSampleSize.js</tspan>
+
+<tspan x="10" y="10170">apidocCreate - libFile _baseSetData.js</tspan>
+
+<tspan x="10" y="10186">apidocCreate - libFile _baseSet.js</tspan>
+
+<tspan x="10" y="10202">apidocCreate - libFile _baseSetToString.js</tspan>
+
+<tspan x="10" y="10218">apidocCreate - libFile _baseShuffle.js</tspan>
+
+<tspan x="10" y="10234">apidocCreate - libFile _baseSlice.js</tspan>
+
+<tspan x="10" y="10250">apidocCreate - libFile _baseSome.js</tspan>
+
+<tspan x="10" y="10266">apidocCreate - libFile _baseSortBy.js</tspan>
+
+<tspan x="10" y="10282">apidocCreate - libFile _baseSortedIndexBy.js</tspan>
+
+<tspan x="10" y="10298">apidocCreate - libFile _baseSortedIndex.js</tspan>
+
+<tspan x="10" y="10314">apidocCreate - libFile _baseSortedUniq.js</tspan>
+
+<tspan x="10" y="10330">apidocCreate - libFile _baseSum.js</tspan>
+
+<tspan x="10" y="10346">apidocCreate - libFile _baseTimes.js</tspan>
+
+<tspan x="10" y="10362">apidocCreate - libFile _baseToNumber.js</tspan>
+
+<tspan x="10" y="10378">apidocCreate - libFile _baseToPairs.js</tspan>
+
+<tspan x="10" y="10394">apidocCreate - libFile _baseToString.js</tspan>
+
+<tspan x="10" y="10410">apidocCreate - libFile _baseUnary.js</tspan>
+
+<tspan x="10" y="10426">apidocCreate - libFile _baseUniq.js</tspan>
+
+<tspan x="10" y="10442">apidocCreate - libFile _baseUnset.js</tspan>
+
+<tspan x="10" y="10458">apidocCreate - libFile _baseUpdate.js</tspan>
+
+<tspan x="10" y="10474">apidocCreate - libFile _baseValues.js</tspan>
+
+<tspan x="10" y="10490">apidocCreate - libFile _baseWhile.js</tspan>
+
+<tspan x="10" y="10506">apidocCreate - libFile _baseWrapperValue.js</tspan>
+
+<tspan x="10" y="10522">apidocCreate - libFile _baseXor.js</tspan>
+
+<tspan x="10" y="10538">apidocCreate - libFile _baseZipObject.js</tspan>
+
+<tspan x="10" y="10554">apidocCreate - libFile before.js</tspan>
+
+<tspan x="10" y="10570">apidocCreate - libFile bindAll.js</tspan>
+
+<tspan x="10" y="10586">apidocCreate - libFile bind.js</tspan>
+
+<tspan x="10" y="10602">apidocCreate - libFile bindKey.js</tspan>
+
+<tspan x="10" y="10618">apidocCreate - libFile _cacheHas.js</tspan>
+
+<tspan x="10" y="10634">apidocCreate - libFile camelCase.js</tspan>
+
+<tspan x="10" y="10650">apidocCreate - libFile capitalize.js</tspan>
+
+<tspan x="10" y="10666">apidocCreate - libFile castArray.js</tspan>
+
+<tspan x="10" y="10682">apidocCreate - libFile _castArrayLikeObject.js</tspan>
+
+<tspan x="10" y="10698">apidocCreate - libFile _castFunction.js</tspan>
+
+<tspan x="10" y="10714">apidocCreate - libFile _castPath.js</tspan>
+
+<tspan x="10" y="10730">apidocCreate - libFile _castRest.js</tspan>
+
+<tspan x="10" y="10746">apidocCreate - libFile _castSlice.js</tspan>
+
+<tspan x="10" y="10762">apidocCreate - libFile ceil.js</tspan>
+
+<tspan x="10" y="10778">apidocCreate - libFile chain.js</tspan>
+
+<tspan x="10" y="10794">apidocCreate - libFile _charsEndIndex.js</tspan>
+
+<tspan x="10" y="10810">apidocCreate - libFile _charsStartIndex.js</tspan>
+
+<tspan x="10" y="10826">apidocCreate - libFile chunk.js</tspan>
+
+<tspan x="10" y="10842">apidocCreate - libFile clamp.js</tspan>
+
+<tspan x="10" y="10858">apidocCreate - libFile _cloneArrayBuffer.js</tspan>
+
+<tspan x="10" y="10874">apidocCreate - libFile _cloneBuffer.js</tspan>
+
+<tspan x="10" y="10890">apidocCreate - libFile _cloneDataView.js</tspan>
+
+<tspan x="10" y="10906">apidocCreate - libFile cloneDeep.js</tspan>
+
+<tspan x="10" y="10922">apidocCreate - libFile cloneDeepWith.js</tspan>
+
+<tspan x="10" y="10938">apidocCreate - libFile clone.js</tspan>
+
+<tspan x="10" y="10954">apidocCreate - libFile _cloneRegExp.js</tspan>
+
+<tspan x="10" y="10970">apidocCreate - libFile _cloneSymbol.js</tspan>
+
+<tspan x="10" y="10986">apidocCreate - libFile _cloneTypedArray.js</tspan>
+
+<tspan x="10" y="11002">apidocCreate - libFile cloneWith.js</tspan>
+
+<tspan x="10" y="11018">apidocCreate - libFile collection.js</tspan>
+
+<tspan x="10" y="11034">apidocCreate - libFile commit.js</tspan>
+
+<tspan x="10" y="11050">apidocCreate - libFile compact.js</tspan>
+
+<tspan x="10" y="11066">apidocCreate - libFile _compareAscending.js</tspan>
+
+<tspan x="10" y="11082">apidocCreate - libFile _compareMultiple.js</tspan>
+
+<tspan x="10" y="11098">apidocCreate - libFile _composeArgs.js</tspan>
+
+<tspan x="10" y="11114">apidocCreate - libFile _composeArgsRight.js</tspan>
+
+<tspan x="10" y="11130">apidocCreate - libFile concat.js</tspan>
+
+<tspan x="10" y="11146">apidocCreate - libFile cond.js</tspan>
+
+<tspan x="10" y="11162">apidocCreate - libFile conforms.js</tspan>
+
+<tspan x="10" y="11178">apidocCreate - libFile conformsTo.js</tspan>
+
+<tspan x="10" y="11194">apidocCreate - libFile constant.js</tspan>
+
+<tspan x="10" y="11210">apidocCreate - libFile _copyArray.js</tspan>
+
+<tspan x="10" y="11226">apidocCreate - libFile _copyObject.js</tspan>
+
+<tspan x="10" y="11242">apidocCreate - libFile _copySymbolsIn.js</tspan>
+
+<tspan x="10" y="11258">apidocCreate - libFile _copySymbols.js</tspan>
+
+<tspan x="10" y="11274">apidocCreate - libFile core.js</tspan>
+
+<tspan x="10" y="11290">apidocCreate - libFile _coreJsData.js</tspan>
+
+<tspan x="10" y="11306">apidocCreate - libFile countBy.js</tspan>
+
+<tspan x="10" y="11322">apidocCreate - libFile _countHolders.js</tspan>
+
+<tspan x="10" y="11338">apidocCreate - libFile _createAggregator.js</tspan>
+
+<tspan x="10" y="11354">apidocCreate - libFile _createAssigner.js</tspan>
+
+<tspan x="10" y="11370">apidocCreate - libFile _createBaseEach.js</tspan>
+
+<tspan x="10" y="11386">apidocCreate - libFile _createBaseFor.js</tspan>
+
+<tspan x="10" y="11402">apidocCreate - libFile _createBind.js</tspan>
+
+<tspan x="10" y="11418">apidocCreate - libFile _createCaseFirst.js</tspan>
+
+<tspan x="10" y="11434">apidocCreate - libFile _createCompounder.js</tspan>
+
+<tspan x="10" y="11450">apidocCreate - libFile _createCtor.js</tspan>
+
+<tspan x="10" y="11466">apidocCreate - libFile _createCurry.js</tspan>
+
+<tspan x="10" y="11482">apidocCreate - libFile _createFind.js</tspan>
+
+<tspan x="10" y="11498">apidocCreate - libFile _createFlow.js</tspan>
+
+<tspan x="10" y="11514">apidocCreate - libFile _createHybrid.js</tspan>
+
+<tspan x="10" y="11530">apidocCreate - libFile _createInverter.js</tspan>
+
+<tspan x="10" y="11546">apidocCreate - libFile create.js</tspan>
+
+<tspan x="10" y="11562">apidocCreate - libFile _createMathOperation.js</tspan>
+
+<tspan x="10" y="11578">apidocCreate - libFile _createOver.js</tspan>
+
+<tspan x="10" y="11594">apidocCreate - libFile _createPadding.js</tspan>
+
+<tspan x="10" y="11610">apidocCreate - libFile _createPartial.js</tspan>
+
+<tspan x="10" y="11626">apidocCreate - libFile _createRange.js</tspan>
+
+<tspan x="10" y="11642">apidocCreate - libFile _createRecurry.js</tspan>
+
+<tspan x="10" y="11658">apidocCreate - libFile _createRelationalOperation.js</tspan>
+
+<tspan x="10" y="11674">apidocCreate - libFile _createRound.js</tspan>
+
+<tspan x="10" y="11690">apidocCreate - libFile _createSet.js</tspan>
+
+<tspan x="10" y="11706">apidocCreate - libFile _createToPairs.js</tspan>
+
+<tspan x="10" y="11722">apidocCreate - libFile _createWrap.js</tspan>
+
+<tspan x="10" y="11738">apidocCreate - libFile curry.js</tspan>
+
+<tspan x="10" y="11754">apidocCreate - libFile curryRight.js</tspan>
+
+<tspan x="10" y="11770">apidocCreate - libFile _customDefaultsAssignIn.js</tspan>
+
+<tspan x="10" y="11786">apidocCreate - libFile _customDefaultsMerge.js</tspan>
+
+<tspan x="10" y="11802">apidocCreate - libFile _customOmitClone.js</tspan>
+
+<tspan x="10" y="11818">apidocCreate - libFile _DataView.js</tspan>
+
+<tspan x="10" y="11834">apidocCreate - libFile date.js</tspan>
+
+<tspan x="10" y="11850">apidocCreate - libFile debounce.js</tspan>
+
+<tspan x="10" y="11866">apidocCreate - libFile deburr.js</tspan>
+
+<tspan x="10" y="11882">apidocCreate - libFile _deburrLetter.js</tspan>
+
+<tspan x="10" y="11898">apidocCreate - libFile defaultsDeep.js</tspan>
+
+<tspan x="10" y="11914">apidocCreate - libFile defaults.js</tspan>
+
+<tspan x="10" y="11930">apidocCreate - libFile defaultTo.js</tspan>
+
+<tspan x="10" y="11946">apidocCreate - libFile defer.js</tspan>
+
+<tspan x="10" y="11962">apidocCreate - libFile _defineProperty.js</tspan>
+
+<tspan x="10" y="11978">apidocCreate - libFile delay.js</tspan>
+
+<tspan x="10" y="11994">apidocCreate - libFile differenceBy.js</tspan>
+
+<tspan x="10" y="12010">apidocCreate - libFile difference.js</tspan>
+
+<tspan x="10" y="12026">apidocCreate - libFile differenceWith.js</tspan>
+
+<tspan x="10" y="12042">apidocCreate - libFile divide.js</tspan>
+
+<tspan x="10" y="12058">apidocCreate - libFile drop.js</tspan>
+
+<tspan x="10" y="12074">apidocCreate - libFile dropRight.js</tspan>
+
+<tspan x="10" y="12090">apidocCreate - libFile dropRightWhile.js</tspan>
+
+<tspan x="10" y="12106">apidocCreate - libFile dropWhile.js</tspan>
+
+<tspan x="10" y="12122">apidocCreate - libFile each.js</tspan>
+
+<tspan x="10" y="12138">apidocCreate - libFile eachRight.js</tspan>
+
+<tspan x="10" y="12154">apidocCreate - libFile endsWith.js</tspan>
+
+<tspan x="10" y="12170">apidocCreate - libFile entriesIn.js</tspan>
+
+<tspan x="10" y="12186">apidocCreate - libFile entries.js</tspan>
+
+<tspan x="10" y="12202">apidocCreate - libFile eq.js</tspan>
+
+<tspan x="10" y="12218">apidocCreate - libFile _equalArrays.js</tspan>
+
+<tspan x="10" y="12234">apidocCreate - libFile _equalByTag.js</tspan>
+
+<tspan x="10" y="12250">apidocCreate - libFile _equalObjects.js</tspan>
+
+<tspan x="10" y="12266">apidocCreate - libFile _escapeHtmlChar.js</tspan>
+
+<tspan x="10" y="12282">apidocCreate - libFile escape.js</tspan>
+
+<tspan x="10" y="12298">apidocCreate - libFile escapeRegExp.js</tspan>
+
+<tspan x="10" y="12314">apidocCreate - libFile _escapeStringChar.js</tspan>
+
+<tspan x="10" y="12330">apidocCreate - libFile every.js</tspan>
+
+<tspan x="10" y="12346">apidocCreate - libFile extend.js</tspan>
+
+<tspan x="10" y="12362">apidocCreate - libFile extendWith.js</tspan>
+
+<tspan x="10" y="12378">apidocCreate - libFile fill.js</tspan>
+
+<tspan x="10" y="12394">apidocCreate - libFile filter.js</tspan>
+
+<tspan x="10" y="12410">apidocCreate - libFile findIndex.js</tspan>
+
+<tspan x="10" y="12426">apidocCreate - libFile find.js</tspan>
+
+<tspan x="10" y="12442">apidocCreate - libFile findKey.js</tspan>
+
+<tspan x="10" y="12458">apidocCreate - libFile findLastIndex.js</tspan>
+
+<tspan x="10" y="12474">apidocCreate - libFile findLast.js</tspan>
+
+<tspan x="10" y="12490">apidocCreate - libFile findLastKey.js</tspan>
+
+<tspan x="10" y="12506">apidocCreate - libFile fp/all.js</tspan>
+
+<tspan x="10" y="12522">created apidoc file /home/travis/build/npmdoc/node-npmdoc-lodash/tmp/build/apidoc.html</tspan>
+
+<tspan x="10" y="12538"></tspan>
+
+<tspan x="10" y="12554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/pack\</tspan>
+<tspan x="10" y="12570">age.json</tspan>
+
+<tspan x="10" y="12586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/add.\</tspan>
+<tspan x="10" y="12602">js</tspan>
+
+<tspan x="10" y="12618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/afte\</tspan>
+<tspan x="10" y="12634">r.js</tspan>
+
+<tspan x="10" y="12650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_app\</tspan>
+<tspan x="10" y="12666">ly.js</tspan>
+
+<tspan x="10" y="12682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12698">ayAggregator.js</tspan>
+
+<tspan x="10" y="12714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12730">ayEach.js</tspan>
+
+<tspan x="10" y="12746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12762">ayEachRight.js</tspan>
+
+<tspan x="10" y="12778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12794">ayEvery.js</tspan>
+
+<tspan x="10" y="12810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12826">ayFilter.js</tspan>
+
+<tspan x="10" y="12842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12858">ayIncludes.js</tspan>
+
+<tspan x="10" y="12874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12890">ayIncludesWith.js</tspan>
+
+<tspan x="10" y="12906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/arra\</tspan>
+<tspan x="10" y="12922">y.js</tspan>
+
+<tspan x="10" y="12938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12954">ayLikeKeys.js</tspan>
+
+<tspan x="10" y="12970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="12986">ayMap.js</tspan>
+
+<tspan x="10" y="13002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="13018">ayPush.js</tspan>
+
+<tspan x="10" y="13034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="13050">ayReduce.js</tspan>
+
+<tspan x="10" y="13066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="13082">ayReduceRight.js</tspan>
+
+<tspan x="10" y="13098">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="13114">aySample.js</tspan>
+
+<tspan x="10" y="13130">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="13146">aySampleSize.js</tspan>
+
+<tspan x="10" y="13162">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="13178">ayShuffle.js</tspan>
+
+<tspan x="10" y="13194">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_arr\</tspan>
+<tspan x="10" y="13210">aySome.js</tspan>
+
+<tspan x="10" y="13226">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/ary.\</tspan>
+<tspan x="10" y="13242">js</tspan>
+
+<tspan x="10" y="13258">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_asc\</tspan>
+<tspan x="10" y="13274">iiSize.js</tspan>
+
+<tspan x="10" y="13290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_asc\</tspan>
+<tspan x="10" y="13306">iiToArray.js</tspan>
+
+<tspan x="10" y="13322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_asc\</tspan>
+<tspan x="10" y="13338">iiWords.js</tspan>
+
+<tspan x="10" y="13354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/assi\</tspan>
+<tspan x="10" y="13370">gnIn.js</tspan>
+
+<tspan x="10" y="13386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/assi\</tspan>
+<tspan x="10" y="13402">gnInWith.js</tspan>
+
+<tspan x="10" y="13418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/assi\</tspan>
+<tspan x="10" y="13434">gn.js</tspan>
+
+<tspan x="10" y="13450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_ass\</tspan>
+<tspan x="10" y="13466">ignMergeValue.js</tspan>
+
+<tspan x="10" y="13482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_ass\</tspan>
+<tspan x="10" y="13498">ignValue.js</tspan>
+
+<tspan x="10" y="13514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/assi\</tspan>
+<tspan x="10" y="13530">gnWith.js</tspan>
+
+<tspan x="10" y="13546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_ass\</tspan>
+<tspan x="10" y="13562">ocIndexOf.js</tspan>
+
+<tspan x="10" y="13578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/at.j\</tspan>
+<tspan x="10" y="13594">s</tspan>
+
+<tspan x="10" y="13610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/atte\</tspan>
+<tspan x="10" y="13626">mpt.js</tspan>
+
+<tspan x="10" y="13642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13658">eAggregator.js</tspan>
+
+<tspan x="10" y="13674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13690">eAssignIn.js</tspan>
+
+<tspan x="10" y="13706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13722">eAssign.js</tspan>
+
+<tspan x="10" y="13738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13754">eAssignValue.js</tspan>
+
+<tspan x="10" y="13770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13786">eAt.js</tspan>
+
+<tspan x="10" y="13802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13818">eClamp.js</tspan>
+
+<tspan x="10" y="13834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13850">eClone.js</tspan>
+
+<tspan x="10" y="13866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13882">eConforms.js</tspan>
+
+<tspan x="10" y="13898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13914">eConformsTo.js</tspan>
+
+<tspan x="10" y="13930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13946">eCreate.js</tspan>
+
+<tspan x="10" y="13962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="13978">eDelay.js</tspan>
+
+<tspan x="10" y="13994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14010">eDifference.js</tspan>
+
+<tspan x="10" y="14026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14042">eEach.js</tspan>
+
+<tspan x="10" y="14058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14074">eEachRight.js</tspan>
+
+<tspan x="10" y="14090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14106">eEvery.js</tspan>
+
+<tspan x="10" y="14122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14138">eExtremum.js</tspan>
+
+<tspan x="10" y="14154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14170">eFill.js</tspan>
+
+<tspan x="10" y="14186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14202">eFilter.js</tspan>
+
+<tspan x="10" y="14218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14234">eFindIndex.js</tspan>
+
+<tspan x="10" y="14250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14266">eFindKey.js</tspan>
+
+<tspan x="10" y="14282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14298">eFlatten.js</tspan>
+
+<tspan x="10" y="14314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14330">eFor.js</tspan>
+
+<tspan x="10" y="14346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14362">eForOwn.js</tspan>
+
+<tspan x="10" y="14378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14394">eForOwnRight.js</tspan>
+
+<tspan x="10" y="14410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14426">eForRight.js</tspan>
+
+<tspan x="10" y="14442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14458">eFunctions.js</tspan>
+
+<tspan x="10" y="14474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14490">eGetAllKeys.js</tspan>
+
+<tspan x="10" y="14506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14522">eGet.js</tspan>
+
+<tspan x="10" y="14538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14554">eGetTag.js</tspan>
+
+<tspan x="10" y="14570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14586">eGt.js</tspan>
+
+<tspan x="10" y="14602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14618">eHasIn.js</tspan>
+
+<tspan x="10" y="14634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14650">eHas.js</tspan>
+
+<tspan x="10" y="14666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14682">eIndexOf.js</tspan>
+
+<tspan x="10" y="14698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14714">eIndexOfWith.js</tspan>
+
+<tspan x="10" y="14730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14746">eInRange.js</tspan>
+
+<tspan x="10" y="14762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14778">eIntersection.js</tspan>
+
+<tspan x="10" y="14794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14810">eInverter.js</tspan>
+
+<tspan x="10" y="14826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14842">eInvoke.js</tspan>
+
+<tspan x="10" y="14858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14874">eIsArguments.js</tspan>
+
+<tspan x="10" y="14890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14906">eIsArrayBuffer.js</tspan>
+
+<tspan x="10" y="14922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14938">eIsDate.js</tspan>
+
+<tspan x="10" y="14954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="14970">eIsEqualDeep.js</tspan>
+
+<tspan x="10" y="14986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15002">eIsEqual.js</tspan>
+
+<tspan x="10" y="15018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15034">eIsMap.js</tspan>
+
+<tspan x="10" y="15050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15066">eIsMatch.js</tspan>
+
+<tspan x="10" y="15082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15098">eIsNaN.js</tspan>
+
+<tspan x="10" y="15114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15130">eIsNative.js</tspan>
+
+<tspan x="10" y="15146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15162">eIsRegExp.js</tspan>
+
+<tspan x="10" y="15178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15194">eIsSet.js</tspan>
+
+<tspan x="10" y="15210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15226">eIsTypedArray.js</tspan>
+
+<tspan x="10" y="15242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15258">eIteratee.js</tspan>
+
+<tspan x="10" y="15274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15290">eKeysIn.js</tspan>
+
+<tspan x="10" y="15306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15322">eKeys.js</tspan>
+
+<tspan x="10" y="15338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15354">eLodash.js</tspan>
+
+<tspan x="10" y="15370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15386">eLt.js</tspan>
+
+<tspan x="10" y="15402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15418">eMap.js</tspan>
+
+<tspan x="10" y="15434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15450">eMatches.js</tspan>
+
+<tspan x="10" y="15466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15482">eMatchesProperty.js</tspan>
+
+<tspan x="10" y="15498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15514">eMean.js</tspan>
+
+<tspan x="10" y="15530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15546">eMergeDeep.js</tspan>
+
+<tspan x="10" y="15562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15578">eMerge.js</tspan>
+
+<tspan x="10" y="15594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15610">eNth.js</tspan>
+
+<tspan x="10" y="15626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15642">eOrderBy.js</tspan>
+
+<tspan x="10" y="15658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15674">ePickBy.js</tspan>
+
+<tspan x="10" y="15690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15706">ePick.js</tspan>
+
+<tspan x="10" y="15722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15738">ePropertyDeep.js</tspan>
+
+<tspan x="10" y="15754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15770">eProperty.js</tspan>
+
+<tspan x="10" y="15786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15802">ePropertyOf.js</tspan>
+
+<tspan x="10" y="15818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15834">ePullAll.js</tspan>
+
+<tspan x="10" y="15850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15866">ePullAt.js</tspan>
+
+<tspan x="10" y="15882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15898">eRandom.js</tspan>
+
+<tspan x="10" y="15914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15930">eRange.js</tspan>
+
+<tspan x="10" y="15946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15962">eReduce.js</tspan>
+
+<tspan x="10" y="15978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="15994">eRepeat.js</tspan>
+
+<tspan x="10" y="16010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16026">eRest.js</tspan>
+
+<tspan x="10" y="16042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16058">eSample.js</tspan>
+
+<tspan x="10" y="16074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16090">eSampleSize.js</tspan>
+
+<tspan x="10" y="16106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16122">eSetData.js</tspan>
+
+<tspan x="10" y="16138">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16154">eSet.js</tspan>
+
+<tspan x="10" y="16170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16186">eSetToString.js</tspan>
+
+<tspan x="10" y="16202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16218">eShuffle.js</tspan>
+
+<tspan x="10" y="16234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16250">eSlice.js</tspan>
+
+<tspan x="10" y="16266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16282">eSome.js</tspan>
+
+<tspan x="10" y="16298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16314">eSortBy.js</tspan>
+
+<tspan x="10" y="16330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16346">eSortedIndexBy.js</tspan>
+
+<tspan x="10" y="16362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16378">eSortedIndex.js</tspan>
+
+<tspan x="10" y="16394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16410">eSortedUniq.js</tspan>
+
+<tspan x="10" y="16426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16442">eSum.js</tspan>
+
+<tspan x="10" y="16458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16474">eTimes.js</tspan>
+
+<tspan x="10" y="16490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16506">eToNumber.js</tspan>
+
+<tspan x="10" y="16522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16538">eToPairs.js</tspan>
+
+<tspan x="10" y="16554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16570">eToString.js</tspan>
+
+<tspan x="10" y="16586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16602">eUnary.js</tspan>
+
+<tspan x="10" y="16618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16634">eUniq.js</tspan>
+
+<tspan x="10" y="16650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16666">eUnset.js</tspan>
+
+<tspan x="10" y="16682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16698">eUpdate.js</tspan>
+
+<tspan x="10" y="16714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16730">eValues.js</tspan>
+
+<tspan x="10" y="16746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16762">eWhile.js</tspan>
+
+<tspan x="10" y="16778">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16794">eWrapperValue.js</tspan>
+
+<tspan x="10" y="16810">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16826">eXor.js</tspan>
+
+<tspan x="10" y="16842">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_bas\</tspan>
+<tspan x="10" y="16858">eZipObject.js</tspan>
+
+<tspan x="10" y="16874">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/befo\</tspan>
+<tspan x="10" y="16890">re.js</tspan>
+
+<tspan x="10" y="16906">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/bind\</tspan>
+<tspan x="10" y="16922">All.js</tspan>
+
+<tspan x="10" y="16938">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/bind\</tspan>
+<tspan x="10" y="16954">.js</tspan>
+
+<tspan x="10" y="16970">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/bind\</tspan>
+<tspan x="10" y="16986">Key.js</tspan>
+
+<tspan x="10" y="17002">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cac\</tspan>
+<tspan x="10" y="17018">heHas.js</tspan>
+
+<tspan x="10" y="17034">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/came\</tspan>
+<tspan x="10" y="17050">lCase.js</tspan>
+
+<tspan x="10" y="17066">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/capi\</tspan>
+<tspan x="10" y="17082">talize.js</tspan>
+
+<tspan x="10" y="17098">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/cast\</tspan>
+<tspan x="10" y="17114">Array.js</tspan>
+
+<tspan x="10" y="17130">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="17146">tArrayLikeObject.js</tspan>
+
+<tspan x="10" y="17162">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="17178">tFunction.js</tspan>
+
+<tspan x="10" y="17194">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="17210">tPath.js</tspan>
+
+<tspan x="10" y="17226">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="17242">tRest.js</tspan>
+
+<tspan x="10" y="17258">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cas\</tspan>
+<tspan x="10" y="17274">tSlice.js</tspan>
+
+<tspan x="10" y="17290">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/ceil\</tspan>
+<tspan x="10" y="17306">.js</tspan>
+
+<tspan x="10" y="17322">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/chai\</tspan>
+<tspan x="10" y="17338">n.js</tspan>
+
+<tspan x="10" y="17354">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cha\</tspan>
+<tspan x="10" y="17370">rsEndIndex.js</tspan>
+
+<tspan x="10" y="17386">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cha\</tspan>
+<tspan x="10" y="17402">rsStartIndex.js</tspan>
+
+<tspan x="10" y="17418">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/chun\</tspan>
+<tspan x="10" y="17434">k.js</tspan>
+
+<tspan x="10" y="17450">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clam\</tspan>
+<tspan x="10" y="17466">p.js</tspan>
+
+<tspan x="10" y="17482">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="17498">neArrayBuffer.js</tspan>
+
+<tspan x="10" y="17514">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="17530">neBuffer.js</tspan>
+
+<tspan x="10" y="17546">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="17562">neDataView.js</tspan>
+
+<tspan x="10" y="17578">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clon\</tspan>
+<tspan x="10" y="17594">eDeep.js</tspan>
+
+<tspan x="10" y="17610">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clon\</tspan>
+<tspan x="10" y="17626">eDeepWith.js</tspan>
+
+<tspan x="10" y="17642">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clon\</tspan>
+<tspan x="10" y="17658">e.js</tspan>
+
+<tspan x="10" y="17674">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="17690">neRegExp.js</tspan>
+
+<tspan x="10" y="17706">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="17722">neSymbol.js</tspan>
+
+<tspan x="10" y="17738">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_clo\</tspan>
+<tspan x="10" y="17754">neTypedArray.js</tspan>
+
+<tspan x="10" y="17770">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/clon\</tspan>
+<tspan x="10" y="17786">eWith.js</tspan>
+
+<tspan x="10" y="17802">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/coll\</tspan>
+<tspan x="10" y="17818">ection.js</tspan>
+
+<tspan x="10" y="17834">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/comm\</tspan>
+<tspan x="10" y="17850">it.js</tspan>
+
+<tspan x="10" y="17866">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/comp\</tspan>
+<tspan x="10" y="17882">act.js</tspan>
+
+<tspan x="10" y="17898">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_com\</tspan>
+<tspan x="10" y="17914">pareAscending.js</tspan>
+
+<tspan x="10" y="17930">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_com\</tspan>
+<tspan x="10" y="17946">pareMultiple.js</tspan>
+
+<tspan x="10" y="17962">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_com\</tspan>
+<tspan x="10" y="17978">poseArgs.js</tspan>
+
+<tspan x="10" y="17994">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_com\</tspan>
+<tspan x="10" y="18010">poseArgsRight.js</tspan>
+
+<tspan x="10" y="18026">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/conc\</tspan>
+<tspan x="10" y="18042">at.js</tspan>
+
+<tspan x="10" y="18058">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/cond\</tspan>
+<tspan x="10" y="18074">.js</tspan>
+
+<tspan x="10" y="18090">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/conf\</tspan>
+<tspan x="10" y="18106">orms.js</tspan>
+
+<tspan x="10" y="18122">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/conf\</tspan>
+<tspan x="10" y="18138">ormsTo.js</tspan>
+
+<tspan x="10" y="18154">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/cons\</tspan>
+<tspan x="10" y="18170">tant.js</tspan>
+
+<tspan x="10" y="18186">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cop\</tspan>
+<tspan x="10" y="18202">yArray.js</tspan>
+
+<tspan x="10" y="18218">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cop\</tspan>
+<tspan x="10" y="18234">yObject.js</tspan>
+
+<tspan x="10" y="18250">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cop\</tspan>
+<tspan x="10" y="18266">ySymbolsIn.js</tspan>
+
+<tspan x="10" y="18282">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cop\</tspan>
+<tspan x="10" y="18298">ySymbols.js</tspan>
+
+<tspan x="10" y="18314">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/core\</tspan>
+<tspan x="10" y="18330">.js</tspan>
+
+<tspan x="10" y="18346">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cor\</tspan>
+<tspan x="10" y="18362">eJsData.js</tspan>
+
+<tspan x="10" y="18378">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/coun\</tspan>
+<tspan x="10" y="18394">tBy.js</tspan>
+
+<tspan x="10" y="18410">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cou\</tspan>
+<tspan x="10" y="18426">ntHolders.js</tspan>
+
+<tspan x="10" y="18442">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18458">ateAggregator.js</tspan>
+
+<tspan x="10" y="18474">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18490">ateAssigner.js</tspan>
+
+<tspan x="10" y="18506">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18522">ateBaseEach.js</tspan>
+
+<tspan x="10" y="18538">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18554">ateBaseFor.js</tspan>
+
+<tspan x="10" y="18570">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18586">ateBind.js</tspan>
+
+<tspan x="10" y="18602">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18618">ateCaseFirst.js</tspan>
+
+<tspan x="10" y="18634">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18650">ateCompounder.js</tspan>
+
+<tspan x="10" y="18666">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18682">ateCtor.js</tspan>
+
+<tspan x="10" y="18698">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18714">ateCurry.js</tspan>
+
+<tspan x="10" y="18730">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18746">ateFind.js</tspan>
+
+<tspan x="10" y="18762">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18778">ateFlow.js</tspan>
+
+<tspan x="10" y="18794">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18810">ateHybrid.js</tspan>
+
+<tspan x="10" y="18826">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18842">ateInverter.js</tspan>
+
+<tspan x="10" y="18858">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/crea\</tspan>
+<tspan x="10" y="18874">te.js</tspan>
+
+<tspan x="10" y="18890">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18906">ateMathOperation.js</tspan>
+
+<tspan x="10" y="18922">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18938">ateOver.js</tspan>
+
+<tspan x="10" y="18954">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="18970">atePadding.js</tspan>
+
+<tspan x="10" y="18986">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="19002">atePartial.js</tspan>
+
+<tspan x="10" y="19018">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="19034">ateRange.js</tspan>
+
+<tspan x="10" y="19050">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="19066">ateRecurry.js</tspan>
+
+<tspan x="10" y="19082">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="19098">ateRelationalOperation.js</tspan>
+
+<tspan x="10" y="19114">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="19130">ateRound.js</tspan>
+
+<tspan x="10" y="19146">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="19162">ateSet.js</tspan>
+
+<tspan x="10" y="19178">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="19194">ateToPairs.js</tspan>
+
+<tspan x="10" y="19210">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cre\</tspan>
+<tspan x="10" y="19226">ateWrap.js</tspan>
+
+<tspan x="10" y="19242">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/curr\</tspan>
+<tspan x="10" y="19258">y.js</tspan>
+
+<tspan x="10" y="19274">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/curr\</tspan>
+<tspan x="10" y="19290">yRight.js</tspan>
+
+<tspan x="10" y="19306">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cus\</tspan>
+<tspan x="10" y="19322">tomDefaultsAssignIn.js</tspan>
+
+<tspan x="10" y="19338">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cus\</tspan>
+<tspan x="10" y="19354">tomDefaultsMerge.js</tspan>
+
+<tspan x="10" y="19370">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_cus\</tspan>
+<tspan x="10" y="19386">tomOmitClone.js</tspan>
+
+<tspan x="10" y="19402">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_Dat\</tspan>
+<tspan x="10" y="19418">aView.js</tspan>
+
+<tspan x="10" y="19434">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/date\</tspan>
+<tspan x="10" y="19450">.js</tspan>
+
+<tspan x="10" y="19466">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/debo\</tspan>
+<tspan x="10" y="19482">unce.js</tspan>
+
+<tspan x="10" y="19498">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/debu\</tspan>
+<tspan x="10" y="19514">rr.js</tspan>
+
+<tspan x="10" y="19530">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_deb\</tspan>
+<tspan x="10" y="19546">urrLetter.js</tspan>
+
+<tspan x="10" y="19562">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/defa\</tspan>
+<tspan x="10" y="19578">ultsDeep.js</tspan>
+
+<tspan x="10" y="19594">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/defa\</tspan>
+<tspan x="10" y="19610">ults.js</tspan>
+
+<tspan x="10" y="19626">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/defa\</tspan>
+<tspan x="10" y="19642">ultTo.js</tspan>
+
+<tspan x="10" y="19658">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/defe\</tspan>
+<tspan x="10" y="19674">r.js</tspan>
+
+<tspan x="10" y="19690">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_def\</tspan>
+<tspan x="10" y="19706">ineProperty.js</tspan>
+
+<tspan x="10" y="19722">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/dela\</tspan>
+<tspan x="10" y="19738">y.js</tspan>
+
+<tspan x="10" y="19754">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/diff\</tspan>
+<tspan x="10" y="19770">erenceBy.js</tspan>
+
+<tspan x="10" y="19786">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/diff\</tspan>
+<tspan x="10" y="19802">erence.js</tspan>
+
+<tspan x="10" y="19818">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/diff\</tspan>
+<tspan x="10" y="19834">erenceWith.js</tspan>
+
+<tspan x="10" y="19850">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/divi\</tspan>
+<tspan x="10" y="19866">de.js</tspan>
+
+<tspan x="10" y="19882">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/drop\</tspan>
+<tspan x="10" y="19898">.js</tspan>
+
+<tspan x="10" y="19914">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/drop\</tspan>
+<tspan x="10" y="19930">Right.js</tspan>
+
+<tspan x="10" y="19946">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/drop\</tspan>
+<tspan x="10" y="19962">RightWhile.js</tspan>
+
+<tspan x="10" y="19978">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/drop\</tspan>
+<tspan x="10" y="19994">While.js</tspan>
+
+<tspan x="10" y="20010">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/each\</tspan>
+<tspan x="10" y="20026">.js</tspan>
+
+<tspan x="10" y="20042">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/each\</tspan>
+<tspan x="10" y="20058">Right.js</tspan>
+
+<tspan x="10" y="20074">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/ends\</tspan>
+<tspan x="10" y="20090">With.js</tspan>
+
+<tspan x="10" y="20106">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/entr\</tspan>
+<tspan x="10" y="20122">iesIn.js</tspan>
+
+<tspan x="10" y="20138">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/entr\</tspan>
+<tspan x="10" y="20154">ies.js</tspan>
+
+<tspan x="10" y="20170">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/eq.j\</tspan>
+<tspan x="10" y="20186">s</tspan>
+
+<tspan x="10" y="20202">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_equ\</tspan>
+<tspan x="10" y="20218">alArrays.js</tspan>
+
+<tspan x="10" y="20234">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_equ\</tspan>
+<tspan x="10" y="20250">alByTag.js</tspan>
+
+<tspan x="10" y="20266">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_equ\</tspan>
+<tspan x="10" y="20282">alObjects.js</tspan>
+
+<tspan x="10" y="20298">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_esc\</tspan>
+<tspan x="10" y="20314">apeHtmlChar.js</tspan>
+
+<tspan x="10" y="20330">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/esca\</tspan>
+<tspan x="10" y="20346">pe.js</tspan>
+
+<tspan x="10" y="20362">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/esca\</tspan>
+<tspan x="10" y="20378">peRegExp.js</tspan>
+
+<tspan x="10" y="20394">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/_esc\</tspan>
+<tspan x="10" y="20410">apeStringChar.js</tspan>
+
+<tspan x="10" y="20426">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/ever\</tspan>
+<tspan x="10" y="20442">y.js</tspan>
+
+<tspan x="10" y="20458">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/exte\</tspan>
+<tspan x="10" y="20474">nd.js</tspan>
+
+<tspan x="10" y="20490">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/exte\</tspan>
+<tspan x="10" y="20506">ndWith.js</tspan>
+
+<tspan x="10" y="20522">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/fill\</tspan>
+<tspan x="10" y="20538">.js</tspan>
+
+<tspan x="10" y="20554">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/filt\</tspan>
+<tspan x="10" y="20570">er.js</tspan>
+
+<tspan x="10" y="20586">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="20602">Index.js</tspan>
+
+<tspan x="10" y="20618">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="20634">.js</tspan>
+
+<tspan x="10" y="20650">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="20666">Key.js</tspan>
+
+<tspan x="10" y="20682">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="20698">LastIndex.js</tspan>
+
+<tspan x="10" y="20714">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="20730">Last.js</tspan>
+
+<tspan x="10" y="20746">apidocCreate - readExample /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash/find\</tspan>
+<tspan x="10" y="20762">LastKey.js</tspan>
+
+<tspan x="10" y="20778">apidocCreate - requiring /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash ...</tspan>
+
+<tspan x="10" y="20794">apidocCreate - ... required /home/travis/build/npmdoc/node-npmdoc-lodash/node_modules/lodash</tspan>
+
+<tspan x="10" y="20810">apidocCreate - libFile add.js</tspan>
+
+<tspan x="10" y="20826">apidocCreate - libFile after.js</tspan>
+
+<tspan x="10" y="20842">apidocCreate - libFile _apply.js</tspan>
+
+<tspan x="10" y="20858">apidocCreate - libFile _arrayAggregator.js</tspan>
+
+<tspan x="10" y="20874">apidocCreate - libFile _arrayEach.js</tspan>
+
+<tspan x="10" y="20890">apidocCreate - libFile _arrayEachRight.js</tspan>
+
+<tspan x="10" y="20906">apidocCreate - libFile _arrayEvery.js</tspan>
+
+<tspan x="10" y="20922">apidocCreate - libFile _arrayFilter.js</tspan>
+
+<tspan x="10" y="20938">apidocCreate - libFile _arrayIncludes.js</tspan>
+
+<tspan x="10" y="20954">apidocCreate - libFile _arrayIncludesWith.js</tspan>
+
+<tspan x="10" y="20970">apidocCreate - libFile array.js</tspan>
+
+<tspan x="10" y="20986">apidocCreate - libFile _arrayLikeKeys.js</tspan>
+
+<tspan x="10" y="21002">apidocCreate - libFile _arrayMap.js</tspan>
+
+<tspan x="10" y="21018">apidocCreate - libFile _arrayPush.js</tspan>
+
+<tspan x="10" y="21034">apidocCreate - libFile _arrayReduce.js</tspan>
+
+<tspan x="10" y="21050">apidocCreate - libFile _arrayReduceRight.js</tspan>
+
+<tspan x="10" y="21066">apidocCreate - libFile _arraySample.js</tspan>
+
+<tspan x="10" y="21082">apidocCreate - libFile _arraySampleSize.js</tspan>
+
+<tspan x="10" y="21098">apidocCreate - libFile _arrayShuffle.js</tspan>
+
+<tspan x="10" y="21114">apidocCreate - libFile _arraySome.js</tspan>
+
+<tspan x="10" y="21130">apidocCreate - libFile ary.js</tspan>
+
+<tspan x="10" y="21146">apidocCreate - libFile _asciiSize.js</tspan>
+
+<tspan x="10" y="21162">apidocCreate - libFile _asciiToArray.js</tspan>
+
+<tspan x="10" y="21178">apidocCreate - libFile _asciiWords.js</tspan>
+
+<tspan x="10" y="21194">apidocCreate - libFile assignIn.js</tspan>
+
+<tspan x="10" y="21210">apidocCreate - libFile assignInWith.js</tspan>
+
+<tspan x="10" y="21226">apidocCreate - libFile assign.js</tspan>
+
+<tspan x="10" y="21242">apidocCreate - libFile _assignMergeValue.js</tspan>
+
+<tspan x="10" y="21258">apidocCreate - libFile _assignValue.js</tspan>
+
+<tspan x="10" y="21274">apidocCreate - libFile assignWith.js</tspan>
+
+<tspan x="10" y="21290">apidocCreate - libFile _assocIndexOf.js</tspan>
+
+<tspan x="10" y="21306">apidocCreate - libFile at.js</tspan>
+
+<tspan x="10" y="21322">apidocCreate - libFile attempt.js</tspan>
+
+<tspan x="10" y="21338">apidocCreate - libFile _baseAggregator.js</tspan>
+
+<tspan x="10" y="21354">apidocCreate - libFile _baseAssignIn.js</tspan>
+
+<tspan x="10" y="21370">apidocCreate - libFile _baseAssign.js</tspan>
+
+<tspan x="10" y="21386">apidocCreate - libFile _baseAssignValue.js</tspan>
+
+<tspan x="10" y="21402">apidocCreate - libFile _baseAt.js</tspan>
+
+<tspan x="10" y="21418">apidocCreate - libFile _baseClamp.js</tspan>
+
+<tspan x="10" y="21434">apidocCreate - libFile _baseClone.js</tspan>
+
+<tspan x="10" y="21450">apidocCreate - libFile _baseConforms.js</tspan>
+
+<tspan x="10" y="21466">apidocCreate - libFile _baseConformsTo.js</tspan>
+
+<tspan x="10" y="21482">apidocCreate - libFile _baseCreate.js</tspan>
+
+<tspan x="10" y="21498">apidocCreate - libFile _baseDelay.js</tspan>
+
+<tspan x="10" y="21514">apidocCreate - libFile _baseDifference.js</tspan>
+
+<tspan x="10" y="21530">apidocCreate - libFile _baseEach.js</tspan>
+
+<tspan x="10" y="21546">apidocCreate - libFile _baseEachRight.js</tspan>
+
+<tspan x="10" y="21562">apidocCreate - libFile _baseEvery.js</tspan>
+
+<tspan x="10" y="21578">apidocCreate - libFile _baseExtremum.js</tspan>
+
+<tspan x="10" y="21594">apidocCreate - libFile _baseFill.js</tspan>
+
+<tspan x="10" y="21610">apidocCreate - libFile _baseFilter.js</tspan>
+
+<tspan x="10" y="21626">apidocCreate - libFile _baseFindIndex.js</tspan>
+
+<tspan x="10" y="21642">apidocCreate - libFile _baseFindKey.js</tspan>
+
+<tspan x="10" y="21658">apidocCreate - libFile _baseFlatten.js</tspan>
+
+<tspan x="10" y="21674">apidocCreate - libFile _baseFor.js</tspan>
+
+<tspan x="10" y="21690">apidocCreate - libFile _baseForOwn.js</tspan>
+
+<tspan x="10" y="21706">apidocCreate - libFile _baseForOwnRight.js</tspan>
+
+<tspan x="10" y="21722">apidocCreate - libFile _baseForRight.js</tspan>
+
+<tspan x="10" y="21738">apidocCreate - libFile _baseFunctions.js</tspan>
+
+<tspan x="10" y="21754">apidocCreate - libFile _baseGetAllKeys.js</tspan>
+
+<tspan x="10" y="21770">apidocCreate - libFile _baseGet.js</tspan>
+
+<tspan x="10" y="21786">apidocCreate - libFile _baseGetTag.js</tspan>
+
+<tspan x="10" y="21802">apidocCreate - libFile _baseGt.js</tspan>
+
+<tspan x="10" y="21818">apidocCreate - libFile _baseHasIn.js</tspan>
+
+<tspan x="10" y="21834">apidocCreate - libFile _baseHas.js</tspan>
+
+<tspan x="10" y="21850">apidocCreate - libFile _baseIndexOf.js</tspan>
+
+<tspan x="10" y="21866">apidocCreate - libFile _baseIndexOfWith.js</tspan>
+
+<tspan x="10" y="21882">apidocCreate - libFile _baseInRange.js</tspan>
+
+<tspan x="10" y="21898">apidocCreate - libFile _baseIntersection.js</tspan>
+
+<tspan x="10" y="21914">apidocCreate - libFile _baseInverter.js</tspan>
+
+<tspan x="10" y="21930">apidocCreate - libFile _baseInvoke.js</tspan>
+
+<tspan x="10" y="21946">apidocCreate - libFile _baseIsArguments.js</tspan>
+
+<tspan x="10" y="21962">apidocCreate - libFile _baseIsArrayBuffer.js</tspan>
+
+<tspan x="10" y="21978">apidocCreate - libFile _baseIsDate.js</tspan>
+
+<tspan x="10" y="21994">apidocCreate - libFile _baseIsEqualDeep.js</tspan>
+
+<tspan x="10" y="22010">apidocCreate - libFile _baseIsEqual.js</tspan>
+
+<tspan x="10" y="22026">apidocCreate - libFile _baseIsMap.js</tspan>
+
+<tspan x="10" y="22042">apidocCreate - libFile _baseIsMatch.js</tspan>
+
+<tspan x="10" y="22058">apidocCreate - libFile _baseIsNaN.js</tspan>
+
+<tspan x="10" y="22074">apidocCreate - libFile _baseIsNative.js</tspan>
+
+<tspan x="10" y="22090">apidocCreate - libFile _baseIsRegExp.js</tspan>
+
+<tspan x="10" y="22106">apidocCreate - libFile _baseIsSet.js</tspan>
+
+<tspan x="10" y="22122">apidocCreate - libFile _baseIsTypedArray.js</tspan>
+
+<tspan x="10" y="22138">apidocCreate - libFile _baseIteratee.js</tspan>
+
+<tspan x="10" y="22154">apidocCreate - libFile _baseKeysIn.js</tspan>
+
+<tspan x="10" y="22170">apidocCreate - libFile _baseKeys.js</tspan>
+
+<tspan x="10" y="22186">apidocCreate - libFile _baseLodash.js</tspan>
+
+<tspan x="10" y="22202">apidocCreate - libFile _baseLt.js</tspan>
+
+<tspan x="10" y="22218">apidocCreate - libFile _baseMap.js</tspan>
+
+<tspan x="10" y="22234">apidocCreate - libFile _baseMatches.js</tspan>
+
+<tspan x="10" y="22250">apidocCreate - libFile _baseMatchesProperty.js</tspan>
+
+<tspan x="10" y="22266">apidocCreate - libFile _baseMean.js</tspan>
+
+<tspan x="10" y="22282">apidocCreate - libFile _baseMergeDeep.js</tspan>
+
+<tspan x="10" y="22298">apidocCreate - libFile _baseMerge.js</tspan>
+
+<tspan x="10" y="22314">apidocCreate - libFile _baseNth.js</tspan>
+
+<tspan x="10" y="22330">apidocCreate - libFile _baseOrderBy.js</tspan>
+
+<tspan x="10" y="22346">apidocCreate - libFile _basePickBy.js</tspan>
+
+<tspan x="10" y="22362">apidocCreate - libFile _basePick.js</tspan>
+
+<tspan x="10" y="22378">apidocCreate - libFile _basePropertyDeep.js</tspan>
+
+<tspan x="10" y="22394">apidocCreate - libFile _baseProperty.js</tspan>
+
+<tspan x="10" y="22410">apidocCreate - libFile _basePropertyOf.js</tspan>
+
+<tspan x="10" y="22426">apidocCreate - libFile _basePullAll.js</tspan>
+
+<tspan x="10" y="22442">apidocCreate - libFile _basePullAt.js</tspan>
+
+<tspan x="10" y="22458">apidocCreate - libFile _baseRandom.js</tspan>
+
+<tspan x="10" y="22474">apidocCreate - libFile _baseRange.js</tspan>
+
+<tspan x="10" y="22490">apidocCreate - libFile _baseReduce.js</tspan>
+
+<tspan x="10" y="22506">apidocCreate - libFile _baseRepeat.js</tspan>
+
+<tspan x="10" y="22522">apidocCreate - libFile _baseRest.js</tspan>
+
+<tspan x="10" y="22538">apidocCreate - libFile _baseSample.js</tspan>
+
+<tspan x="10" y="22554">apidocCreate - libFile _baseSampleSize.js</tspan>
+
+<tspan x="10" y="22570">apidocCreate - libFile _baseSetData.js</tspan>
+
+<tspan x="10" y="22586">apidocCreate - libFile _baseSet.js</tspan>
+
+<tspan x="10" y="22602">apidocCreate - libFile _baseSetToString.js</tspan>
+
+<tspan x="10" y="22618">apidocCreate - libFile _baseShuffle.js</tspan>
+
+<tspan x="10" y="22634">apidocCreate - libFile _baseSlice.js</tspan>
+
+<tspan x="10" y="22650">apidocCreate - libFile _baseSome.js</tspan>
+
+<tspan x="10" y="22666">apidocCreate - libFile _baseSortBy.js</tspan>
+
+<tspan x="10" y="22682">apidocCreate - libFile _baseSortedIndexBy.js</tspan>
+
+<tspan x="10" y="22698">apidocCreate - libFile _baseSortedIndex.js</tspan>
+
+<tspan x="10" y="22714">apidocCreate - libFile _baseSortedUniq.js</tspan>
+
+<tspan x="10" y="22730">apidocCreate - libFile _baseSum.js</tspan>
+
+<tspan x="10" y="22746">apidocCreate - libFile _baseTimes.js</tspan>
+
+<tspan x="10" y="22762">apidocCreate - libFile _baseToNumber.js</tspan>
+
+<tspan x="10" y="22778">apidocCreate - libFile _baseToPairs.js</tspan>
+
+<tspan x="10" y="22794">apidocCreate - libFile _baseToString.js</tspan>
+
+<tspan x="10" y="22810">apidocCreate - libFile _baseUnary.js</tspan>
+
+<tspan x="10" y="22826">apidocCreate - libFile _baseUniq.js</tspan>
+
+<tspan x="10" y="22842">apidocCreate - libFile _baseUnset.js</tspan>
+
+<tspan x="10" y="22858">apidocCreate - libFile _baseUpdate.js</tspan>
+
+<tspan x="10" y="22874">apidocCreate - libFile _baseValues.js</tspan>
+
+<tspan x="10" y="22890">apidocCreate - libFile _baseWhile.js</tspan>
+
+<tspan x="10" y="22906">apidocCreate - libFile _baseWrapperValue.js</tspan>
+
+<tspan x="10" y="22922">apidocCreate - libFile _baseXor.js</tspan>
+
+<tspan x="10" y="22938">apidocCreate - libFile _baseZipObject.js</tspan>
+
+<tspan x="10" y="22954">apidocCreate - libFile before.js</tspan>
+
+<tspan x="10" y="22970">apidocCreate - libFile bindAll.js</tspan>
+
+<tspan x="10" y="22986">apidocCreate - libFile bind.js</tspan>
+
+<tspan x="10" y="23002">apidocCreate - libFile bindKey.js</tspan>
+
+<tspan x="10" y="23018">apidocCreate - libFile _cacheHas.js</tspan>
+
+<tspan x="10" y="23034">apidocCreate - libFile camelCase.js</tspan>
+
+<tspan x="10" y="23050">apidocCreate - libFile capitalize.js</tspan>
+
+<tspan x="10" y="23066">apidocCreate - libFile castArray.js</tspan>
+
+<tspan x="10" y="23082">apidocCreate - libFile _castArrayLikeObject.js</tspan>
+
+<tspan x="10" y="23098">apidocCreate - libFile _castFunction.js</tspan>
+
+<tspan x="10" y="23114">apidocCreate - libFile _castPath.js</tspan>
+
+<tspan x="10" y="23130">apidocCreate - libFile _castRest.js</tspan>
+
+<tspan x="10" y="23146">apidocCreate - libFile _castSlice.js</tspan>
+
+<tspan x="10" y="23162">apidocCreate - libFile ceil.js</tspan>
+
+<tspan x="10" y="23178">apidocCreate - libFile chain.js</tspan>
+
+<tspan x="10" y="23194">apidocCreate - libFile _charsEndIndex.js</tspan>
+
+<tspan x="10" y="23210">apidocCreate - libFile _charsStartIndex.js</tspan>
+
+<tspan x="10" y="23226">apidocCreate - libFile chunk.js</tspan>
+
+<tspan x="10" y="23242">apidocCreate - libFile clamp.js</tspan>
+
+<tspan x="10" y="23258">apidocCreate - libFile _cloneArrayBuffer.js</tspan>
+
+<tspan x="10" y="23274">apidocCreate - libFile _cloneBuffer.js</tspan>
+
+<tspan x="10" y="23290">apidocCreate - libFile _cloneDataView.js</tspan>
+
+<tspan x="10" y="23306">apidocCreate - libFile cloneDeep.js</tspan>
+
+<tspan x="10" y="23322">apidocCreate - libFile cloneDeepWith.js</tspan>
+
+<tspan x="10" y="23338">apidocCreate - libFile clone.js</tspan>
+
+<tspan x="10" y="23354">apidocCreate - libFile _cloneRegExp.js</tspan>
+
+<tspan x="10" y="23370">apidocCreate - libFile _cloneSymbol.js</tspan>
+
+<tspan x="10" y="23386">apidocCreate - libFile _cloneTypedArray.js</tspan>
+
+<tspan x="10" y="23402">apidocCreate - libFile cloneWith.js</tspan>
+
+<tspan x="10" y="23418">apidocCreate - libFile collection.js</tspan>
+
+<tspan x="10" y="23434">apidocCreate - libFile commit.js</tspan>
+
+<tspan x="10" y="23450">apidocCreate - libFile compact.js</tspan>
+
+<tspan x="10" y="23466">apidocCreate - libFile _compareAscending.js</tspan>
+
+<tspan x="10" y="23482">apidocCreate - libFile _compareMultiple.js</tspan>
+
+<tspan x="10" y="23498">apidocCreate - libFile _composeArgs.js</tspan>
+
+<tspan x="10" y="23514">apidocCreate - libFile _composeArgsRight.js</tspan>
+
+<tspan x="10" y="23530">apidocCreate - libFile concat.js</tspan>
+
+<tspan x="10" y="23546">apidocCreate - libFile cond.js</tspan>
+
+<tspan x="10" y="23562">apidocCreate - libFile conforms.js</tspan>
+
+<tspan x="10" y="23578">apidocCreate - libFile conformsTo.js</tspan>
+
+<tspan x="10" y="23594">apidocCreate - libFile constant.js</tspan>
+
+<tspan x="10" y="23610">apidocCreate - libFile _copyArray.js</tspan>
+
+<tspan x="10" y="23626">apidocCreate - libFile _copyObject.js</tspan>
+
+<tspan x="10" y="23642">apidocCreate - libFile _copySymbolsIn.js</tspan>
+
+<tspan x="10" y="23658">apidocCreate - libFile _copySymbols.js</tspan>
+
+<tspan x="10" y="23674">apidocCreate - libFile core.js</tspan>
+
+<tspan x="10" y="23690">apidocCreate - libFile _coreJsData.js</tspan>
+
+<tspan x="10" y="23706">apidocCreate - libFile countBy.js</tspan>
+
+<tspan x="10" y="23722">apidocCreate - libFile _countHolders.js</tspan>
+
+<tspan x="10" y="23738">apidocCreate - libFile _createAggregator.js</tspan>
+
+<tspan x="10" y="23754">apidocCreate - libFile _createAssigner.js</tspan>
+
+<tspan x="10" y="23770">apidocCreate - libFile _createBaseEach.js</tspan>
+
+<tspan x="10" y="23786">apidocCreate - libFile _createBaseFor.js</tspan>
+
+<tspan x="10" y="23802">apidocCreate - libFile _createBind.js</tspan>
+
+<tspan x="10" y="23818">apidocCreate - libFile _createCaseFirst.js</tspan>
+
+<tspan x="10" y="23834">apidocCreate - libFile _createCompounder.js</tspan>
+
+<tspan x="10" y="23850">apidocCreate - libFile _createCtor.js</tspan>
+
+<tspan x="10" y="23866">apidocCreate - libFile _createCurry.js</tspan>
+
+<tspan x="10" y="23882">apidocCreate - libFile _createFind.js</tspan>
+
+<tspan x="10" y="23898">apidocCreate - libFile _createFlow.js</tspan>
+
+<tspan x="10" y="23914">apidocCreate - libFile _createHybrid.js</tspan>
+
+<tspan x="10" y="23930">apidocCreate - libFile _createInverter.js</tspan>
+
+<tspan x="10" y="23946">apidocCreate - libFile create.js</tspan>
+
+<tspan x="10" y="23962">apidocCreate - libFile _createMathOperation.js</tspan>
+
+<tspan x="10" y="23978">apidocCreate - libFile _createOver.js</tspan>
+
+<tspan x="10" y="23994">apidocCreate - libFile _createPadding.js</tspan>
+
+<tspan x="10" y="24010">apidocCreate - libFile _createPartial.js</tspan>
+
+<tspan x="10" y="24026">apidocCreate - libFile _createRange.js</tspan>
+
+<tspan x="10" y="24042">apidocCreate - libFile _createRecurry.js</tspan>
+
+<tspan x="10" y="24058">apidocCreate - libFile _createRelationalOperation.js</tspan>
+
+<tspan x="10" y="24074">apidocCreate - libFile _createRound.js</tspan>
+
+<tspan x="10" y="24090">apidocCreate - libFile _createSet.js</tspan>
+
+<tspan x="10" y="24106">apidocCreate - libFile _createToPairs.js</tspan>
+
+<tspan x="10" y="24122">apidocCreate - libFile _createWrap.js</tspan>
+
+<tspan x="10" y="24138">apidocCreate - libFile curry.js</tspan>
+
+<tspan x="10" y="24154">apidocCreate - libFile curryRight.js</tspan>
+
+<tspan x="10" y="24170">apidocCreate - libFile _customDefaultsAssignIn.js</tspan>
+
+<tspan x="10" y="24186">apidocCreate - libFile _customDefaultsMerge.js</tspan>
+
+<tspan x="10" y="24202">apidocCreate - libFile _customOmitClone.js</tspan>
+
+<tspan x="10" y="24218">apidocCreate - libFile _DataView.js</tspan>
+
+<tspan x="10" y="24234">apidocCreate - libFile date.js</tspan>
+
+<tspan x="10" y="24250">apidocCreate - libFile debounce.js</tspan>
+
+<tspan x="10" y="24266">apidocCreate - libFile deburr.js</tspan>
+
+<tspan x="10" y="24282">apidocCreate - libFile _deburrLetter.js</tspan>
+
+<tspan x="10" y="24298">apidocCreate - libFile defaultsDeep.js</tspan>
+
+<tspan x="10" y="24314">apidocCreate - libFile defaults.js</tspan>
+
+<tspan x="10" y="24330">apidocCreate - libFile defaultTo.js</tspan>
+
+<tspan x="10" y="24346">apidocCreate - libFile defer.js</tspan>
+
+<tspan x="10" y="24362">apidocCreate - libFile _defineProperty.js</tspan>
+
+<tspan x="10" y="24378">apidocCreate - libFile delay.js</tspan>
+
+<tspan x="10" y="24394">apidocCreate - libFile differenceBy.js</tspan>
+
+<tspan x="10" y="24410">apidocCreate - libFile difference.js</tspan>
+
+<tspan x="10" y="24426">apidocCreate - libFile differenceWith.js</tspan>
+
+<tspan x="10" y="24442">apidocCreate - libFile divide.js</tspan>
+
+<tspan x="10" y="24458">apidocCreate - libFile drop.js</tspan>
+
+<tspan x="10" y="24474">apidocCreate - libFile dropRight.js</tspan>
+
+<tspan x="10" y="24490">apidocCreate - libFile dropRightWhile.js</tspan>
+
+<tspan x="10" y="24506">apidocCreate - libFile dropWhile.js</tspan>
+
+<tspan x="10" y="24522">apidocCreate - libFile each.js</tspan>
+
+<tspan x="10" y="24538">apidocCreate - libFile eachRight.js</tspan>
+
+<tspan x="10" y="24554">apidocCreate - libFile endsWith.js</tspan>
+
+<tspan x="10" y="24570">apidocCreate - libFile entriesIn.js</tspan>
+
+<tspan x="10" y="24586">apidocCreate - libFile entries.js</tspan>
+
+<tspan x="10" y="24602">apidocCreate - libFile eq.js</tspan>
+
+<tspan x="10" y="24618">apidocCreate - libFile _equalArrays.js</tspan>
+
+<tspan x="10" y="24634">apidocCreate - libFile _equalByTag.js</tspan>
+
+<tspan x="10" y="24650">apidocCreate - libFile _equalObjects.js</tspan>
+
+<tspan x="10" y="24666">apidocCreate - libFile _escapeHtmlChar.js</tspan>
+
+<tspan x="10" y="24682">apidocCreate - libFile escape.js</tspan>
+
+<tspan x="10" y="24698">apidocCreate - libFile escapeRegExp.js</tspan>
+
+<tspan x="10" y="24714">apidocCreate - libFile _escapeStringChar.js</tspan>
+
+<tspan x="10" y="24730">apidocCreate - libFile every.js</tspan>
+
+<tspan x="10" y="24746">apidocCreate - libFile extend.js</tspan>
+
+<tspan x="10" y="24762">apidocCreate - libFile extendWith.js</tspan>
+
+<tspan x="10" y="24778">apidocCreate - libFile fill.js</tspan>
+
+<tspan x="10" y="24794">apidocCreate - libFile filter.js</tspan>
+
+<tspan x="10" y="24810">apidocCreate - libFile findIndex.js</tspan>
+
+<tspan x="10" y="24826">apidocCreate - libFile find.js</tspan>
+
+<tspan x="10" y="24842">apidocCreate - libFile findKey.js</tspan>
+
+<tspan x="10" y="24858">apidocCreate - libFile findLastIndex.js</tspan>
+
+<tspan x="10" y="24874">apidocCreate - libFile findLast.js</tspan>
+
+<tspan x="10" y="24890">apidocCreate - libFile findLastKey.js</tspan>
+
+<tspan x="10" y="24906">apidocCreate - libFile fp/all.js</tspan>
+
+<tspan x="10" y="24922">created customOrg file /home/travis/build/npmdoc/node-npmdoc-lodash/README.md</tspan>
+
+<tspan x="10" y="24938"></tspan>
+
+<tspan x="10" y="24954">(node:10834) DeprecationWarning: _linklist module is deprecated. Please use a userland alternati\</tspan>
+<tspan x="10" y="24970">ve.</tspan>
+
+<tspan x="10" y="24986">(node:10834) DeprecationWarning: sys is deprecated. Use util instead.</tspan>
+
+<tspan x="10" y="25002">&gt; server listening on http-port 64986</tspan>
+
+<tspan x="10" y="25018">[node test-case 1 of 1 passed] - testCase_buildApp_default</tspan>
+
+<tspan x="10" y="25034"></tspan>
+
+<tspan x="10" y="25050">buildApp - merged test-report from file /home/travis/build/npmdoc/node-npmdoc-lodash/tmp/build/t\</tspan>
+<tspan x="10" y="25066">est-report.json</tspan>
+
+<tspan x="10" y="25082"></tspan>
+
+<tspan x="10" y="25098">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="25114">| test-report - buildApidoc - node - linux v6.14.2 - 2018-06-10T18:17:28.955Z</tspan>
+
+<tspan x="10" y="25130">|   43058 ms            0 failed        1 passed      |</tspan>
+
+<tspan x="10" y="25146">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="25162">| test-report - buildApp - node - linux v6.14.2 - 2018-06-10T18:16:45.262Z</tspan>
+
+<tspan x="10" y="25178">|   40200 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="25194">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="25210">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="25226">L, like Gecko) Chrome/58.0.3029.110 Electron/1.7.15 Safari/537.36 - 2018-06-10T18:17:10.820Z</tspan>
+
+<tspan x="10" y="25242">|      52 ms            0 failed        8 passed      |</tspan>
+
+<tspan x="10" y="25258">-------------------------------------------------------</tspan>
+
+<tspan x="10" y="25274"></tspan>
+
+<tspan x="10" y="25290">created test-report file /home/travis/build/npmdoc/node-npmdoc-lodash/tmp/build/test-report.html</tspan>
+
+<tspan x="10" y="25306"></tspan>
+
+<tspan x="10" y="25322"></tspan>
+
+<tspan x="10" y="25338">buildApp - 0 failed tests</tspan>
+
+<tspan x="10" y="25354"></tspan>
+
+<tspan x="10" y="25370"></tspan>
+
+<tspan x="10" y="25386">[MODE_BUILD=buildApp] - 2018-06-10T18:18:13.643Z - EXIT_CODE - 0</tspan>
+
+</text>
+</svg>

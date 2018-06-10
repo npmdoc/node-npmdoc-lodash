@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -48,17 +48,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://lodash.com/"
-
-    >lodash (4.17.10)</a>
+    <a href="https://lodash.com/">lodash (4.17.10)</a>
 </h1>
 <h4>Lodash modular utilities.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.lodash">module lodash</a><ol>
 
@@ -5310,7 +5303,7 @@
     if (result === undefined) {
       return other;
     }
-    if (typeof value == &apos;string&apos; || typeof other == &apos;string&apos;) {
+    if (typeof value == 'string' || typeof other == 'string') {
       value = baseToString(value);
       other = baseToString(other);
     } else {
@@ -5350,7 +5343,7 @@ module.exports = add;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function after(n, func) {
-  if (typeof func != &apos;function&apos;) {
+  if (typeof func != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   n = toInteger(n);
@@ -5366,16 +5359,16 @@ module.exports = add;
 * @returns {Function} Returns the new restricted function.
 * @example
 *
-* var saves = [&apos;profile&apos;, &apos;settings&apos;];
+* var saves = ['profile', 'settings'];
 *
 * var done = _.<span class="apidocCodeKeywordSpan">after</span>(saves.length, function() {
-*   console.log(&apos;done saving!&apos;);
+*   console.log('done saving!');
 * });
 *
 * _.forEach(saves, function(type) {
-*   asyncSave({ &apos;type&apos;: type, &apos;complete&apos;: done });
+*   asyncSave({ 'type': type, 'complete': done });
 * });
-* // =&gt; Logs &apos;done saving!&apos; after the two async saves have completed.
+* // =&gt; Logs 'done saving!' after the two async saves have completed.
 ...</pre></li>
     </ul>
 
@@ -5427,7 +5420,7 @@ module.exports = add;
  * @returns {Function} Returns the new capped function.
  * @example
  *
- * _.map([&apos;6&apos;, &apos;8&apos;, &apos;10&apos;], _.<span class="apidocCodeKeywordSpan">ary</span>(parseInt, 1));
+ * _.map(['6', '8', '10'], _.<span class="apidocCodeKeywordSpan">ary</span>(parseInt, 1));
  * // =&gt; [6, 8, 10]
  */
 function ary(func, n, guard) {
@@ -5453,7 +5446,7 @@ function ary(func, n, guard) {
       customizer = length &gt; 1 ? sources[length - 1] : undefined,
       guard = length &gt; 2 ? sources[2] : undefined;
 
-  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == &apos;function&apos;)
+  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == 'function')
     ? (length--, customizer)
     : undefined;
 
@@ -5478,8 +5471,8 @@ function ary(func, n, guard) {
  * Foo.prototype.b = 2;
  * Bar.prototype.d = 4;
  *
- * _.<span class="apidocCodeKeywordSpan">assign</span>({ &apos;a&apos;: 0 }, new Foo, new Bar);
- * // =&gt; { &apos;a&apos;: 1, &apos;c&apos;: 3 }
+ * _.<span class="apidocCodeKeywordSpan">assign</span>({ 'a': 0 }, new Foo, new Bar);
+ * // =&gt; { 'a': 1, 'c': 3 }
  */
 var assign = createAssigner(function(object, source) {
 if (isPrototype(source) || isArrayLike(source)) {
@@ -5504,7 +5497,7 @@ if (isPrototype(source) || isArrayLike(source)) {
       customizer = length &gt; 1 ? sources[length - 1] : undefined,
       guard = length &gt; 2 ? sources[2] : undefined;
 
-  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == &apos;function&apos;)
+  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == 'function')
     ? (length--, customizer)
     : undefined;
 
@@ -5529,8 +5522,8 @@ if (isPrototype(source) || isArrayLike(source)) {
  * Foo.prototype.b = 2;
  * Bar.prototype.d = 4;
  *
- * _.<span class="apidocCodeKeywordSpan">assignIn</span>({ &apos;a&apos;: 0 }, new Foo, new Bar);
- * // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2, &apos;c&apos;: 3, &apos;d&apos;: 4 }
+ * _.<span class="apidocCodeKeywordSpan">assignIn</span>({ 'a': 0 }, new Foo, new Bar);
+ * // =&gt; { 'a': 1, 'b': 2, 'c': 3, 'd': 4 }
  */
 var assignIn = createAssigner(function(object, source) {
   copyObject(source, keysIn(source), object);
@@ -5555,7 +5548,7 @@ module.exports = assignIn;
       customizer = length &gt; 1 ? sources[length - 1] : undefined,
       guard = length &gt; 2 ? sources[2] : undefined;
 
-  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == &apos;function&apos;)
+  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == 'function')
     ? (length--, customizer)
     : undefined;
 
@@ -5590,7 +5583,7 @@ module.exports = assignIn;
       customizer = length &gt; 1 ? sources[length - 1] : undefined,
       guard = length &gt; 2 ? sources[2] : undefined;
 
-  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == &apos;function&apos;)
+  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == 'function')
     ? (length--, customizer)
     : undefined;
 
@@ -5636,9 +5629,9 @@ module.exports = assignIn;
  * @returns {Array} Returns the picked values.
  * @example
  *
- * var object = { &apos;a&apos;: [{ &apos;b&apos;: { &apos;c&apos;: 3 } }, 4] };
+ * var object = { 'a': [{ 'b': { 'c': 3 } }, 4] };
  *
- * _.<span class="apidocCodeKeywordSpan">at</span>(object, [&apos;a[0].b.c&apos;, &apos;a[1]&apos;]);
+ * _.<span class="apidocCodeKeywordSpan">at</span>(object, ['a[0].b.c', 'a[1]']);
  * // =&gt; [3, 4]
  */
 var at = flatRest(baseAt);
@@ -5673,7 +5666,7 @@ module.exports = at;
 * // Avoid throwing errors for invalid selectors.
 * var elements = _.<span class="apidocCodeKeywordSpan">attempt</span>(function(selector) {
 *   return document.querySelectorAll(selector);
-* }, &apos;&gt;_&gt;&apos;);
+* }, '&gt;_&gt;');
 *
 * if (_.isError(elements)) {
 *   elements = [];
@@ -5693,7 +5686,7 @@ module.exports = at;
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function before(n, func) {
   var result;
-  if (typeof func != &apos;function&apos;) {
+  if (typeof func != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   n = toInteger(n);
@@ -5715,12 +5708,12 @@ module.exports = at;
  * @returns {Function} Returns the new restricted function.
  * @example
  *
- * jQuery(element).on(&apos;click&apos;, _.<span class="apidocCodeKeywordSpan">before</span>(5, addContactToList));
+ * jQuery(element).on('click', _.<span class="apidocCodeKeywordSpan">before</span>(5, addContactToList));
  * // =&gt; Allows adding up to 4 contacts to the list.
  */
 function before(n, func) {
 var result;
-if (typeof func != &apos;function&apos;) {
+if (typeof func != 'function') {
   throw new TypeError(FUNC_ERROR_TEXT);
 }
 ...</pre></li>
@@ -5744,15 +5737,15 @@ if (typeof func != &apos;function&apos;) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * var view = {
- *   &apos;label&apos;: &apos;docs&apos;,
- *   &apos;click&apos;: function() {
- *     console.log(&apos;clicked &apos; + this.label);
+ *   'label': 'docs',
+ *   'click': function() {
+ *     console.log('clicked ' + this.label);
  *   }
  * };
  *
- * _.<span class="apidocCodeKeywordSpan">bindAll</span>(view, [&apos;click&apos;]);
- * jQuery(element).on(&apos;click&apos;, view.click);
- * // =&gt; Logs &apos;clicked docs&apos; when clicked.
+ * _.<span class="apidocCodeKeywordSpan">bindAll</span>(view, ['click']);
+ * jQuery(element).on('click', view.click);
+ * // =&gt; Logs 'clicked docs' when clicked.
  */
 var bindAll = flatRest(function(object, methodNames) {
 arrayEach(methodNames, function(key) {
@@ -5780,18 +5773,18 @@ arrayEach(methodNames, function(key) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * var object = {
-*   &apos;user&apos;: &apos;fred&apos;,
-*   &apos;greet&apos;: function(greeting, punctuation) {
-*     return greeting + &apos; &apos; + this.user + punctuation;
+*   'user': 'fred',
+*   'greet': function(greeting, punctuation) {
+*     return greeting + ' ' + this.user + punctuation;
 *   }
 * };
 *
-* var bound = _.<span class="apidocCodeKeywordSpan">bindKey</span>(object, &apos;greet&apos;, &apos;hi&apos;);
-* bound(&apos;!&apos;);
-* // =&gt; &apos;hi fred!&apos;
+* var bound = _.<span class="apidocCodeKeywordSpan">bindKey</span>(object, 'greet', 'hi');
+* bound('!');
+* // =&gt; 'hi fred!'
 *
 * object.greet = function(greeting, punctuation) {
-*   return greeting + &apos;ya &apos; + this.user + punctuation;
+*   return greeting + 'ya ' + this.user + punctuation;
 * };
 *
 ...</pre></li>
@@ -5807,24 +5800,24 @@ arrayEach(methodNames, function(key) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">camelCase = function (string) {
-  return arrayReduce(words(deburr(string).replace(reApos, &apos;&apos;)), callback, &apos;&apos;);
+  return arrayReduce(words(deburr(string).replace(reApos, '')), callback, '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * @memberOf _
 * @since 3.0.0
 * @category String
-* @param {string} [string=&apos;&apos;] The string to convert.
+* @param {string} [string=''] The string to convert.
 * @returns {string} Returns the camel cased string.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">camelCase</span>(&apos;Foo Bar&apos;);
-* // =&gt; &apos;fooBar&apos;
+* _.<span class="apidocCodeKeywordSpan">camelCase</span>('Foo Bar');
+* // =&gt; 'fooBar'
 *
-* _.camelCase(&apos;--foo-bar--&apos;);
-* // =&gt; &apos;fooBar&apos;
+* _.camelCase('--foo-bar--');
+* // =&gt; 'fooBar'
 *
-* _.camelCase(&apos;__FOO_BAR__&apos;);
-* // =&gt; &apos;fooBar&apos;
+* _.camelCase('__FOO_BAR__');
+* // =&gt; 'fooBar'
 ...</pre></li>
     </ul>
 
@@ -5844,12 +5837,12 @@ arrayEach(methodNames, function(key) {
  * @memberOf _
  * @since 3.0.0
  * @category String
- * @param {string} [string=&apos;&apos;] The string to capitalize.
+ * @param {string} [string=''] The string to capitalize.
  * @returns {string} Returns the capitalized string.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">capitalize</span>(&apos;FRED&apos;);
- * // =&gt; &apos;Fred&apos;
+ * _.<span class="apidocCodeKeywordSpan">capitalize</span>('FRED');
+ * // =&gt; 'Fred'
  */
 function capitalize(string) {
   return upperFirst(toString(string).toLowerCase());
@@ -5886,11 +5879,11 @@ module.exports = capitalize;
 * _.<span class="apidocCodeKeywordSpan">castArray</span>(1);
 * // =&gt; [1]
 *
-* _.castArray({ &apos;a&apos;: 1 });
-* // =&gt; [{ &apos;a&apos;: 1 }]
+* _.castArray({ 'a': 1 });
+* // =&gt; [{ 'a': 1 }]
 *
-* _.castArray(&apos;abc&apos;);
-* // =&gt; [&apos;abc&apos;]
+* _.castArray('abc');
+* // =&gt; ['abc']
 ...</pre></li>
     </ul>
 
@@ -5909,11 +5902,11 @@ module.exports = capitalize;
   if (precision) {
     // Shift with exponential notation to avoid floating-point issues.
     // See [MDN](https://mdn.io/round#Examples) for more details.
-    var pair = (toString(number) + &apos;e&apos;).split(&apos;e&apos;),
-        value = func(pair[0] + &apos;e&apos; + (+pair[1] + precision));
+    var pair = (toString(number) + 'e').split('e'),
+        value = func(pair[0] + 'e' + (+pair[1] + precision));
 
-    pair = (toString(value) + &apos;e&apos;).split(&apos;e&apos;);
-    return +(pair[0] + &apos;e&apos; + (+pair[1] - precision));
+    pair = (toString(value) + 'e').split('e');
+    return +(pair[0] + 'e' + (+pair[1] - precision));
   }
   return func(number);
 }</pre></li>
@@ -5952,20 +5945,20 @@ module.exports = capitalize;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36 },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40 },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1 }
+*   { 'user': 'barney',  'age': 36 },
+*   { 'user': 'fred',    'age': 40 },
+*   { 'user': 'pebbles', 'age': 1 }
 * ];
 *
 * var youngest = _
 *   .<span class="apidocCodeKeywordSpan">chain</span>(users)
-*   .sortBy(&apos;age&apos;)
+*   .sortBy('age')
 *   .map(function(o) {
-*     return o.user + &apos; is &apos; + o.age;
+*     return o.user + ' is ' + o.age;
 *   })
 *   .head()
 *   .value();
-* // =&gt; &apos;pebbles is 1&apos;
+* // =&gt; 'pebbles is 1'
 ...</pre></li>
     </ul>
 
@@ -6005,11 +5998,11 @@ module.exports = capitalize;
  * @returns {Array} Returns the new array of chunks.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">chunk</span>([&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;], 2);
- * // =&gt; [[&apos;a&apos;, &apos;b&apos;], [&apos;c&apos;, &apos;d&apos;]]
+ * _.<span class="apidocCodeKeywordSpan">chunk</span>(['a', 'b', 'c', 'd'], 2);
+ * // =&gt; [['a', 'b'], ['c', 'd']]
  *
- * _.chunk([&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;], 3);
- * // =&gt; [[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;], [&apos;d&apos;]]
+ * _.chunk(['a', 'b', 'c', 'd'], 3);
+ * // =&gt; [['a', 'b', 'c'], ['d']]
  */
 function chunk(array, size, guard) {
 if ((guard ? isIterateeCall(array, size, guard) : size === undefined)) {
@@ -6077,7 +6070,7 @@ if (upper === undefined) {
  * @see _.cloneDeep
  * @example
  *
- * var objects = [{ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }];
+ * var objects = [{ 'a': 1 }, { 'b': 2 }];
  *
  * var shallow = _.<span class="apidocCodeKeywordSpan">clone</span>(objects);
  * console.log(shallow[0] === objects[0]);
@@ -6107,7 +6100,7 @@ function clone(value) {
  * @see _.clone
  * @example
  *
- * var objects = [{ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }];
+ * var objects = [{ 'a': 1 }, { 'b': 2 }];
  *
  * var deep = _.<span class="apidocCodeKeywordSpan">cloneDeep</span>(objects);
  * console.log(deep[0] === objects[0]);
@@ -6129,7 +6122,7 @@ function cloneDeep(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function cloneDeepWith(value, customizer) {
-  customizer = typeof customizer == &apos;function&apos; ? customizer : undefined;
+  customizer = typeof customizer == 'function' ? customizer : undefined;
   return baseClone(value, CLONE_DEEP_FLAG | CLONE_SYMBOLS_FLAG, customizer);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -6145,7 +6138,7 @@ function cloneDeep(value) {
 * console.log(el === document.body);
 * // =&gt; false
 * console.log(el.nodeName);
-* // =&gt; &apos;BODY&apos;
+* // =&gt; 'BODY'
 * console.log(el.childNodes.length);
 * // =&gt; 20
 ...</pre></li>
@@ -6161,7 +6154,7 @@ function cloneDeep(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function cloneWith(value, customizer) {
-  customizer = typeof customizer == &apos;function&apos; ? customizer : undefined;
+  customizer = typeof customizer == 'function' ? customizer : undefined;
   return baseClone(value, CLONE_SYMBOLS_FLAG, customizer);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -6177,7 +6170,7 @@ function cloneDeep(value) {
 * console.log(el === document.body);
 * // =&gt; false
 * console.log(el.nodeName);
-* // =&gt; &apos;BODY&apos;
+* // =&gt; 'BODY'
 * console.log(el.childNodes.length);
 * // =&gt; 0
 ...</pre></li>
@@ -6214,7 +6207,7 @@ function cloneDeep(value) {
  * @returns {Array} Returns the new array of filtered values.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">compact</span>([0, 1, false, 2, &apos;&apos;, 3]);
+ * _.<span class="apidocCodeKeywordSpan">compact</span>([0, 1, false, 2, '', 3]);
  * // =&gt; [1, 2, 3]
  */
 function compact(array) {
@@ -6281,7 +6274,7 @@ var index = -1,
       toIteratee = getIteratee();
 
   pairs = !length ? [] : arrayMap(pairs, function(pair) {
-    if (typeof pair[1] != &apos;function&apos;) {
+    if (typeof pair[1] != 'function') {
       throw new TypeError(FUNC_ERROR_TEXT);
     }
     return [toIteratee(pair[0]), pair[1]];
@@ -6306,13 +6299,13 @@ var index = -1,
 * @example
 *
 * var func = _.<span class="apidocCodeKeywordSpan">cond</span>([
-*   [_.matches({ &apos;a&apos;: 1 }),           _.constant(&apos;matches A&apos;)],
-*   [_.conforms({ &apos;b&apos;: _.isNumber }), _.constant(&apos;matches B&apos;)],
-*   [_.stubTrue,                      _.constant(&apos;no match&apos;)]
+*   [_.matches({ 'a': 1 }),           _.constant('matches A')],
+*   [_.conforms({ 'b': _.isNumber }), _.constant('matches B')],
+*   [_.stubTrue,                      _.constant('no match')]
 * ]);
 *
-* func({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
-* // =&gt; &apos;matches A&apos;
+* func({ 'a': 1, 'b': 2 });
+* // =&gt; 'matches A'
 ...</pre></li>
     </ul>
 
@@ -6335,15 +6328,15 @@ var index = -1,
 * @example
 *
 * var func = _.cond([
-*   [_.matches({ &apos;a&apos;: 1 }),           _.constant(&apos;matches A&apos;)],
-*   [_.<span class="apidocCodeKeywordSpan">conforms</span>({ &apos;b&apos;: _.isNumber }), _.constant(&apos;matches B&apos;)],
-*   [_.stubTrue,                      _.constant(&apos;no match&apos;)]
+*   [_.matches({ 'a': 1 }),           _.constant('matches A')],
+*   [_.<span class="apidocCodeKeywordSpan">conforms</span>({ 'b': _.isNumber }), _.constant('matches B')],
+*   [_.stubTrue,                      _.constant('no match')]
 * ]);
 *
-* func({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
-* // =&gt; &apos;matches A&apos;
+* func({ 'a': 1, 'b': 2 });
+* // =&gt; 'matches A'
 *
-* func({ &apos;a&apos;: 0, &apos;b&apos;: 1 });
+* func({ 'a': 0, 'b': 1 });
 ...</pre></li>
     </ul>
 
@@ -6365,12 +6358,12 @@ var index = -1,
  * @returns {boolean} Returns `true` if `object` conforms, else `false`.
  * @example
  *
- * var object = { &apos;a&apos;: 1, &apos;b&apos;: 2 };
+ * var object = { 'a': 1, 'b': 2 };
  *
- * _.<span class="apidocCodeKeywordSpan">conformsTo</span>(object, { &apos;b&apos;: function(n) { return n &gt; 1; } });
+ * _.<span class="apidocCodeKeywordSpan">conformsTo</span>(object, { 'b': function(n) { return n &gt; 1; } });
  * // =&gt; true
  *
- * _.conformsTo(object, { &apos;b&apos;: function(n) { return n &gt; 2; } });
+ * _.conformsTo(object, { 'b': function(n) { return n &gt; 2; } });
  * // =&gt; false
  */
 function conformsTo(object, source) {
@@ -6400,13 +6393,13 @@ return source == null || baseConformsTo(object, source, keys(source));
 * @example
 *
 * var func = _.cond([
-*   [_.matches({ &apos;a&apos;: 1 }),           _.<span class="apidocCodeKeywordSpan">constant</span>(&apos;matches A&apos;)],
-*   [_.conforms({ &apos;b&apos;: _.isNumber }), _.constant(&apos;matches B&apos;)],
-*   [_.stubTrue,                      _.constant(&apos;no match&apos;)]
+*   [_.matches({ 'a': 1 }),           _.<span class="apidocCodeKeywordSpan">constant</span>('matches A')],
+*   [_.conforms({ 'b': _.isNumber }), _.constant('matches B')],
+*   [_.stubTrue,                      _.constant('no match')]
 * ]);
 *
-* func({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
-* // =&gt; &apos;matches A&apos;
+* func({ 'a': 1, 'b': 2 });
+* // =&gt; 'matches A'
 *
 ...</pre></li>
     </ul>
@@ -6452,11 +6445,11 @@ return source == null || baseConformsTo(object, source, keys(source));
  * @example
  *
  * _.<span class="apidocCodeKeywordSpan">countBy</span>([6.1, 4.2, 6.3], Math.floor);
- * // =&gt; { &apos;4&apos;: 1, &apos;6&apos;: 2 }
+ * // =&gt; { '4': 1, '6': 2 }
  *
  * // The `_.property` iteratee shorthand.
- * _.countBy([&apos;one&apos;, &apos;two&apos;, &apos;three&apos;], &apos;length&apos;);
- * // =&gt; { &apos;3&apos;: 2, &apos;5&apos;: 1 }
+ * _.countBy(['one', 'two', 'three'], 'length');
+ * // =&gt; { '3': 2, '5': 1 }
  */
 var countBy = createAggregator(function(result, value, key) {
 ...</pre></li>
@@ -6484,7 +6477,7 @@ var countBy = createAggregator(function(result, value, key) {
 * }
 *
 * Circle.prototype = _.<span class="apidocCodeKeywordSpan">create</span>(Shape.prototype, {
-*   &apos;constructor&apos;: Circle
+*   'constructor': Circle
 * });
 *
 * var circle = new Circle;
@@ -6583,15 +6576,15 @@ var countBy = createAggregator(function(result, value, key) {
       maxing = false,
       trailing = true;
 
-  if (typeof func != &apos;function&apos;) {
+  if (typeof func != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   wait = toNumber(wait) || 0;
   if (isObject(options)) {
     leading = !!options.leading;
-    maxing = &apos;maxWait&apos; in options;
+    maxing = 'maxWait' in options;
     maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
-    trailing = &apos;trailing&apos; in options ? !!options.trailing : trailing;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
   }
 
   function invokeFunc(time) {
@@ -6627,9 +6620,9 @@ var countBy = createAggregator(function(result, value, key) {
     var timeSinceLastCall = time - lastCallTime,
         timeSinceLastInvoke = time - lastInvokeTime;
 
-    // Either this is the first call, activity has stopped and we&apos;re at the
-    // trailing edge, the system time has gone backwards and we&apos;re treating
-    // it as the trailing edge, or we&apos;ve hit the `maxWait` limit.
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
     return (lastCallTime === undefined || (timeSinceLastCall &gt;= wait) ||
       (timeSinceLastCall &lt; 0) || (maxing &amp;&amp; timeSinceLastInvoke &gt;= maxWait));
   }
@@ -6695,19 +6688,19 @@ var countBy = createAggregator(function(result, value, key) {
   return debounced;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-*  The maximum time `func` is allowed to be delayed before it&apos;s invoked.
+*  The maximum time `func` is allowed to be delayed before it's invoked.
 * @param {boolean} [options.trailing=true]
 *  Specify invoking on the trailing edge of the timeout.
 * @returns {Function} Returns the new debounced function.
 * @example
 *
 * // Avoid costly calculations while the window size is in flux.
-* jQuery(window).on(&apos;resize&apos;, _.<span class="apidocCodeKeywordSpan">debounce</span>(calculateLayout, 150));
+* jQuery(window).on('resize', _.<span class="apidocCodeKeywordSpan">debounce</span>(calculateLayout, 150));
 *
 * // Invoke `sendMail` when clicked, debouncing subsequent calls.
-* jQuery(element).on(&apos;click&apos;, _.debounce(sendMail, 300, {
-*   &apos;leading&apos;: true,
-*   &apos;trailing&apos;: false
+* jQuery(element).on('click', _.debounce(sendMail, 300, {
+*   'leading': true,
+*   'trailing': false
 * }));
 *
 ...</pre></li>
@@ -6724,22 +6717,22 @@ var countBy = createAggregator(function(result, value, key) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function deburr(string) {
   string = toString(string);
-  return string &amp;&amp; string.replace(reLatin, deburrLetter).replace(reComboMark, &apos;&apos;);
+  return string &amp;&amp; string.replace(reLatin, deburrLetter).replace(reComboMark, '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * @memberOf _
  * @since 3.0.0
  * @category String
- * @param {string} [string=&apos;&apos;] The string to deburr.
+ * @param {string} [string=''] The string to deburr.
  * @returns {string} Returns the deburred string.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">deburr</span>(&apos;déjà vu&apos;);
- * // =&gt; &apos;deja vu&apos;
+ * _.<span class="apidocCodeKeywordSpan">deburr</span>('dÃ©jÃ&nbsp; vu');
+ * // =&gt; 'deja vu'
  */
 function deburr(string) {
   string = toString(string);
-  return string &amp;&amp; string.replace(reLatin, deburrLetter).replace(reComboMark, &apos;&apos;);
+  return string &amp;&amp; string.replace(reLatin, deburrLetter).replace(reComboMark, '');
 }
 ...</pre></li>
     </ul>
@@ -6822,8 +6815,8 @@ return (value == null || value !== value) ? defaultValue : value;
    * @see _.defaultsDeep
    * @example
    *
-   * _.<span class="apidocCodeKeywordSpan">defaults</span>({ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }, { &apos;a&apos;: 3 });
-   * // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+   * _.<span class="apidocCodeKeywordSpan">defaults</span>({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
+   * // =&gt; { 'a': 1, 'b': 2 }
    */
   var defaults = baseRest(function(object, sources) {
 object = Object(object);
@@ -6854,9 +6847,9 @@ var length = sources.length;
  * @see _.defaults
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">defaultsDeep</span>({ &apos;a&apos;: { &apos;b&apos;: 2 } }, { &apos;a&apos;: { &apos;b
-&apos;: 1, &apos;c&apos;: 3 } });
- * // =&gt; { &apos;a&apos;: { &apos;b&apos;: 2, &apos;c&apos;: 3 } }
+ * _.<span class="apidocCodeKeywordSpan">defaultsDeep</span>({ 'a': { 'b': 2 } }, { 'a': { 'b
+': 1, 'c': 3 } });
+ * // =&gt; { 'a': { 'b': 2, 'c': 3 } }
  */
 var defaultsDeep = baseRest(function(args) {
   args.push(undefined, customDefaultsMerge);
@@ -6887,8 +6880,8 @@ var defaultsDeep = baseRest(function(args) {
  *
  * _.<span class="apidocCodeKeywordSpan">defer</span>(function(text) {
  *   console.log(text);
- * }, &apos;deferred&apos;);
- * // =&gt; Logs &apos;deferred&apos; after one millisecond.
+ * }, 'deferred');
+ * // =&gt; Logs 'deferred' after one millisecond.
  */
 var defer = baseRest(function(func, args) {
   return baseDelay(func, 1, args);
@@ -6918,8 +6911,8 @@ var defer = baseRest(function(func, args) {
  *
  * _.<span class="apidocCodeKeywordSpan">delay</span>(function(text) {
  *   console.log(text);
- * }, 1000, &apos;later&apos;);
- * // =&gt; Logs &apos;later&apos; after one second.
+ * }, 1000, 'later');
+ * // =&gt; Logs 'later' after one second.
  */
 var delay = baseRest(function(func, wait, args) {
   return baseDelay(func, toNumber(wait) || 0, args);
@@ -6990,8 +6983,8 @@ var difference = baseRest(function(array, values) {
  * // =&gt; [1.2]
  *
  * // The `_.property` iteratee shorthand.
- * _.differenceBy([{ &apos;x&apos;: 2 }, { &apos;x&apos;: 1 }], [{ &apos;x&apos;: 1 }], &apos;x&apos;);
- * // =&gt; [{ &apos;x&apos;: 2 }]
+ * _.differenceBy([{ 'x': 2 }, { 'x': 1 }], [{ 'x': 1 }], 'x');
+ * // =&gt; [{ 'x': 2 }]
  */
 var differenceBy = baseRest(function(array, values) {
 ...</pre></li>
@@ -7021,10 +7014,10 @@ var differenceBy = baseRest(function(array, values) {
  * @returns {Array} Returns the new array of filtered values.
  * @example
  *
- * var objects = [{ &apos;x&apos;: 1, &apos;y&apos;: 2 }, { &apos;x&apos;: 2, &apos;y&apos;: 1 }];
+ * var objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }];
  *
- * _.<span class="apidocCodeKeywordSpan">differenceWith</span>(objects, [{ &apos;x&apos;: 1, &apos;y&apos;: 2 }], _.isEqual);
- * // =&gt; [{ &apos;x&apos;: 2, &apos;y&apos;: 1 }]
+ * _.<span class="apidocCodeKeywordSpan">differenceWith</span>(objects, [{ 'x': 1, 'y': 2 }], _.isEqual);
+ * // =&gt; [{ 'x': 2, 'y': 1 }]
  */
 var differenceWith = baseRest(function(array, values) {
 var comparator = last(values);
@@ -7055,7 +7048,7 @@ if (isArrayLikeObject(comparator)) {
     if (result === undefined) {
       return other;
     }
-    if (typeof value == &apos;string&apos; || typeof other == &apos;string&apos;) {
+    if (typeof value == 'string' || typeof other == 'string') {
       value = baseToString(value);
       other = baseToString(other);
     } else {
@@ -7175,17 +7168,17 @@ module.exports = divide;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: false }
+*   { 'user': 'barney',  'active': true },
+*   { 'user': 'fred',    'active': false },
+*   { 'user': 'pebbles', 'active': false }
 * ];
 *
 * _.<span class="apidocCodeKeywordSpan">dropRightWhile</span>(users, function(o) { return !o.active; });
-* // =&gt; objects for [&apos;barney&apos;]
+* // =&gt; objects for ['barney']
 *
 * // The `_.matches` iteratee shorthand.
-* _.dropRightWhile(users, { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: false });
-* // =&gt; objects for [&apos;barney&apos;, &apos;fred&apos;]
+* _.dropRightWhile(users, { 'user': 'pebbles', 'active': false });
+* // =&gt; objects for ['barney', 'fred']
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -7208,17 +7201,17 @@ module.exports = divide;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: true }
+*   { 'user': 'barney',  'active': false },
+*   { 'user': 'fred',    'active': false },
+*   { 'user': 'pebbles', 'active': true }
 * ];
 *
 * _.<span class="apidocCodeKeywordSpan">dropWhile</span>(users, function(o) { return !o.active; });
-* // =&gt; objects for [&apos;pebbles&apos;]
+* // =&gt; objects for ['pebbles']
 *
 * // The `_.matches` iteratee shorthand.
-* _.dropWhile(users, { &apos;user&apos;: &apos;barney&apos;, &apos;active&apos;: false });
-* // =&gt; objects for [&apos;fred&apos;, &apos;pebbles&apos;]
+* _.dropWhile(users, { 'user': 'barney', 'active': false });
+* // =&gt; objects for ['fred', 'pebbles']
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -7279,20 +7272,20 @@ module.exports = divide;
   return position &gt;= 0 &amp;&amp; string.slice(position, end) == target;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-* @param {string} [string=&apos;&apos;] The string to inspect.
+* @param {string} [string=''] The string to inspect.
 * @param {string} [target] The string to search for.
 * @param {number} [position=string.length] The position to search up to.
 * @returns {boolean} Returns `true` if `string` ends with `target`,
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">endsWith</span>(&apos;abc&apos;, &apos;c&apos;);
+* _.<span class="apidocCodeKeywordSpan">endsWith</span>('abc', 'c');
 * // =&gt; true
 *
-* _.endsWith(&apos;abc&apos;, &apos;b&apos;);
+* _.endsWith('abc', 'b');
 * // =&gt; false
 *
-* _.endsWith(&apos;abc&apos;, &apos;b&apos;, 2);
+* _.endsWith('abc', 'b', 2);
 * // =&gt; true
 ...</pre></li>
     </ul>
@@ -7358,8 +7351,8 @@ module.exports = divide;
 * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
 * @example
 *
-* var object = { &apos;a&apos;: 1 };
-* var other = { &apos;a&apos;: 1 };
+* var object = { 'a': 1 };
+* var other = { 'a': 1 };
 *
 * _.<span class="apidocCodeKeywordSpan">eq</span>(object, object);
 * // =&gt; true
@@ -7367,7 +7360,7 @@ module.exports = divide;
 * _.eq(object, other);
 * // =&gt; false
 *
-* _.eq(&apos;a&apos;, &apos;a&apos;);
+* _.eq('a', 'a');
 * // =&gt; true
 ...</pre></li>
     </ul>
@@ -7391,12 +7384,12 @@ module.exports = divide;
  * @since 0.1.0
  * @memberOf _
  * @category String
- * @param {string} [string=&apos;&apos;] The string to escape.
+ * @param {string} [string=''] The string to escape.
  * @returns {string} Returns the escaped string.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">escape</span>(&apos;fred, barney, &amp; pebbles&apos;);
- * // =&gt; &apos;fred, barney, &amp; pebbles&apos;
+ * _.<span class="apidocCodeKeywordSpan">escape</span>('fred, barney, &amp; pebbles');
+ * // =&gt; 'fred, barney, &amp; pebbles'
  */
 function escape(string) {
   string = toString(string);
@@ -7418,24 +7411,24 @@ function escape(string) {
     <li>description and source-code<pre class="apidocCodePre">function escapeRegExp(string) {
   string = toString(string);
   return (string &amp;&amp; reHasRegExpChar.test(string))
-    ? string.replace(reRegExpChar, &apos;\\$&amp;&apos;)
+    ? string.replace(reRegExpChar, '\\$&amp;')
     : string;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * @memberOf _
  * @since 3.0.0
  * @category String
- * @param {string} [string=&apos;&apos;] The string to escape.
+ * @param {string} [string=''] The string to escape.
  * @returns {string} Returns the escaped string.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">escapeRegExp</span>(&apos;[lodash](https://lodash.com/)&apos;);
- * // =&gt; &apos;\[lodash\]\(https://lodash\.com/\)&apos;
+ * _.<span class="apidocCodeKeywordSpan">escapeRegExp</span>('[lodash](https://lodash.com/)');
+ * // =&gt; '\[lodash\]\(https://lodash\.com/\)'
  */
 function escapeRegExp(string) {
 string = toString(string);
 return (string &amp;&amp; reHasRegExpChar.test(string))
-  ? string.replace(reRegExpChar, &apos;\\$&amp;&apos;)
+  ? string.replace(reRegExpChar, '\\$&amp;')
   : string;
 ...</pre></li>
     </ul>
@@ -7464,12 +7457,12 @@ return (string &amp;&amp; reHasRegExpChar.test(string))
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">every</span>([true, 1, null, &apos;yes&apos;], Boolean);
+* _.<span class="apidocCodeKeywordSpan">every</span>([true, 1, null, 'yes'], Boolean);
 * // =&gt; false
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;age&apos;: 40, &apos;active&apos;: false }
+*   { 'user': 'barney', 'age': 36, 'active': false },
+*   { 'user': 'fred',   'age': 40, 'active': false }
 * ];
 *
 ...</pre></li>
@@ -7490,7 +7483,7 @@ return (string &amp;&amp; reHasRegExpChar.test(string))
       customizer = length &gt; 1 ? sources[length - 1] : undefined,
       guard = length &gt; 2 ? sources[2] : undefined;
 
-  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == &apos;function&apos;)
+  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == 'function')
     ? (length--, customizer)
     : undefined;
 
@@ -7525,7 +7518,7 @@ return (string &amp;&amp; reHasRegExpChar.test(string))
       customizer = length &gt; 1 ? sources[length - 1] : undefined,
       guard = length &gt; 2 ? sources[2] : undefined;
 
-  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == &apos;function&apos;)
+  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == 'function')
     ? (length--, customizer)
     : undefined;
 
@@ -7559,7 +7552,7 @@ return (string &amp;&amp; reHasRegExpChar.test(string))
   if (!length) {
     return [];
   }
-  if (start &amp;&amp; typeof start != &apos;number&apos; &amp;&amp; isIterateeCall(array, value, start)) {
+  if (start &amp;&amp; typeof start != 'number' &amp;&amp; isIterateeCall(array, value, start)) {
     start = 0;
     end = length;
   }
@@ -7573,14 +7566,14 @@ return (string &amp;&amp; reHasRegExpChar.test(string))
 *
 * var array = [1, 2, 3];
 *
-* _.<span class="apidocCodeKeywordSpan">fill</span>(array, &apos;a&apos;);
+* _.<span class="apidocCodeKeywordSpan">fill</span>(array, 'a');
 * console.log(array);
-* // =&gt; [&apos;a&apos;, &apos;a&apos;, &apos;a&apos;]
+* // =&gt; ['a', 'a', 'a']
 *
 * _.fill(Array(3), 2);
 * // =&gt; [2, 2, 2]
 *
-* _.fill([4, 6, 8, 10], &apos;*&apos;, 1, 3);
+* _.fill([4, 6, 8, 10], '*', 1, 3);
 ...</pre></li>
     </ul>
 
@@ -7601,12 +7594,12 @@ return (string &amp;&amp; reHasRegExpChar.test(string))
  * @example
  *
  * var objects = [
- *   { &apos;a&apos;: 2, &apos;b&apos;: 1 },
- *   { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+ *   { 'a': 2, 'b': 1 },
+ *   { 'a': 1, 'b': 2 }
  * ];
  *
- * _.<span class="apidocCodeKeywordSpan">filter</span>(objects, _.conforms({ &apos;b&apos;: function(n) { return n &gt; 1; } }));
- * // =&gt; [{ &apos;a&apos;: 1, &apos;b&apos;: 2 }]
+ * _.<span class="apidocCodeKeywordSpan">filter</span>(objects, _.conforms({ 'b': function(n) { return n &gt; 1; } }));
+ * // =&gt; [{ 'a': 1, 'b': 2 }]
  */
 function conforms(source) {
   return baseConforms(baseClone(source, CLONE_DEEP_FLAG));
@@ -7638,17 +7631,17 @@ module.exports = conforms;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40, &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1,  &apos;active&apos;: true }
+*   { 'user': 'barney',  'age': 36, 'active': true },
+*   { 'user': 'fred',    'age': 40, 'active': false },
+*   { 'user': 'pebbles', 'age': 1,  'active': true }
 * ];
 *
 * _.<span class="apidocCodeKeywordSpan">find</span>(users, function(o) { return o.age &lt; 40; });
-* // =&gt; object for &apos;barney&apos;
+* // =&gt; object for 'barney'
 *
 * // The `_.matches` iteratee shorthand.
-* _.find(users, { &apos;age&apos;: 1, &apos;active&apos;: true });
-* // =&gt; object for &apos;pebbles&apos;
+* _.find(users, { 'age': 1, 'active': true });
+* // =&gt; object for 'pebbles'
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -7677,16 +7670,16 @@ module.exports = conforms;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: true }
+*   { 'user': 'barney',  'active': false },
+*   { 'user': 'fred',    'active': false },
+*   { 'user': 'pebbles', 'active': true }
 * ];
 *
-* _.<span class="apidocCodeKeywordSpan">findIndex</span>(users, function(o) { return o.user == &apos;barney&apos;; });
+* _.<span class="apidocCodeKeywordSpan">findIndex</span>(users, function(o) { return o.user == 'barney'; });
 * // =&gt; 0
 *
 * // The `_.matches` iteratee shorthand.
-* _.findIndex(users, { &apos;user&apos;: &apos;fred&apos;, &apos;active&apos;: false });
+* _.findIndex(users, { 'user': 'fred', 'active': false });
 * // =&gt; 1
 *
 * // The `_.matchesProperty` iteratee shorthand.
@@ -7708,17 +7701,17 @@ module.exports = conforms;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = {
-*   &apos;barney&apos;:  { &apos;age&apos;: 36, &apos;active&apos;: true },
-*   &apos;fred&apos;:    { &apos;age&apos;: 40, &apos;active&apos;: false },
-*   &apos;pebbles&apos;: { &apos;age&apos;: 1,  &apos;active&apos;: true }
+*   'barney':  { 'age': 36, 'active': true },
+*   'fred':    { 'age': 40, 'active': false },
+*   'pebbles': { 'age': 1,  'active': true }
 * };
 *
 * _.<span class="apidocCodeKeywordSpan">findKey</span>(users, function(o) { return o.age &lt; 40; });
-* // =&gt; &apos;barney&apos; (iteration order is not guaranteed)
+* // =&gt; 'barney' (iteration order is not guaranteed)
 *
 * // The `_.matches` iteratee shorthand.
-* _.findKey(users, { &apos;age&apos;: 1, &apos;active&apos;: true });
-* // =&gt; &apos;pebbles&apos;
+* _.findKey(users, { 'age': 1, 'active': true });
+* // =&gt; 'pebbles'
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -7788,16 +7781,16 @@ module.exports = findLast;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: false }
+*   { 'user': 'barney',  'active': true },
+*   { 'user': 'fred',    'active': false },
+*   { 'user': 'pebbles', 'active': false }
 * ];
 *
-* _.<span class="apidocCodeKeywordSpan">findLastIndex</span>(users, function(o) { return o.user == &apos;pebbles&apos;; });
+* _.<span class="apidocCodeKeywordSpan">findLastIndex</span>(users, function(o) { return o.user == 'pebbles'; });
 * // =&gt; 2
 *
 * // The `_.matches` iteratee shorthand.
-* _.findLastIndex(users, { &apos;user&apos;: &apos;barney&apos;, &apos;active&apos;: true });
+* _.findLastIndex(users, { 'user': 'barney', 'active': true });
 * // =&gt; 0
 *
 * // The `_.matchesProperty` iteratee shorthand.
@@ -7819,17 +7812,17 @@ module.exports = findLast;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = {
-*   &apos;barney&apos;:  { &apos;age&apos;: 36, &apos;active&apos;: true },
-*   &apos;fred&apos;:    { &apos;age&apos;: 40, &apos;active&apos;: false },
-*   &apos;pebbles&apos;: { &apos;age&apos;: 1,  &apos;active&apos;: true }
+*   'barney':  { 'age': 36, 'active': true },
+*   'fred':    { 'age': 40, 'active': false },
+*   'pebbles': { 'age': 1,  'active': true }
 * };
 *
 * _.<span class="apidocCodeKeywordSpan">findLastKey</span>(users, function(o) { return o.age &lt; 40; });
-* // =&gt; returns &apos;pebbles&apos; assuming `_.findKey` returns &apos;barney&apos;
+* // =&gt; returns 'pebbles' assuming `_.findKey` returns 'barney'
 *
 * // The `_.matches` iteratee shorthand.
-* _.findLastKey(users, { &apos;age&apos;: 36, &apos;active&apos;: true });
-* // =&gt; &apos;barney&apos;
+* _.findLastKey(users, { 'age': 36, 'active': true });
+* // =&gt; 'barney'
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -8008,11 +8001,11 @@ function flattenDeep(array) {
   if (precision) {
     // Shift with exponential notation to avoid floating-point issues.
     // See [MDN](https://mdn.io/round#Examples) for more details.
-    var pair = (toString(number) + &apos;e&apos;).split(&apos;e&apos;),
-        value = func(pair[0] + &apos;e&apos; + (+pair[1] + precision));
+    var pair = (toString(number) + 'e').split('e'),
+        value = func(pair[0] + 'e' + (+pair[1] + precision));
 
-    pair = (toString(value) + &apos;e&apos;).split(&apos;e&apos;);
-    return +(pair[0] + &apos;e&apos; + (+pair[1] - precision));
+    pair = (toString(value) + 'e').split('e');
+    return +(pair[0] + 'e' + (+pair[1] - precision));
   }
   return func(number);
 }</pre></li>
@@ -8038,10 +8031,10 @@ function flattenDeep(array) {
   }
   while (index--) {
     var func = funcs[index];
-    if (typeof func != &apos;function&apos;) {
+    if (typeof func != 'function') {
       throw new TypeError(FUNC_ERROR_TEXT);
     }
-    if (prereq &amp;&amp; !wrapper &amp;&amp; getFuncName(func) == &apos;wrapper&apos;) {
+    if (prereq &amp;&amp; !wrapper &amp;&amp; getFuncName(func) == 'wrapper') {
       var wrapper = new LodashWrapper([], true);
     }
   }
@@ -8050,7 +8043,7 @@ function flattenDeep(array) {
     func = funcs[index];
 
     var funcName = getFuncName(func),
-        data = funcName == &apos;wrapper&apos; ? getData(func) : undefined;
+        data = funcName == 'wrapper' ? getData(func) : undefined;
 
     if (data &amp;&amp; isLaziable(data[0]) &amp;&amp;
           data[1] == (WRAP_ARY_FLAG | WRAP_CURRY_FLAG | WRAP_PARTIAL_FLAG | WRAP_REARG_FLAG) &amp;&amp;
@@ -8101,10 +8094,10 @@ function flattenDeep(array) {
   }
   while (index--) {
     var func = funcs[index];
-    if (typeof func != &apos;function&apos;) {
+    if (typeof func != 'function') {
       throw new TypeError(FUNC_ERROR_TEXT);
     }
-    if (prereq &amp;&amp; !wrapper &amp;&amp; getFuncName(func) == &apos;wrapper&apos;) {
+    if (prereq &amp;&amp; !wrapper &amp;&amp; getFuncName(func) == 'wrapper') {
       var wrapper = new LodashWrapper([], true);
     }
   }
@@ -8113,7 +8106,7 @@ function flattenDeep(array) {
     func = funcs[index];
 
     var funcName = getFuncName(func),
-        data = funcName == &apos;wrapper&apos; ? getData(func) : undefined;
+        data = funcName == 'wrapper' ? getData(func) : undefined;
 
     if (data &amp;&amp; isLaziable(data[0]) &amp;&amp;
           data[1] == (WRAP_ARY_FLAG | WRAP_CURRY_FLAG | WRAP_PARTIAL_FLAG | WRAP_REARG_FLAG) &amp;&amp;
@@ -8160,19 +8153,19 @@ function flattenDeep(array) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  *
- * var saves = [&apos;profile&apos;, &apos;settings&apos;];
+ * var saves = ['profile', 'settings'];
  *
  * var done = _.after(saves.length, function() {
- *   console.log(&apos;done saving!&apos;);
+ *   console.log('done saving!');
  * });
  *
  * _.<span class="apidocCodeKeywordSpan">forEach</span>(saves, function(type) {
- *   asyncSave({ &apos;type&apos;: type, &apos;complete&apos;: done });
+ *   asyncSave({ 'type': type, 'complete': done });
  * });
- * // =&gt; Logs &apos;done saving!&apos; after the two async saves have completed.
+ * // =&gt; Logs 'done saving!' after the two async saves have completed.
  */
 function after(n, func) {
-if (typeof func != &apos;function&apos;) {
+if (typeof func != 'function') {
   throw new TypeError(FUNC_ERROR_TEXT);
 ...</pre></li>
     </ul>
@@ -8370,7 +8363,7 @@ if (isSet(value)) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">gt = function (value, other) {
-  if (!(typeof value == &apos;string&apos; &amp;&amp; typeof other == &apos;string&apos;)) {
+  if (!(typeof value == 'string' &amp;&amp; typeof other == 'string')) {
     value = toNumber(value);
     other = toNumber(other);
   }
@@ -8389,7 +8382,7 @@ if (isSet(value)) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">gte = function (value, other) {
-  if (!(typeof value == &apos;string&apos; &amp;&amp; typeof other == &apos;string&apos;)) {
+  if (!(typeof value == 'string' &amp;&amp; typeof other == 'string')) {
     value = toNumber(value);
     other = toNumber(other);
   }
@@ -8456,13 +8449,13 @@ module.exports = cacheHas;
  *
  * var youngest = _
  *   .chain(users)
- *   .sortBy(&apos;age&apos;)
+ *   .sortBy('age')
  *   .map(function(o) {
- *     return o.user + &apos; is &apos; + o.age;
+ *     return o.user + ' is ' + o.age;
  *   })
  *   .<span class="apidocCodeKeywordSpan">head</span>()
  *   .value();
- * // =&gt; &apos;pebbles is 1&apos;
+ * // =&gt; 'pebbles is 1'
  */
 function chain(value) {
 var result = lodash(value);
@@ -8489,7 +8482,7 @@ return result;
  * @returns {*} Returns `value`.
  * @example
  *
- * var object = { &apos;a&apos;: 1 };
+ * var object = { 'a': 1 };
  *
  * console.log(_.<span class="apidocCodeKeywordSpan">identity</span>(object) === object);
  * // =&gt; true
@@ -8660,7 +8653,7 @@ function indexOf(array, value, fromIndex) {
   var comparator = last(arrays),
       mapped = arrayMap(arrays, castArrayLikeObject);
 
-  comparator = typeof comparator == &apos;function&apos; ? comparator : undefined;
+  comparator = typeof comparator == 'function' ? comparator : undefined;
   if (comparator) {
     mapped.pop();
   }
@@ -8730,7 +8723,7 @@ function indexOf(array, value, fromIndex) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">invokeMap = function (collection, path, args) {
   var index = -1,
-      isFunc = typeof path == &apos;function&apos;,
+      isFunc = typeof path == 'function',
       result = isArrayLike(collection) ? Array(collection.length) : [];
 
   baseEach(collection, function(value) {
@@ -8768,7 +8761,7 @@ function indexOf(array, value, fromIndex) {
  * // =&gt; false
  */
 var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsArguments : function(value) {
-  return isObjectLike(value) &amp;&amp; hasOwnProperty.call(value, &apos;callee&apos;) &amp;&amp;
+  return isObjectLike(value) &amp;&amp; hasOwnProperty.call(value, 'callee') &amp;&amp;
 ...</pre></li>
     </ul>
 
@@ -8842,7 +8835,7 @@ function lodash(value) {
 * _.isArrayLike(document.body.children);
 * // =&gt; true
 *
-* _.isArrayLike(&apos;abc&apos;);
+* _.isArrayLike('abc');
 * // =&gt; true
 ...</pre></li>
     </ul>
@@ -8932,7 +8925,7 @@ function isBoolean(value) {
  * _.<span class="apidocCodeKeywordSpan">isDate</span>(new Date);
  * // =&gt; true
  *
- * _.isDate(&apos;Mon April 23 2012&apos;);
+ * _.isDate('Mon April 23 2012');
  * // =&gt; false
  */
 var isDate = baseIsDate;
@@ -8984,7 +8977,7 @@ var isDate = baseIsDate;
     return true;
   }
   if (isArrayLike(value) &amp;&amp;
-      (isArray(value) || typeof value == &apos;string&apos; || typeof value.splice == &apos;function&apos; ||
+      (isArray(value) || typeof value == 'string' || typeof value.splice == 'function' ||
         isBuffer(value) || isTypedArray(value) || isArguments(value))) {
     return !value.length;
   }
@@ -9038,8 +9031,8 @@ var isDate = baseIsDate;
  * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
  * @example
  *
- * var object = { &apos;a&apos;: 1 };
- * var other = { &apos;a&apos;: 1 };
+ * var object = { 'a': 1 };
+ * var other = { 'a': 1 };
  *
  * _.<span class="apidocCodeKeywordSpan">isEqual</span>(object, other);
  * // =&gt; true
@@ -9062,7 +9055,7 @@ function isEqual(value, other) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isEqualWith(value, other, customizer) {
-  customizer = typeof customizer == &apos;function&apos; ? customizer : undefined;
+  customizer = typeof customizer == 'function' ? customizer : undefined;
   var result = customizer ? customizer(value, other) : undefined;
   return result === undefined ? baseIsEqual(value, other, undefined, customizer) : !!result;
 }</pre></li>
@@ -9084,7 +9077,7 @@ function isEqual(value, other) {
   }
   var tag = baseGetTag(value);
   return tag == errorTag || tag == domExcTag ||
-    (typeof value.message == &apos;string&apos; &amp;&amp; typeof value.name == &apos;string&apos; &amp;&amp; !isPlainObject(value));
+    (typeof value.message == 'string' &amp;&amp; typeof value.name == 'string' &amp;&amp; !isPlainObject(value));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * @example
@@ -9092,7 +9085,7 @@ function isEqual(value, other) {
  * // Avoid throwing errors for invalid selectors.
  * var elements = _.attempt(function(selector) {
  *   return document.querySelectorAll(selector);
- * }, &apos;&gt;_&gt;&apos;);
+ * }, '&gt;_&gt;');
  *
  * if (_.<span class="apidocCodeKeywordSpan">isError</span>(elements)) {
  *   elements = [];
@@ -9115,7 +9108,7 @@ try {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isFinite(value) {
-  return typeof value == &apos;number&apos; &amp;&amp; nativeIsFinite(value);
+  return typeof value == 'number' &amp;&amp; nativeIsFinite(value);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * @memberOf _
@@ -9150,7 +9143,7 @@ try {
     return false;
   }
   // The use of `Object#toString` avoids issues with the `typeof` operator
-  // in Safari 9 which returns &apos;object&apos; for typed arrays and other constructors.
+  // in Safari 9 which returns 'object' for typed arrays and other constructors.
   var tag = baseGetTag(value);
   return tag == funcTag || tag == genTag || tag == asyncTag || tag == proxyTag;
 }</pre></li>
@@ -9183,7 +9176,7 @@ function isFunction(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isInteger(value) {
-  return typeof value == &apos;number&apos; &amp;&amp; value == toInteger(value);
+  return typeof value == 'number' &amp;&amp; value == toInteger(value);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -9198,7 +9191,7 @@ function isFunction(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isLength(value) {
-  return typeof value == &apos;number&apos; &amp;&amp;
+  return typeof value == 'number' &amp;&amp;
     value &gt; -1 &amp;&amp; value % 1 == 0 &amp;&amp; value &lt;= MAX_SAFE_INTEGER;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -9260,7 +9253,7 @@ function isFunction(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isMatchWith(object, source, customizer) {
-  customizer = typeof customizer == &apos;function&apos; ? customizer : undefined;
+  customizer = typeof customizer == 'function' ? customizer : undefined;
   return baseIsMatch(object, source, getMatchData(source), customizer);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -9374,7 +9367,7 @@ function isNull(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isNumber(value) {
-  return typeof value == &apos;number&apos; ||
+  return typeof value == 'number' ||
     (isObjectLike(value) &amp;&amp; baseGetTag(value) == numberTag);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -9407,7 +9400,7 @@ function isNull(value) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isObject(value) {
   var type = typeof value;
-  return value != null &amp;&amp; (type == &apos;object&apos; || type == &apos;function&apos;);
+  return value != null &amp;&amp; (type == 'object' || type == 'function');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * @memberOf _
@@ -9438,7 +9431,7 @@ function isNull(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isObjectLike(value) {
-  return value != null &amp;&amp; typeof value == &apos;object&apos;;
+  return value != null &amp;&amp; typeof value == 'object';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * @memberOf _
@@ -9476,8 +9469,8 @@ function isNull(value) {
   if (proto === null) {
     return true;
   }
-  var Ctor = hasOwnProperty.call(proto, &apos;constructor&apos;) &amp;&amp; proto.constructor;
-  return typeof Ctor == &apos;function&apos; &amp;&amp; Ctor instanceof Ctor &amp;&amp;
+  var Ctor = hasOwnProperty.call(proto, 'constructor') &amp;&amp; proto.constructor;
+  return typeof Ctor == 'function' &amp;&amp; Ctor instanceof Ctor &amp;&amp;
     funcToString.call(Ctor) == objectCtorString;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -9506,7 +9499,7 @@ function isNull(value) {
  * _.<span class="apidocCodeKeywordSpan">isRegExp</span>(/abc/);
  * // =&gt; true
  *
- * _.isRegExp(&apos;/abc/&apos;);
+ * _.isRegExp('/abc/');
  * // =&gt; false
  */
 var isRegExp = baseIsRegExp;
@@ -9553,7 +9546,7 @@ var isRegExp = baseIsRegExp;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isString(value) {
-  return typeof value == &apos;string&apos; ||
+  return typeof value == 'string' ||
     (!isArray(value) &amp;&amp; isObjectLike(value) &amp;&amp; baseGetTag(value) == stringTag);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -9564,14 +9557,14 @@ var isRegExp = baseIsRegExp;
  * @returns {boolean} Returns `true` if `value` is a string, else `false`.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">isString</span>(&apos;abc&apos;);
+ * _.<span class="apidocCodeKeywordSpan">isString</span>('abc');
  * // =&gt; true
  *
  * _.isString(1);
  * // =&gt; false
  */
 function isString(value) {
-  return typeof value == &apos;string&apos; ||
+  return typeof value == 'string' ||
 ...</pre></li>
     </ul>
 
@@ -9585,7 +9578,7 @@ function isString(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isSymbol(value) {
-  return typeof value == &apos;symbol&apos; ||
+  return typeof value == 'symbol' ||
     (isObjectLike(value) &amp;&amp; baseGetTag(value) == symbolTag);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -9631,8 +9624,8 @@ function isString(value) {
 *
 * var defaults = _.partialRight(_.assignInWith, customizer);
 *
-* defaults({ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }, { &apos;a&apos;: 3 });
-* // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+* defaults({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
+* // =&gt; { 'a': 1, 'b': 2 }
 */
 ...</pre></li>
     </ul>
@@ -9677,23 +9670,23 @@ function isString(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function iteratee(func) {
-  return baseIteratee(typeof func == &apos;function&apos; ? func : baseClone(func, CLONE_DEEP_FLAG));
+  return baseIteratee(typeof func == 'function' ? func : baseClone(func, CLONE_DEEP_FLAG));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;age&apos;: 40, &apos;active&apos;: false }
+*   { 'user': 'barney', 'age': 36, 'active': true },
+*   { 'user': 'fred',   'age': 40, 'active': false }
 * ];
 *
 * // The `_.matches` iteratee shorthand.
-* _.filter(users, _.<span class="apidocCodeKeywordSpan">iteratee</span>({ &apos;user&apos;: &apos;barney&apos;, &apos;active&apos
+* _.filter(users, _.<span class="apidocCodeKeywordSpan">iteratee</span>({ 'user': 'barney', 'active&amp;apos
 ;: true }));
-* // =&gt; [{ &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: true }]
+* // =&gt; [{ 'user': 'barney', 'age': 36, 'active': true }]
 *
 * // The `_.matchesProperty` iteratee shorthand.
-* _.filter(users, _.iteratee([&apos;user&apos;, &apos;fred&apos;]));
-* // =&gt; [{ &apos;user&apos;: &apos;fred&apos;, &apos;age&apos;: 40 }]
+* _.filter(users, _.iteratee(['user', 'fred']));
+* // =&gt; [{ 'user': 'fred', 'age': 40 }]
 *
 * // The `_.property` iteratee shorthand.
 ...</pre></li>
@@ -9709,7 +9702,7 @@ function isString(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function join(array, separator) {
-  return array == null ? &apos;&apos; : nativeJoin.call(array, separator);
+  return array == null ? '' : nativeJoin.call(array, separator);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
       : undefined;
@@ -9719,7 +9712,7 @@ function isString(value) {
       : string.charAt(0);
 
     var trailing = strSymbols
-      ? castSlice(strSymbols, 1).<span class="apidocCodeKeywordSpan">join</span>(&apos;&apos;)
+      ? castSlice(strSymbols, 1).<span class="apidocCodeKeywordSpan">join</span>('')
       : string.slice(1);
 
     return chr[methodName]() + trailing;
@@ -9740,7 +9733,7 @@ module.exports = createCaseFirst;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">kebabCase = function (string) {
-  return arrayReduce(words(deburr(string).replace(reApos, &apos;&apos;)), callback, &apos;&apos;);
+  return arrayReduce(words(deburr(string).replace(reApos, '')), callback, '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -9784,10 +9777,10 @@ module.exports = createCaseFirst;
  * Foo.prototype.c = 3;
  *
  * _.<span class="apidocCodeKeywordSpan">keys</span>(new Foo);
- * // =&gt; [&apos;a&apos;, &apos;b&apos;] (iteration order is not guaranteed)
+ * // =&gt; ['a', 'b'] (iteration order is not guaranteed)
  *
- * _.keys(&apos;hi&apos;);
- * // =&gt; [&apos;0&apos;, &apos;1&apos;]
+ * _.keys('hi');
+ * // =&gt; ['0', '1']
  */
 var keys = nativeKeys;
 ...</pre></li>
@@ -9814,7 +9807,7 @@ var keys = nativeKeys;
  * Foo.prototype.c = 3;
  *
  * _.<span class="apidocCodeKeywordSpan">keysIn</span>(new Foo);
- * // =&gt; [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;] (iteration order is not guaranteed)
+ * // =&gt; ['a', 'b', 'c'] (iteration order is not guaranteed)
  */
 var keysIn = nativeKeysIn;
 
@@ -9892,7 +9885,7 @@ return new LodashWrapper(this.value(), this.__chain__);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">lowerCase = function (string) {
-  return arrayReduce(words(deburr(string).replace(reApos, &apos;&apos;)), callback, &apos;&apos;);
+  return arrayReduce(words(deburr(string).replace(reApos, '')), callback, '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -9918,7 +9911,7 @@ return new LodashWrapper(this.value(), this.__chain__);
     : string.charAt(0);
 
   var trailing = strSymbols
-    ? castSlice(strSymbols, 1).join(&apos;&apos;)
+    ? castSlice(strSymbols, 1).join('')
     : string.slice(1);
 
   return chr[methodName]() + trailing;
@@ -9936,7 +9929,7 @@ return new LodashWrapper(this.value(), this.__chain__);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">lt = function (value, other) {
-  if (!(typeof value == &apos;string&apos; &amp;&amp; typeof other == &apos;string&apos;)) {
+  if (!(typeof value == 'string' &amp;&amp; typeof other == 'string')) {
     value = toNumber(value);
     other = toNumber(other);
   }
@@ -9955,7 +9948,7 @@ return new LodashWrapper(this.value(), this.__chain__);
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">lte = function (value, other) {
-  if (!(typeof value == &apos;string&apos; &amp;&amp; typeof other == &apos;string&apos;)) {
+  if (!(typeof value == 'string' &amp;&amp; typeof other == 'string')) {
     value = toNumber(value);
     other = toNumber(other);
   }
@@ -9985,7 +9978,7 @@ return new LodashWrapper(this.value(), this.__chain__);
  * @returns {Function} Returns the new capped function.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">map</span>([&apos;6&apos;, &apos;8&apos;, &apos;10&apos;], _.ary(parseInt, 1));
+ * _.<span class="apidocCodeKeywordSpan">map</span>(['6', '8', '10'], _.ary(parseInt, 1));
  * // =&gt; [6, 8, 10]
  */
 function ary(func, n, guard) {
@@ -10058,13 +10051,13 @@ function ary(func, n, guard) {
 * @example
 *
 * var func = _.cond([
-*   [_.<span class="apidocCodeKeywordSpan">matches</span>({ &apos;a&apos;: 1 }),           _.constant(&apos;matches A&apos;)],
-*   [_.conforms({ &apos;b&apos;: _.isNumber }), _.constant(&apos;matches B&apos;)],
-*   [_.stubTrue,                      _.constant(&apos;no match&apos;)]
+*   [_.<span class="apidocCodeKeywordSpan">matches</span>({ 'a': 1 }),           _.constant('matches A')],
+*   [_.conforms({ 'b': _.isNumber }), _.constant('matches B')],
+*   [_.stubTrue,                      _.constant('no match')]
 * ]);
 *
-* func({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
-* // =&gt; &apos;matches A&apos;
+* func({ 'a': 1, 'b': 2 });
+* // =&gt; 'matches A'
 *
 ...</pre></li>
     </ul>
@@ -10174,7 +10167,7 @@ function max(array) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function memoize(func, resolver) {
-  if (typeof func != &apos;function&apos; || (resolver != null &amp;&amp; typeof resolver != &apos;function&apos;)) {
+  if (typeof func != 'function' || (resolver != null &amp;&amp; typeof resolver != 'function')) {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   var memoized = function() {
@@ -10232,7 +10225,7 @@ function max(array) {
       customizer = length &gt; 1 ? sources[length - 1] : undefined,
       guard = length &gt; 2 ? sources[2] : undefined;
 
-  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == &apos;function&apos;)
+  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == 'function')
     ? (length--, customizer)
     : undefined;
 
@@ -10267,7 +10260,7 @@ function max(array) {
       customizer = length &gt; 1 ? sources[length - 1] : undefined,
       guard = length &gt; 2 ? sources[2] : undefined;
 
-  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == &apos;function&apos;)
+  customizer = (assigner.length &gt; 3 &amp;&amp; typeof customizer == 'function')
     ? (length--, customizer)
     : undefined;
 
@@ -10391,7 +10384,7 @@ function min(array) {
     object = this;
     methodNames = baseFunctions(source, keys(source));
   }
-  var chain = !(isObject(options) &amp;&amp; &apos;chain&apos; in options) || !!options.chain,
+  var chain = !(isObject(options) &amp;&amp; 'chain' in options) || !!options.chain,
       isFunc = isFunction(object);
 
   arrayEach(methodNames, function(methodName) {
@@ -10404,7 +10397,7 @@ function min(array) {
           var result = object(this.__wrapped__),
               actions = result.__actions__ = copyArray(this.__actions__);
 
-          actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+          actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
           result.__chain__ = chainAll;
           return result;
         }
@@ -10423,14 +10416,14 @@ function min(array) {
 *   });
 * }
 *
-* _.<span class="apidocCodeKeywordSpan">mixin</span>({ &apos;vowels&apos;: vowels });
-* _.vowels(&apos;fred&apos;);
-* // =&gt; [&apos;e&apos;]
+* _.<span class="apidocCodeKeywordSpan">mixin</span>({ 'vowels': vowels });
+* _.vowels('fred');
+* // =&gt; ['e']
 *
-* _(&apos;fred&apos;).vowels().value();
-* // =&gt; [&apos;e&apos;]
+* _('fred').vowels().value();
+* // =&gt; ['e']
 *
-* _.mixin({ &apos;vowels&apos;: vowels }, { &apos;chain&apos;: false });
+* _.mixin({ 'vowels': vowels }, { 'chain': false });
 ...</pre></li>
     </ul>
 
@@ -10455,7 +10448,7 @@ function min(array) {
     if (result === undefined) {
       return other;
     }
-    if (typeof value == &apos;string&apos; || typeof other == &apos;string&apos;) {
+    if (typeof value == 'string' || typeof other == 'string') {
       value = baseToString(value);
       other = baseToString(other);
     } else {
@@ -10479,7 +10472,7 @@ function min(array) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function negate(predicate) {
-  if (typeof predicate != &apos;function&apos;) {
+  if (typeof predicate != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   return function() {
@@ -10505,7 +10498,7 @@ function min(array) {
  * // =&gt; [1, 3, 5]
  */
 function negate(predicate) {
-  if (typeof predicate != &apos;function&apos;) {
+  if (typeof predicate != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   return function() {
@@ -10888,7 +10881,7 @@ function once(func) {
   } else if (radix) {
     radix = +radix;
   }
-  return nativeParseInt(toString(string).replace(reTrimStart, &apos;&apos;), radix || 0);
+  return nativeParseInt(toString(string).replace(reTrimStart, ''), radix || 0);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -10932,8 +10925,8 @@ function once(func) {
  *
  * var defaults = _.<span class="apidocCodeKeywordSpan">partialRight</span>(_.assignInWith, customizer);
  *
- * defaults({ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }, { &apos;a&apos;: 3 });
- * // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+ * defaults({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
+ * // =&gt; { 'a': 1, 'b': 2 }
  */
 var assignInWith = createAssigner(function(object, source, srcIndex, customizer) {
   copyObject(source, keysIn(source), object, customizer);
@@ -10973,15 +10966,15 @@ var assignInWith = createAssigner(function(object, source, srcIndex, customizer)
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * _(users).head();
- * // =&gt; { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36 }
+ * // =&gt; { 'user': 'barney', 'age': 36 }
  *
  * // A sequence with explicit chaining.
  * _(users)
  *   .chain()
  *   .head()
- *   .<span class="apidocCodeKeywordSpan">pick</span>(&apos;user&apos;)
+ *   .<span class="apidocCodeKeywordSpan">pick</span>('user')
  *   .value();
- * // =&gt; { &apos;user&apos;: &apos;barney&apos; }
+ * // =&gt; { 'user': 'barney' }
  */
 function wrapperChain() {
   return chain(this);
@@ -11145,15 +11138,15 @@ function wrapperChain() {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function random(lower, upper, floating) {
-  if (floating &amp;&amp; typeof floating != &apos;boolean&apos; &amp;&amp; isIterateeCall(lower, upper, floating)) {
+  if (floating &amp;&amp; typeof floating != 'boolean' &amp;&amp; isIterateeCall(lower, upper, floating)) {
     upper = floating = undefined;
   }
   if (floating === undefined) {
-    if (typeof upper == &apos;boolean&apos;) {
+    if (typeof upper == 'boolean') {
       floating = upper;
       upper = undefined;
     }
-    else if (typeof lower == &apos;boolean&apos;) {
+    else if (typeof lower == 'boolean') {
       floating = lower;
       lower = undefined;
     }
@@ -11178,7 +11171,7 @@ function wrapperChain() {
   }
   if (floating || lower % 1 || upper % 1) {
     var rand = nativeRandom();
-    return nativeMin(lower + (rand * (upper - lower + freeParseFloat(&apos;1e-&apos; + ((rand + &apos;&apos;).length - 1)))), upper);
+    return nativeMin(lower + (rand * (upper - lower + freeParseFloat('1e-' + ((rand + '').length - 1)))), upper);
   }
   return baseRandom(lower, upper);
 }</pre></li>
@@ -11195,7 +11188,7 @@ function wrapperChain() {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">range = function (start, end, step) {
-  if (step &amp;&amp; typeof step != &apos;number&apos; &amp;&amp; isIterateeCall(start, end, step)) {
+  if (step &amp;&amp; typeof step != 'number' &amp;&amp; isIterateeCall(start, end, step)) {
     end = step = undefined;
   }
   // Ensure the sign of `-0` is preserved.
@@ -11222,7 +11215,7 @@ function wrapperChain() {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">rangeRight = function (start, end, step) {
-  if (step &amp;&amp; typeof step != &apos;number&apos; &amp;&amp; isIterateeCall(start, end, step)) {
+  if (step &amp;&amp; typeof step != 'number' &amp;&amp; isIterateeCall(start, end, step)) {
     end = step = undefined;
   }
   // Ensure the sign of `-0` is preserved.
@@ -11396,9 +11389,9 @@ var funcToString = funcProto.toString;
 var hasOwnProperty = objectProto.hasOwnProperty;
 
 /** Used to detect if a method is native. */
-var reIsNative = RegExp(&apos;^&apos; +
- funcToString.call(hasOwnProperty).<span class="apidocCodeKeywordSpan">replace</span>(reRegExpChar, &apos;\\$&amp;&apos;)
- .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, &apos;$1.*?&apos;) + &apos;$&apos;
+var reIsNative = RegExp('^' +
+ funcToString.call(hasOwnProperty).<span class="apidocCodeKeywordSpan">replace</span>(reRegExpChar, '\\$&amp;')
+ .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
 );
 
 /**
@@ -11418,7 +11411,7 @@ var reIsNative = RegExp(&apos;^&apos; +
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function rest(func, start) {
-  if (typeof func != &apos;function&apos;) {
+  if (typeof func != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   start = start === undefined ? start : toInteger(start);
@@ -11463,16 +11456,16 @@ var reIsNative = RegExp(&apos;^&apos; +
 * @returns {*} Returns the resolved value.
 * @example
 *
-* var object = { &apos;a&apos;: [{ &apos;b&apos;: { &apos;c1&apos;: 3, &apos;c2&apos;: _.constant(4) } }] };
+* var object = { 'a': [{ 'b': { 'c1': 3, 'c2': _.constant(4) } }] };
 *
-* _.<span class="apidocCodeKeywordSpan">result</span>(object, &apos;a[0].b.c1&apos;);
+* _.<span class="apidocCodeKeywordSpan">result</span>(object, 'a[0].b.c1');
 * // =&gt; 3
 *
-* _.result(object, &apos;a[0].b.c2&apos;);
+* _.result(object, 'a[0].b.c2');
 * // =&gt; 4
 *
-* _.result(object, &apos;a[0].b.c3&apos;, &apos;default&apos;);
-* // =&gt; &apos;default&apos;
+* _.result(object, 'a[0].b.c3', 'default');
+* // =&gt; 'default'
 ...</pre></li>
     </ul>
 
@@ -11522,11 +11515,11 @@ function tap(value, interceptor) {
   if (precision) {
     // Shift with exponential notation to avoid floating-point issues.
     // See [MDN](https://mdn.io/round#Examples) for more details.
-    var pair = (toString(number) + &apos;e&apos;).split(&apos;e&apos;),
-        value = func(pair[0] + &apos;e&apos; + (+pair[1] + precision));
+    var pair = (toString(number) + 'e').split('e'),
+        value = func(pair[0] + 'e' + (+pair[1] + precision));
 
-    pair = (toString(value) + &apos;e&apos;).split(&apos;e&apos;);
-    return +(pair[0] + &apos;e&apos; + (+pair[1] - precision));
+    pair = (toString(value) + 'e').split('e');
+    return +(pair[0] + 'e' + (+pair[1] - precision));
   }
   return func(number);
 }</pre></li>
@@ -11562,7 +11555,7 @@ function tap(value, interceptor) {
       objectProto = Object.prototype;
 
   /** Used to detect overreaching core-js shims. */
-  var coreJsData = context[&apos;__core-js_shared__&apos;];
+  var coreJsData = context['__core-js_shared__'];
 
   /** Used to resolve the decompiled source of functions. */
   var funcToString = funcProto.toString;
@@ -11575,8 +11568,8 @@ function tap(value, interceptor) {
 
   /** Used to detect methods masquerading as native. */
   var maskSrcKey = (function() {
-    var uid = /[^.]+$/.exec(coreJsData &amp;&amp; coreJsData.keys &amp;&amp; coreJsData.keys.IE_PROTO || &apos;&apos;);
-    return uid ? (&apos;Symbol(src)_1.&apos; + uid) : &apos;&apos;;
+    var uid = /[^.]+$/.exec(coreJsData &amp;&amp; coreJsData.keys &amp;&amp; coreJsData.keys.IE_PROTO || '');
+    return uid ? ('Symbol(src)_1.' + uid) : '';
   }());
 
   /**
@@ -11593,9 +11586,9 @@ function tap(value, interceptor) {
   var oldDash = root._;
 
   /** Used to detect if a method is native. */
-  var reIsNative = RegExp(&apos;^&apos; +
-    funcToString.call(hasOwnProperty).replace(reRegExpChar, &apos;\\$&amp;&apos;)
-    .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, &apos;$1.*?&apos;) + &apos;$&apos;
+  var reIsNative = RegExp('^' +
+    funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&amp;')
+    .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
   );
 
   /** Built-in value references. */
@@ -11613,8 +11606,8 @@ function tap(value, interceptor) {
 
   var defineProperty = (function() {
     try {
-      var func = getNative(Object, &apos;defineProperty&apos;);
-      func({}, &apos;&apos;, {});
+      var func = getNative(Object, 'defineProperty');
+      func({}, '', {});
       return func;
     } catch (e) {}
   }());
@@ -11640,12 +11633,12 @@ function tap(value, interceptor) {
       nativeReverse = arrayProto.reverse;
 
   /* Built-in method references that are verified to be native. */
-  var DataView = getNative(context, &apos;DataView&apos;),
-      Map = getNative(context, &apos;Map&apos;),
-      Promise = getNative(context, &apos;Promise&apos;),
-      Set = getNative(context, &apos;Set&apos;),
-      WeakMap = getNative(context, &apos;WeakMap&apos;),
-      nativeCreate = getNative(Object, &apos;cr...</pre></li>
+  var DataView = getNative(context, 'DataView'),
+      Map = getNative(context, 'Map'),
+      Promise = getNative(context, 'Promise'),
+      Set = getNative(context, 'Set'),
+      WeakMap = getNative(context, 'WeakMap'),
+      nativeCreate = getNative(Object, 'cr...</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -11727,7 +11720,7 @@ return result;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function setWith(object, path, value, customizer) {
-  customizer = typeof customizer == &apos;function&apos; ? customizer : undefined;
+  customizer = typeof customizer == 'function' ? customizer : undefined;
   return object == null ? object : baseSet(object, path, value, customizer);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -11782,10 +11775,10 @@ return result;
 * _.<span class="apidocCodeKeywordSpan">size</span>([1, 2, 3]);
 * // =&gt; 3
 *
-* _.size({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
+* _.size({ 'a': 1, 'b': 2 });
 * // =&gt; 2
 *
-* _.size(&apos;pebbles&apos;);
+* _.size('pebbles');
 * // =&gt; 7
 ...</pre></li>
     </ul>
@@ -11804,7 +11797,7 @@ return result;
   if (!length) {
     return [];
   }
-  if (end &amp;&amp; typeof end != &apos;number&apos; &amp;&amp; isIterateeCall(array, start, end)) {
+  if (end &amp;&amp; typeof end != 'number' &amp;&amp; isIterateeCall(array, start, end)) {
     start = 0;
     end = length;
   }
@@ -11843,7 +11836,7 @@ function cloneBuffer(buffer, isDeep) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">snakeCase = function (string) {
-  return arrayReduce(words(deburr(string).replace(reApos, &apos;&apos;)), callback, &apos;&apos;);
+  return arrayReduce(words(deburr(string).replace(reApos, '')), callback, '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -11872,12 +11865,12 @@ function cloneBuffer(buffer, isDeep) {
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">some</span>([null, 0, &apos;yes&apos;, false], Boolean);
+* _.<span class="apidocCodeKeywordSpan">some</span>([null, 0, 'yes', false], Boolean);
 * // =&gt; true
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;active&apos;: false }
+*   { 'user': 'barney', 'active': true },
+*   { 'user': 'fred',   'active': false }
 * ];
 *
 ...</pre></li>
@@ -11905,20 +11898,20 @@ function cloneBuffer(buffer, isDeep) {
   return baseOrderBy(collection, baseFlatten(iteratees, 1), []);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36 },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40 },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1 }
+*   { 'user': 'barney',  'age': 36 },
+*   { 'user': 'fred',    'age': 40 },
+*   { 'user': 'pebbles', 'age': 1 }
 * ];
 *
 * var youngest = _
 *   .chain(users)
-*   .<span class="apidocCodeKeywordSpan">sortBy</span>(&apos;age&apos;)
+*   .<span class="apidocCodeKeywordSpan">sortBy</span>('age')
 *   .map(function(o) {
-*     return o.user + &apos; is &apos; + o.age;
+*     return o.user + ' is ' + o.age;
 *   })
 *   .head()
 *   .value();
-* // =&gt; &apos;pebbles is 1&apos;
+* // =&gt; 'pebbles is 1'
 */
 ...</pre></li>
     </ul>
@@ -12071,7 +12064,7 @@ function cloneBuffer(buffer, isDeep) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function split(string, separator, limit) {
-  if (limit &amp;&amp; typeof limit != &apos;number&apos; &amp;&amp; isIterateeCall(string, separator, limit)) {
+  if (limit &amp;&amp; typeof limit != 'number' &amp;&amp; isIterateeCall(string, separator, limit)) {
     separator = limit = undefined;
   }
   limit = limit === undefined ? MAX_ARRAY_LENGTH : limit &gt;&gt;&gt; 0;
@@ -12080,7 +12073,7 @@ function cloneBuffer(buffer, isDeep) {
   }
   string = toString(string);
   if (string &amp;&amp; (
-        typeof separator == &apos;string&apos; ||
+        typeof separator == 'string' ||
         (separator != null &amp;&amp; !isRegExp(separator))
       )) {
     separator = baseToString(separator);
@@ -12098,7 +12091,7 @@ function cloneBuffer(buffer, isDeep) {
  * @returns {Array} Returns the converted array.
  */
 function asciiToArray(string) {
-  return string.<span class="apidocCodeKeywordSpan">split</span>(&apos;&apos;);
+  return string.<span class="apidocCodeKeywordSpan">split</span>('');
 }
 
 module.exports = asciiToArray;
@@ -12115,7 +12108,7 @@ module.exports = asciiToArray;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function spread(func, start) {
-  if (typeof func != &apos;function&apos;) {
+  if (typeof func != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   start = start == null ? 0 : nativeMax(toInteger(start), 0);
@@ -12142,7 +12135,7 @@ module.exports = asciiToArray;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">startCase = function (string) {
-  return arrayReduce(words(deburr(string).replace(reApos, &apos;&apos;)), callback, &apos;&apos;);
+  return arrayReduce(words(deburr(string).replace(reApos, '')), callback, '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -12223,7 +12216,7 @@ module.exports = asciiToArray;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function stubString() {
-  return &apos;&apos;;
+  return '';
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -12264,7 +12257,7 @@ module.exports = asciiToArray;
     if (result === undefined) {
       return other;
     }
-    if (typeof value == &apos;string&apos; || typeof other == &apos;string&apos;) {
+    if (typeof value == 'string' || typeof other == 'string') {
       value = baseToString(value);
       other = baseToString(other);
     } else {
@@ -12444,9 +12437,9 @@ module.exports = asciiToArray;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function template(string, options, guard) {
-  // Based on John Resig&apos;s `tmpl` implementation
+  // Based on John Resig's `tmpl` implementation
   // (http://ejohn.org/blog/javascript-micro-templating/)
-  // and Laura Doktorova&apos;s doT.js (https://github.com/olado/doT).
+  // and Laura Doktorova's doT.js (https://github.com/olado/doT).
   var settings = lodash.templateSettings;
 
   if (guard &amp;&amp; isIterateeCall(string, options, guard)) {
@@ -12463,40 +12456,40 @@ module.exports = asciiToArray;
       isEvaluating,
       index = 0,
       interpolate = options.interpolate || reNoMatch,
-      source = &quot;__p += &apos;&quot;;
+      source = "__p += '";
 
   // Compile the regexp to match each delimiter.
   var reDelimiters = RegExp(
-    (options.escape || reNoMatch).source + &apos;|&apos; +
-    interpolate.source + &apos;|&apos; +
-    (interpolate === reInterpolate ? reEsTemplate : reNoMatch).source + &apos;|&apos; +
-    (options.evaluate || reNoMatch).source + &apos;|$&apos;
-  , &apos;g&apos;);
+    (options.escape || reNoMatch).source + '|' +
+    interpolate.source + '|' +
+    (interpolate === reInterpolate ? reEsTemplate : reNoMatch).source + '|' +
+    (options.evaluate || reNoMatch).source + '|$'
+  , 'g');
 
   // Use a sourceURL for easier debugging.
-  var sourceURL = &apos;//# sourceURL=&apos; +
-    (&apos;sourceURL&apos; in options
+  var sourceURL = '//# sourceURL=' +
+    ('sourceURL' in options
       ? options.sourceURL
-      : (&apos;lodash.templateSources[&apos; + (++templateCounter) + &apos;]&apos;)
-    ) + &apos;\n&apos;;
+      : ('lodash.templateSources[' + (++templateCounter) + ']')
+    ) + '\n';
 
   string.replace(reDelimiters, function(match, escapeValue, interpolateValue, esTemplateValue, evaluateValue, offset) {
     interpolateValue || (interpolateValue = esTemplateValue);
 
-    // Escape characters that can&apos;t be included in string literals.
+    // Escape characters that can't be included in string literals.
     source += string.slice(index, offset).replace(reUnescapedString, escapeStringChar);
 
     // Replace delimiters with snippets.
     if (escapeValue) {
       isEscaping = true;
-      source += &quot;&apos; +\n__e(&quot; + escapeValue + &quot;) +\n&apos;&quot;;
+      source += "' +\n__e(" + escapeValue + ") +\n'";
     }
     if (evaluateValue) {
       isEvaluating = true;
-      source += &quot;&apos;;\n&quot; + evaluateValue + &quot;;\n__p += &apos;&quot;;
+      source += "';\n" + evaluateValue + ";\n__p += '";
     }
     if (interpolateValue) {
-      source += &quot;&apos; +\n((__t = (&quot; + interpolateValue + &quot;)) == null ? &apos;&apos; : __t) +\n&apos;&quot;;
+      source += "' +\n((__t = (" + interpolateValue + ")) == null ? '' : __t) +\n'";
     }
     index = offset + match.length;
 
@@ -12505,44 +12498,44 @@ module.exports = asciiToArray;
     return match;
   });
 
-  source += &quot;&apos;;\n&quot;;
+  source += "';\n";
 
   // If `variable` is not specified wrap a with-statement around the generated
   // code to add the data object to the top of the scope chain.
   var variable = options.variable;
   if (!variable) {
-    source = &apos;with (obj) {\n&apos; + source + &apos;\n}\n&apos;;
+    source = 'with (obj) {\n' + source + '\n}\n';
   }
   // Cleanup code by stripping empty strings.
-  source = (isEvaluating ? source.replace(reEmptyStringLeading, &apos;&apos;) : source)
-    .replace(reEmptyStringMiddle, &apos;$1&apos;)
-    .replace(reEmptyStringTrailing, &apos;$1;&apos;);
+  source = (isEvaluating ? source.replace(reEmptyStringLeading, '') : source)
+    .replace(reEmptyStringMiddle, '$1')
+    .replace(reEmptyStringTrailing, '$1;');
 
   // Frame code as the function body.
-  source = &apos;function(&apos; + (variable || &apos;obj&apos;) + &apos;) {\n&apos; +
+  source = 'function(' + (variable || 'obj') + ') {\n' +
     (variable
-      ? &apos;&apos;
-      : &apos;obj || (obj = {});\n&apos;
+      ? ''
+      : 'obj || (obj = {});\n'
     ) +
-    &quot;var __t, __p = &apos;&apos;&quot; +
+    "var __t, __p = ''" +
     (isEscaping
-       ? &apos;, __e = _.escape&apos;
-       : &apos;&apos;
+       ? ', __e = _.escape'
+       : ''
     ) +
     (isEvaluating
-      ? &apos;, __j = Array.prototype.join;\n&apos; +
-        &quot;function print() { __p += __j.call(arguments, &apos;&apos;) }\n&quot;
-      : &apos;;\n&apos;
+      ? ', __j = Array.prototype.join;\n' +
+        "function print() { __p += __j.call(arguments, '') }\n"
+      : ';\n'
     ) +
     source +
-    &apos;return __p\n}&apos;;
+    'return __p\n}';
 
   var result = attempt(function() {
-    return Function(importsKeys, sourceURL + &apos;return &apos; + source)
+    return Function(importsKeys, sourceURL + 'return ' + source)
       .apply(undefined, importsValues);
   });
 
-  // Provide the compiled function&apos;s source by its `toString` method or
+  // Provide the compiled function's source by its `toString` method or
   // the `source` property as a convenience for inlining compiled templates.
   result.source = source;
   if (isError(result)) {
@@ -12566,17 +12559,17 @@ module.exports = asciiToArray;
   var leading = true,
       trailing = true;
 
-  if (typeof func != &apos;function&apos;) {
+  if (typeof func != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   if (isObject(options)) {
-    leading = &apos;leading&apos; in options ? !!options.leading : leading;
-    trailing = &apos;trailing&apos; in options ? !!options.trailing : trailing;
+    leading = 'leading' in options ? !!options.leading : leading;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
   }
   return debounce(func, wait, {
-    &apos;leading&apos;: leading,
-    &apos;maxWait&apos;: wait,
-    &apos;trailing&apos;: trailing
+    'leading': leading,
+    'maxWait': wait,
+    'trailing': trailing
   });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -12599,14 +12592,14 @@ module.exports = asciiToArray;
  * @returns {*} Returns the result of `interceptor`.
  * @example
  *
- * _(&apos;  abc  &apos;)
+ * _('  abc  ')
  *  .chain()
  *  .trim()
  *  .<span class="apidocCodeKeywordSpan">thru</span>(function(value) {
  *    return [value];
  *  })
  *  .value();
- * // =&gt; [&apos;abc&apos;]
+ * // =&gt; ['abc']
  */
 function thru(value, interceptor) {
   return interceptor(value);
@@ -12647,10 +12640,10 @@ function thru(value, interceptor) {
 * @returns {Function} Returns the new constant function.
 * @example
 *
-* var objects = _.<span class="apidocCodeKeywordSpan">times</span>(2, _.constant({ &apos;a&apos;: 1 }));
+* var objects = _.<span class="apidocCodeKeywordSpan">times</span>(2, _.constant({ 'a': 1 }));
 *
 * console.log(objects);
-* // =&gt; [{ &apos;a&apos;: 1 }, { &apos;a&apos;: 1 }]
+* // =&gt; [{ 'a': 1 }, { 'a': 1 }]
 *
 * console.log(objects[0] === objects[1]);
 * // =&gt; true
@@ -12690,11 +12683,11 @@ function thru(value, interceptor) {
 * @returns {Array} Returns the converted array.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">toArray</span>({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
+* _.<span class="apidocCodeKeywordSpan">toArray</span>({ 'a': 1, 'b': 2 });
 * // =&gt; [1, 2]
 *
-* _.toArray(&apos;abc&apos;);
-* // =&gt; [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]
+* _.toArray('abc');
+* // =&gt; ['a', 'b', 'c']
 *
 * _.toArray(1);
 * // =&gt; []
@@ -12798,20 +12791,20 @@ function thru(value, interceptor) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function toNumber(value) {
-  if (typeof value == &apos;number&apos;) {
+  if (typeof value == 'number') {
     return value;
   }
   if (isSymbol(value)) {
     return NAN;
   }
   if (isObject(value)) {
-    var other = typeof value.valueOf == &apos;function&apos; ? value.valueOf() : value;
-    value = isObject(other) ? (other + &apos;&apos;) : other;
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
   }
-  if (typeof value != &apos;string&apos;) {
+  if (typeof value != 'string') {
     return value === 0 ? value : +value;
   }
-  value = value.replace(reTrim, &apos;&apos;);
+  value = value.replace(reTrim, '');
   var isBinary = reIsBinary.test(value);
   return (isBinary || reIsOctal.test(value))
     ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
@@ -12991,7 +12984,7 @@ function thru(value, interceptor) {
     <li>description and source-code<pre class="apidocCodePre">function trim(string, chars, guard) {
   string = toString(string);
   if (string &amp;&amp; (guard || chars === undefined)) {
-    return string.replace(reTrim, &apos;&apos;);
+    return string.replace(reTrim, '');
   }
   if (!string || !(chars = baseToString(chars))) {
     return string;
@@ -13001,7 +12994,7 @@ function thru(value, interceptor) {
       start = charsStartIndex(strSymbols, chrSymbols),
       end = charsEndIndex(strSymbols, chrSymbols) + 1;
 
-  return castSlice(strSymbols, start, end).join(&apos;&apos;);
+  return castSlice(strSymbols, start, end).join('');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * @param {*} value The value to provide to `interceptor`.
@@ -13009,14 +13002,14 @@ function thru(value, interceptor) {
  * @returns {*} Returns the result of `interceptor`.
  * @example
  *
- * _(&apos;  abc  &apos;)
+ * _('  abc  ')
  *  .chain()
  *  .<span class="apidocCodeKeywordSpan">trim</span>()
  *  .thru(function(value) {
  *    return [value];
  *  })
  *  .value();
- * // =&gt; [&apos;abc&apos;]
+ * // =&gt; ['abc']
  */
 function thru(value, interceptor) {
 ...</pre></li>
@@ -13034,7 +13027,7 @@ function thru(value, interceptor) {
     <li>description and source-code<pre class="apidocCodePre">function trimEnd(string, chars, guard) {
   string = toString(string);
   if (string &amp;&amp; (guard || chars === undefined)) {
-    return string.replace(reTrimEnd, &apos;&apos;);
+    return string.replace(reTrimEnd, '');
   }
   if (!string || !(chars = baseToString(chars))) {
     return string;
@@ -13042,7 +13035,7 @@ function thru(value, interceptor) {
   var strSymbols = stringToArray(string),
       end = charsEndIndex(strSymbols, stringToArray(chars)) + 1;
 
-  return castSlice(strSymbols, 0, end).join(&apos;&apos;);
+  return castSlice(strSymbols, 0, end).join('');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -13059,7 +13052,7 @@ function thru(value, interceptor) {
     <li>description and source-code<pre class="apidocCodePre">function trimStart(string, chars, guard) {
   string = toString(string);
   if (string &amp;&amp; (guard || chars === undefined)) {
-    return string.replace(reTrimStart, &apos;&apos;);
+    return string.replace(reTrimStart, '');
   }
   if (!string || !(chars = baseToString(chars))) {
     return string;
@@ -13067,7 +13060,7 @@ function thru(value, interceptor) {
   var strSymbols = stringToArray(string),
       start = charsStartIndex(strSymbols, stringToArray(chars));
 
-  return castSlice(strSymbols, start).join(&apos;&apos;);
+  return castSlice(strSymbols, start).join('');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -13086,9 +13079,9 @@ function thru(value, interceptor) {
       omission = DEFAULT_TRUNC_OMISSION;
 
   if (isObject(options)) {
-    var separator = &apos;separator&apos; in options ? options.separator : separator;
-    length = &apos;length&apos; in options ? toInteger(options.length) : length;
-    omission = &apos;omission&apos; in options ? baseToString(options.omission) : omission;
+    var separator = 'separator' in options ? options.separator : separator;
+    length = 'length' in options ? toInteger(options.length) : length;
+    omission = 'omission' in options ? baseToString(options.omission) : omission;
   }
   string = toString(string);
 
@@ -13105,7 +13098,7 @@ function thru(value, interceptor) {
     return omission;
   }
   var result = strSymbols
-    ? castSlice(strSymbols, 0, end).join(&apos;&apos;)
+    ? castSlice(strSymbols, 0, end).join('')
     : string.slice(0, end);
 
   if (separator === undefined) {
@@ -13120,7 +13113,7 @@ function thru(value, interceptor) {
           substring = result;
 
       if (!separator.global) {
-        separator = RegExp(separator.source, toString(reFlags.exec(separator)) + &apos;g&apos;);
+        separator = RegExp(separator.source, toString(reFlags.exec(separator)) + 'g');
       }
       separator.lastIndex = 0;
       while ((match = separator.exec(substring))) {
@@ -13217,7 +13210,7 @@ function thru(value, interceptor) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">unionWith = function (arrays) {
   var comparator = last(arrays);
-  comparator = typeof comparator == &apos;function&apos; ? comparator : undefined;
+  comparator = typeof comparator == 'function' ? comparator : undefined;
   return baseUniq(baseFlatten(arrays, 1, isArrayLikeObject, true), undefined, comparator);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -13263,7 +13256,7 @@ function thru(value, interceptor) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function uniqWith(array, comparator) {
-  comparator = typeof comparator == &apos;function&apos; ? comparator : undefined;
+  comparator = typeof comparator == 'function' ? comparator : undefined;
   return (array &amp;&amp; array.length) ? baseUniq(array, undefined, comparator) : [];
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -13286,15 +13279,15 @@ function thru(value, interceptor) {
  * @since 0.1.0
  * @memberOf _
  * @category Util
- * @param {string} [prefix=&apos;&apos;] The value to prefix the ID with.
+ * @param {string} [prefix=''] The value to prefix the ID with.
  * @returns {string} Returns the unique ID.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">uniqueId</span>(&apos;contact_&apos;);
- * // =&gt; &apos;contact_104&apos;
+ * _.<span class="apidocCodeKeywordSpan">uniqueId</span>('contact_');
+ * // =&gt; 'contact_104'
  *
  * _.uniqueId();
- * // =&gt; &apos;105&apos;
+ * // =&gt; '105'
  */
 function uniqueId(prefix) {
   var id = ++idCounter;
@@ -13392,7 +13385,7 @@ function uniqueId(prefix) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function updateWith(object, path, updater, customizer) {
-  customizer = typeof customizer == &apos;function&apos; ? customizer : undefined;
+  customizer = typeof customizer == 'function' ? customizer : undefined;
   return object == null ? object : baseUpdate(object, path, castFunction(updater), customizer);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -13408,7 +13401,7 @@ function uniqueId(prefix) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">upperCase = function (string) {
-  return arrayReduce(words(deburr(string).replace(reApos, &apos;&apos;)), callback, &apos;&apos;);
+  return arrayReduce(words(deburr(string).replace(reApos, '')), callback, '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -13434,7 +13427,7 @@ function uniqueId(prefix) {
     : string.charAt(0);
 
   var trailing = strSymbols
-    ? castSlice(strSymbols, 1).join(&apos;&apos;)
+    ? castSlice(strSymbols, 1).join('')
     : string.slice(1);
 
   return chr[methodName]() + trailing;
@@ -13465,8 +13458,8 @@ function uniqueId(prefix) {
  * _.<span class="apidocCodeKeywordSpan">values</span>(new Foo);
  * // =&gt; [1, 2] (iteration order is not guaranteed)
  *
- * _.values(&apos;hi&apos;);
- * // =&gt; [&apos;h&apos;, &apos;i&apos;]
+ * _.values('hi');
+ * // =&gt; ['h', 'i']
  */
 function values(object) {
   return object == null ? [] : baseValues(object, keys(object));
@@ -13539,11 +13532,11 @@ function values(object) {
   return partial(castFunction(wrapper), value);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-* // =&gt; [{ &apos;user&apos;: &apos;fred&apos;, &apos;age&apos;: 40 }]
+* // =&gt; [{ 'user': 'fred', 'age': 40 }]
 *
 * // The `_.property` iteratee shorthand.
-* _.map(users, _.iteratee(&apos;user&apos;));
-* // =&gt; [&apos;barney&apos;, &apos;fred&apos;]
+* _.map(users, _.iteratee('user'));
+* // =&gt; ['barney', 'fred']
 *
 * // Create custom iteratee shorthands.
 * _.iteratee = _.<span class="apidocCodeKeywordSpan">wrap</span>(_.iteratee, function(iteratee, func) {
@@ -13552,8 +13545,8 @@ function values(object) {
 *   };
 * });
 *
-* _.filter([&apos;abc&apos;, &apos;def&apos;], /ef/);
-* // =&gt; [&apos;def&apos;]
+* _.filter(['abc', 'def'], /ef/);
+* // =&gt; ['def']
 ...</pre></li>
     </ul>
 
@@ -13602,7 +13595,7 @@ function values(object) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">xorWith = function (arrays) {
   var comparator = last(arrays);
-  comparator = typeof comparator == &apos;function&apos; ? comparator : undefined;
+  comparator = typeof comparator == 'function' ? comparator : undefined;
   return baseXor(arrayFilter(arrays, isArrayLikeObject), undefined, comparator);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -13678,7 +13671,7 @@ function values(object) {
   var length = arrays.length,
       iteratee = length &gt; 1 ? arrays[length - 1] : undefined;
 
-  iteratee = typeof iteratee == &apos;function&apos; ? (arrays.pop(), iteratee) : undefined;
+  iteratee = typeof iteratee == 'function' ? (arrays.pop(), iteratee) : undefined;
   return unzipWith(arrays, iteratee);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -13791,11 +13784,11 @@ function values(object) {
  * @returns {Array} Returns the new array of chunks.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">chunk</span>([&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;], 2);
- * // =&gt; [[&apos;a&apos;, &apos;b&apos;], [&apos;c&apos;, &apos;d&apos;]]
+ * _.<span class="apidocCodeKeywordSpan">chunk</span>(['a', 'b', 'c', 'd'], 2);
+ * // =&gt; [['a', 'b'], ['c', 'd']]
  *
- * _.chunk([&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;], 3);
- * // =&gt; [[&apos;a&apos;, &apos;b&apos;, &apos;c&apos;], [&apos;d&apos;]]
+ * _.chunk(['a', 'b', 'c', 'd'], 3);
+ * // =&gt; [['a', 'b', 'c'], ['d']]
  */
 function chunk(array, size, guard) {
 if ((guard ? isIterateeCall(array, size, guard) : size === undefined)) {
@@ -13833,7 +13826,7 @@ if ((guard ? isIterateeCall(array, size, guard) : size === undefined)) {
  * @returns {Array} Returns the new array of filtered values.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">compact</span>([0, 1, false, 2, &apos;&apos;, 3]);
+ * _.<span class="apidocCodeKeywordSpan">compact</span>([0, 1, false, 2, '', 3]);
  * // =&gt; [1, 2, 3]
  */
 function compact(array) {
@@ -13949,8 +13942,8 @@ var difference = baseRest(function(array, values) {
  * // =&gt; [1.2]
  *
  * // The `_.property` iteratee shorthand.
- * _.differenceBy([{ &apos;x&apos;: 2 }, { &apos;x&apos;: 1 }], [{ &apos;x&apos;: 1 }], &apos;x&apos;);
- * // =&gt; [{ &apos;x&apos;: 2 }]
+ * _.differenceBy([{ 'x': 2 }, { 'x': 1 }], [{ 'x': 1 }], 'x');
+ * // =&gt; [{ 'x': 2 }]
  */
 var differenceBy = baseRest(function(array, values) {
 ...</pre></li>
@@ -13980,10 +13973,10 @@ var differenceBy = baseRest(function(array, values) {
  * @returns {Array} Returns the new array of filtered values.
  * @example
  *
- * var objects = [{ &apos;x&apos;: 1, &apos;y&apos;: 2 }, { &apos;x&apos;: 2, &apos;y&apos;: 1 }];
+ * var objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }];
  *
- * _.<span class="apidocCodeKeywordSpan">differenceWith</span>(objects, [{ &apos;x&apos;: 1, &apos;y&apos;: 2 }], _.isEqual);
- * // =&gt; [{ &apos;x&apos;: 2, &apos;y&apos;: 1 }]
+ * _.<span class="apidocCodeKeywordSpan">differenceWith</span>(objects, [{ 'x': 1, 'y': 2 }], _.isEqual);
+ * // =&gt; [{ 'x': 2, 'y': 1 }]
  */
 var differenceWith = baseRest(function(array, values) {
 var comparator = last(values);
@@ -14083,17 +14076,17 @@ if (isArrayLikeObject(comparator)) {
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: false }
+*   { 'user': 'barney',  'active': true },
+*   { 'user': 'fred',    'active': false },
+*   { 'user': 'pebbles', 'active': false }
 * ];
 *
 * _.<span class="apidocCodeKeywordSpan">dropRightWhile</span>(users, function(o) { return !o.active; });
-* // =&gt; objects for [&apos;barney&apos;]
+* // =&gt; objects for ['barney']
 *
 * // The `_.matches` iteratee shorthand.
-* _.dropRightWhile(users, { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: false });
-* // =&gt; objects for [&apos;barney&apos;, &apos;fred&apos;]
+* _.dropRightWhile(users, { 'user': 'pebbles', 'active': false });
+* // =&gt; objects for ['barney', 'fred']
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -14116,17 +14109,17 @@ if (isArrayLikeObject(comparator)) {
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: true }
+*   { 'user': 'barney',  'active': false },
+*   { 'user': 'fred',    'active': false },
+*   { 'user': 'pebbles', 'active': true }
 * ];
 *
 * _.<span class="apidocCodeKeywordSpan">dropWhile</span>(users, function(o) { return !o.active; });
-* // =&gt; objects for [&apos;pebbles&apos;]
+* // =&gt; objects for ['pebbles']
 *
 * // The `_.matches` iteratee shorthand.
-* _.dropWhile(users, { &apos;user&apos;: &apos;barney&apos;, &apos;active&apos;: false });
-* // =&gt; objects for [&apos;fred&apos;, &apos;pebbles&apos;]
+* _.dropWhile(users, { 'user': 'barney', 'active': false });
+* // =&gt; objects for ['fred', 'pebbles']
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -14146,7 +14139,7 @@ if (isArrayLikeObject(comparator)) {
   if (!length) {
     return [];
   }
-  if (start &amp;&amp; typeof start != &apos;number&apos; &amp;&amp; isIterateeCall(array, value, start)) {
+  if (start &amp;&amp; typeof start != 'number' &amp;&amp; isIterateeCall(array, value, start)) {
     start = 0;
     end = length;
   }
@@ -14160,14 +14153,14 @@ if (isArrayLikeObject(comparator)) {
 *
 * var array = [1, 2, 3];
 *
-* _.<span class="apidocCodeKeywordSpan">fill</span>(array, &apos;a&apos;);
+* _.<span class="apidocCodeKeywordSpan">fill</span>(array, 'a');
 * console.log(array);
-* // =&gt; [&apos;a&apos;, &apos;a&apos;, &apos;a&apos;]
+* // =&gt; ['a', 'a', 'a']
 *
 * _.fill(Array(3), 2);
 * // =&gt; [2, 2, 2]
 *
-* _.fill([4, 6, 8, 10], &apos;*&apos;, 1, 3);
+* _.fill([4, 6, 8, 10], '*', 1, 3);
 ...</pre></li>
     </ul>
 
@@ -14194,16 +14187,16 @@ if (isArrayLikeObject(comparator)) {
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: true }
+*   { 'user': 'barney',  'active': false },
+*   { 'user': 'fred',    'active': false },
+*   { 'user': 'pebbles', 'active': true }
 * ];
 *
-* _.<span class="apidocCodeKeywordSpan">findIndex</span>(users, function(o) { return o.user == &apos;barney&apos;; });
+* _.<span class="apidocCodeKeywordSpan">findIndex</span>(users, function(o) { return o.user == 'barney'; });
 * // =&gt; 0
 *
 * // The `_.matches` iteratee shorthand.
-* _.findIndex(users, { &apos;user&apos;: &apos;fred&apos;, &apos;active&apos;: false });
+* _.findIndex(users, { 'user': 'fred', 'active': false });
 * // =&gt; 1
 *
 * // The `_.matchesProperty` iteratee shorthand.
@@ -14236,16 +14229,16 @@ if (isArrayLikeObject(comparator)) {
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;active&apos;: false }
+*   { 'user': 'barney',  'active': true },
+*   { 'user': 'fred',    'active': false },
+*   { 'user': 'pebbles', 'active': false }
 * ];
 *
-* _.<span class="apidocCodeKeywordSpan">findLastIndex</span>(users, function(o) { return o.user == &apos;pebbles&apos;; });
+* _.<span class="apidocCodeKeywordSpan">findLastIndex</span>(users, function(o) { return o.user == 'pebbles'; });
 * // =&gt; 2
 *
 * // The `_.matches` iteratee shorthand.
-* _.findLastIndex(users, { &apos;user&apos;: &apos;barney&apos;, &apos;active&apos;: true });
+* _.findLastIndex(users, { 'user': 'barney', 'active': true });
 * // =&gt; 0
 *
 * // The `_.matchesProperty` iteratee shorthand.
@@ -14388,13 +14381,13 @@ function flattenDeep(array) {
  *
  * var youngest = _
  *   .chain(users)
- *   .sortBy(&apos;age&apos;)
+ *   .sortBy('age')
  *   .map(function(o) {
- *     return o.user + &apos; is &apos; + o.age;
+ *     return o.user + ' is ' + o.age;
  *   })
  *   .<span class="apidocCodeKeywordSpan">head</span>()
  *   .value();
- * // =&gt; &apos;pebbles is 1&apos;
+ * // =&gt; 'pebbles is 1'
  */
 function chain(value) {
 var result = lodash(value);
@@ -14514,7 +14507,7 @@ function indexOf(array, value, fromIndex) {
   var comparator = last(arrays),
       mapped = arrayMap(arrays, castArrayLikeObject);
 
-  comparator = typeof comparator == &apos;function&apos; ? comparator : undefined;
+  comparator = typeof comparator == 'function' ? comparator : undefined;
   if (comparator) {
     mapped.pop();
   }
@@ -14535,7 +14528,7 @@ function indexOf(array, value, fromIndex) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function join(array, separator) {
-  return array == null ? &apos;&apos; : nativeJoin.call(array, separator);
+  return array == null ? '' : nativeJoin.call(array, separator);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
       : undefined;
@@ -14545,7 +14538,7 @@ function indexOf(array, value, fromIndex) {
       : string.charAt(0);
 
     var trailing = strSymbols
-      ? castSlice(strSymbols, 1).<span class="apidocCodeKeywordSpan">join</span>(&apos;&apos;)
+      ? castSlice(strSymbols, 1).<span class="apidocCodeKeywordSpan">join</span>('')
       : string.slice(1);
 
     return chr[methodName]() + trailing;
@@ -14796,7 +14789,7 @@ function tap(value, interceptor) {
   if (!length) {
     return [];
   }
-  if (end &amp;&amp; typeof end != &apos;number&apos; &amp;&amp; isIterateeCall(array, start, end)) {
+  if (end &amp;&amp; typeof end != 'number' &amp;&amp; isIterateeCall(array, start, end)) {
     start = 0;
     end = length;
   }
@@ -15098,7 +15091,7 @@ function cloneBuffer(buffer, isDeep) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">unionWith = function (arrays) {
   var comparator = last(arrays);
-  comparator = typeof comparator == &apos;function&apos; ? comparator : undefined;
+  comparator = typeof comparator == 'function' ? comparator : undefined;
   return baseUniq(baseFlatten(arrays, 1, isArrayLikeObject, true), undefined, comparator);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -15144,7 +15137,7 @@ function cloneBuffer(buffer, isDeep) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function uniqWith(array, comparator) {
-  comparator = typeof comparator == &apos;function&apos; ? comparator : undefined;
+  comparator = typeof comparator == 'function' ? comparator : undefined;
   return (array &amp;&amp; array.length) ? baseUniq(array, undefined, comparator) : [];
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -15263,7 +15256,7 @@ function cloneBuffer(buffer, isDeep) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">xorWith = function (arrays) {
   var comparator = last(arrays);
-  comparator = typeof comparator == &apos;function&apos; ? comparator : undefined;
+  comparator = typeof comparator == 'function' ? comparator : undefined;
   return baseXor(arrayFilter(arrays, isArrayLikeObject), undefined, comparator);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -15339,7 +15332,7 @@ function cloneBuffer(buffer, isDeep) {
   var length = arrays.length,
       iteratee = length &gt; 1 ? arrays[length - 1] : undefined;
 
-  iteratee = typeof iteratee == &apos;function&apos; ? (arrays.pop(), iteratee) : undefined;
+  iteratee = typeof iteratee == 'function' ? (arrays.pop(), iteratee) : undefined;
   return unzipWith(arrays, iteratee);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -15369,18 +15362,18 @@ function cloneBuffer(buffer, isDeep) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * var object = {
-*   &apos;user&apos;: &apos;fred&apos;,
-*   &apos;greet&apos;: function(greeting, punctuation) {
-*     return greeting + &apos; &apos; + this.user + punctuation;
+*   'user': 'fred',
+*   'greet': function(greeting, punctuation) {
+*     return greeting + ' ' + this.user + punctuation;
 *   }
 * };
 *
-* var bound = _.<span class="apidocCodeKeywordSpan">bindKey</span>(object, &apos;greet&apos;, &apos;hi&apos;);
-* bound(&apos;!&apos;);
-* // =&gt; &apos;hi fred!&apos;
+* var bound = _.<span class="apidocCodeKeywordSpan">bindKey</span>(object, 'greet', 'hi');
+* bound('!');
+* // =&gt; 'hi fred!'
 *
 * object.greet = function(greeting, punctuation) {
-*   return greeting + &apos;ya &apos; + this.user + punctuation;
+*   return greeting + 'ya ' + this.user + punctuation;
 * };
 *
 ...</pre></li>
@@ -15428,11 +15421,11 @@ function cloneBuffer(buffer, isDeep) {
  * @example
  *
  * _.<span class="apidocCodeKeywordSpan">countBy</span>([6.1, 4.2, 6.3], Math.floor);
- * // =&gt; { &apos;4&apos;: 1, &apos;6&apos;: 2 }
+ * // =&gt; { '4': 1, '6': 2 }
  *
  * // The `_.property` iteratee shorthand.
- * _.countBy([&apos;one&apos;, &apos;two&apos;, &apos;three&apos;], &apos;length&apos;);
- * // =&gt; { &apos;3&apos;: 2, &apos;5&apos;: 1 }
+ * _.countBy(['one', 'two', 'three'], 'length');
+ * // =&gt; { '3': 2, '5': 1 }
  */
 var countBy = createAggregator(function(result, value, key) {
 ...</pre></li>
@@ -15494,12 +15487,12 @@ var countBy = createAggregator(function(result, value, key) {
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">every</span>([true, 1, null, &apos;yes&apos;], Boolean);
+* _.<span class="apidocCodeKeywordSpan">every</span>([true, 1, null, 'yes'], Boolean);
 * // =&gt; false
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;age&apos;: 40, &apos;active&apos;: false }
+*   { 'user': 'barney', 'age': 36, 'active': false },
+*   { 'user': 'fred',   'age': 40, 'active': false }
 * ];
 *
 ...</pre></li>
@@ -15522,12 +15515,12 @@ var countBy = createAggregator(function(result, value, key) {
  * @example
  *
  * var objects = [
- *   { &apos;a&apos;: 2, &apos;b&apos;: 1 },
- *   { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+ *   { 'a': 2, 'b': 1 },
+ *   { 'a': 1, 'b': 2 }
  * ];
  *
- * _.<span class="apidocCodeKeywordSpan">filter</span>(objects, _.conforms({ &apos;b&apos;: function(n) { return n &gt; 1; } }));
- * // =&gt; [{ &apos;a&apos;: 1, &apos;b&apos;: 2 }]
+ * _.<span class="apidocCodeKeywordSpan">filter</span>(objects, _.conforms({ 'b': function(n) { return n &gt; 1; } }));
+ * // =&gt; [{ 'a': 1, 'b': 2 }]
  */
 function conforms(source) {
   return baseConforms(baseClone(source, CLONE_DEEP_FLAG));
@@ -15559,17 +15552,17 @@ module.exports = conforms;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40, &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1,  &apos;active&apos;: true }
+*   { 'user': 'barney',  'age': 36, 'active': true },
+*   { 'user': 'fred',    'age': 40, 'active': false },
+*   { 'user': 'pebbles', 'age': 1,  'active': true }
 * ];
 *
 * _.<span class="apidocCodeKeywordSpan">find</span>(users, function(o) { return o.age &lt; 40; });
-* // =&gt; object for &apos;barney&apos;
+* // =&gt; object for 'barney'
 *
 * // The `_.matches` iteratee shorthand.
-* _.find(users, { &apos;age&apos;: 1, &apos;active&apos;: true });
-* // =&gt; object for &apos;pebbles&apos;
+* _.find(users, { 'age': 1, 'active': true });
+* // =&gt; object for 'pebbles'
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -15674,19 +15667,19 @@ module.exports = findLast;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  *
- * var saves = [&apos;profile&apos;, &apos;settings&apos;];
+ * var saves = ['profile', 'settings'];
  *
  * var done = _.after(saves.length, function() {
- *   console.log(&apos;done saving!&apos;);
+ *   console.log('done saving!');
  * });
  *
  * _.<span class="apidocCodeKeywordSpan">forEach</span>(saves, function(type) {
- *   asyncSave({ &apos;type&apos;: type, &apos;complete&apos;: done });
+ *   asyncSave({ 'type': type, 'complete': done });
  * });
- * // =&gt; Logs &apos;done saving!&apos; after the two async saves have completed.
+ * // =&gt; Logs 'done saving!' after the two async saves have completed.
  */
 function after(n, func) {
-if (typeof func != &apos;function&apos;) {
+if (typeof func != 'function') {
   throw new TypeError(FUNC_ERROR_TEXT);
 ...</pre></li>
     </ul>
@@ -15760,7 +15753,7 @@ if (typeof func != &apos;function&apos;) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">invokeMap = function (collection, path, args) {
   var index = -1,
-      isFunc = typeof path == &apos;function&apos;,
+      isFunc = typeof path == 'function',
       result = isArrayLike(collection) ? Array(collection.length) : [];
 
   baseEach(collection, function(value) {
@@ -15810,7 +15803,7 @@ if (typeof func != &apos;function&apos;) {
  * @returns {Function} Returns the new capped function.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">map</span>([&apos;6&apos;, &apos;8&apos;, &apos;10&apos;], _.ary(parseInt, 1));
+ * _.<span class="apidocCodeKeywordSpan">map</span>(['6', '8', '10'], _.ary(parseInt, 1));
  * // =&gt; [6, 8, 10]
  */
 function ary(func, n, guard) {
@@ -16018,10 +16011,10 @@ function ary(func, n, guard) {
 * _.<span class="apidocCodeKeywordSpan">size</span>([1, 2, 3]);
 * // =&gt; 3
 *
-* _.size({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
+* _.size({ 'a': 1, 'b': 2 });
 * // =&gt; 2
 *
-* _.size(&apos;pebbles&apos;);
+* _.size('pebbles');
 * // =&gt; 7
 ...</pre></li>
     </ul>
@@ -16050,12 +16043,12 @@ function ary(func, n, guard) {
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">some</span>([null, 0, &apos;yes&apos;, false], Boolean);
+* _.<span class="apidocCodeKeywordSpan">some</span>([null, 0, 'yes', false], Boolean);
 * // =&gt; true
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;active&apos;: false }
+*   { 'user': 'barney', 'active': true },
+*   { 'user': 'fred',   'active': false }
 * ];
 *
 ...</pre></li>
@@ -16083,20 +16076,20 @@ function ary(func, n, guard) {
   return baseOrderBy(collection, baseFlatten(iteratees, 1), []);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36 },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40 },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1 }
+*   { 'user': 'barney',  'age': 36 },
+*   { 'user': 'fred',    'age': 40 },
+*   { 'user': 'pebbles', 'age': 1 }
 * ];
 *
 * var youngest = _
 *   .chain(users)
-*   .<span class="apidocCodeKeywordSpan">sortBy</span>(&apos;age&apos;)
+*   .<span class="apidocCodeKeywordSpan">sortBy</span>('age')
 *   .map(function(o) {
-*     return o.user + &apos; is &apos; + o.age;
+*     return o.user + ' is ' + o.age;
 *   })
 *   .head()
 *   .value();
-* // =&gt; &apos;pebbles is 1&apos;
+* // =&gt; 'pebbles is 1'
 */
 ...</pre></li>
     </ul>
@@ -16174,8 +16167,8 @@ function ary(func, n, guard) {
  * Foo.prototype.b = 2;
  * Bar.prototype.d = 4;
  *
- * _.<span class="apidocCodeKeywordSpan">assignIn</span>({ &apos;a&apos;: 0 }, new Foo, new Bar);
- * // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2, &apos;c&apos;: 3, &apos;d&apos;: 4 }
+ * _.<span class="apidocCodeKeywordSpan">assignIn</span>({ 'a': 0 }, new Foo, new Bar);
+ * // =&gt; { 'a': 1, 'b': 2, 'c': 3, 'd': 4 }
  */
 var assignIn = createAssigner(function(object, source) {
   copyObject(source, keysIn(source), object);
@@ -16196,7 +16189,7 @@ module.exports = assignIn;
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function before(n, func) {
   var result;
-  if (typeof func != &apos;function&apos;) {
+  if (typeof func != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   n = toInteger(n);
@@ -16218,12 +16211,12 @@ module.exports = assignIn;
  * @returns {Function} Returns the new restricted function.
  * @example
  *
- * jQuery(element).on(&apos;click&apos;, _.<span class="apidocCodeKeywordSpan">before</span>(5, addContactToList));
+ * jQuery(element).on('click', _.<span class="apidocCodeKeywordSpan">before</span>(5, addContactToList));
  * // =&gt; Allows adding up to 4 contacts to the list.
  */
 function before(n, func) {
 var result;
-if (typeof func != &apos;function&apos;) {
+if (typeof func != 'function') {
   throw new TypeError(FUNC_ERROR_TEXT);
 }
 ...</pre></li>
@@ -16258,19 +16251,19 @@ if (typeof func != &apos;function&apos;) {
     <li>example usage<pre class="apidocCodePre">...
 *
 * function greet(greeting, punctuation) {
-*   return greeting + &apos; &apos; + this.user + punctuation;
+*   return greeting + ' ' + this.user + punctuation;
 * }
 *
-* var object = { &apos;user&apos;: &apos;fred&apos; };
+* var object = { 'user': 'fred' };
 *
-* var bound = _.<span class="apidocCodeKeywordSpan">bind</span>(greet, object, &apos;hi&apos;);
-* bound(&apos;!&apos;);
-* // =&gt; &apos;hi fred!&apos;
+* var bound = _.<span class="apidocCodeKeywordSpan">bind</span>(greet, object, 'hi');
+* bound('!');
+* // =&gt; 'hi fred!'
 *
 * // Bound with placeholders.
-* var bound = _.bind(greet, object, _, &apos;!&apos;);
-* bound(&apos;hi&apos;);
-* // =&gt; &apos;hi fred!&apos;
+* var bound = _.bind(greet, object, _, '!');
+* bound('hi');
+* // =&gt; 'hi fred!'
 ...</pre></li>
     </ul>
 
@@ -16290,20 +16283,20 @@ if (typeof func != &apos;function&apos;) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36 },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40 },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1 }
+*   { 'user': 'barney',  'age': 36 },
+*   { 'user': 'fred',    'age': 40 },
+*   { 'user': 'pebbles', 'age': 1 }
 * ];
 *
 * var youngest = _
 *   .<span class="apidocCodeKeywordSpan">chain</span>(users)
-*   .sortBy(&apos;age&apos;)
+*   .sortBy('age')
 *   .map(function(o) {
-*     return o.user + &apos; is &apos; + o.age;
+*     return o.user + ' is ' + o.age;
 *   })
 *   .head()
 *   .value();
-* // =&gt; &apos;pebbles is 1&apos;
+* // =&gt; 'pebbles is 1'
 ...</pre></li>
     </ul>
 
@@ -16328,7 +16321,7 @@ if (typeof func != &apos;function&apos;) {
  * @see _.cloneDeep
  * @example
  *
- * var objects = [{ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }];
+ * var objects = [{ 'a': 1 }, { 'b': 2 }];
  *
  * var shallow = _.<span class="apidocCodeKeywordSpan">clone</span>(objects);
  * console.log(shallow[0] === objects[0]);
@@ -16360,7 +16353,7 @@ function clone(value) {
  * @returns {Array} Returns the new array of filtered values.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">compact</span>([0, 1, false, 2, &apos;&apos;, 3]);
+ * _.<span class="apidocCodeKeywordSpan">compact</span>([0, 1, false, 2, '', 3]);
  * // =&gt; [1, 2, 3]
  */
 function compact(array) {
@@ -16435,7 +16428,7 @@ var index = -1,
 * }
 *
 * Circle.prototype = _.<span class="apidocCodeKeywordSpan">create</span>(Shape.prototype, {
-*   &apos;constructor&apos;: Circle
+*   'constructor': Circle
 * });
 *
 * var circle = new Circle;
@@ -16479,8 +16472,8 @@ var index = -1,
    * @see _.defaultsDeep
    * @example
    *
-   * _.<span class="apidocCodeKeywordSpan">defaults</span>({ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }, { &apos;a&apos;: 3 });
-   * // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+   * _.<span class="apidocCodeKeywordSpan">defaults</span>({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
+   * // =&gt; { 'a': 1, 'b': 2 }
    */
   var defaults = baseRest(function(object, sources) {
 object = Object(object);
@@ -16526,8 +16519,8 @@ var length = sources.length;
  *
  * _.<span class="apidocCodeKeywordSpan">defer</span>(function(text) {
  *   console.log(text);
- * }, &apos;deferred&apos;);
- * // =&gt; Logs &apos;deferred&apos; after one millisecond.
+ * }, 'deferred');
+ * // =&gt; Logs 'deferred' after one millisecond.
  */
 var defer = baseRest(function(func, args) {
   return baseDelay(func, 1, args);
@@ -16571,8 +16564,8 @@ var defer = baseRest(function(func, args) {
  *
  * _.<span class="apidocCodeKeywordSpan">delay</span>(function(text) {
  *   console.log(text);
- * }, 1000, &apos;later&apos;);
- * // =&gt; Logs &apos;later&apos; after one second.
+ * }, 1000, 'later');
+ * // =&gt; Logs 'later' after one second.
  */
 var delay = baseRest(function(func, wait, args) {
   return baseDelay(func, toNumber(wait) || 0, args);
@@ -16614,12 +16607,12 @@ var delay = baseRest(function(func, wait, args) {
  * @since 0.1.0
  * @memberOf _
  * @category String
- * @param {string} [string=&apos;&apos;] The string to escape.
+ * @param {string} [string=''] The string to escape.
  * @returns {string} Returns the escaped string.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">escape</span>(&apos;fred, barney, &amp; pebbles&apos;);
- * // =&gt; &apos;fred, barney, &amp; pebbles&apos;
+ * _.<span class="apidocCodeKeywordSpan">escape</span>('fred, barney, &amp; pebbles');
+ * // =&gt; 'fred, barney, &amp; pebbles'
  */
 function escape(string) {
   string = toString(string);
@@ -16650,12 +16643,12 @@ function escape(string) {
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">every</span>([true, 1, null, &apos;yes&apos;], Boolean);
+* _.<span class="apidocCodeKeywordSpan">every</span>([true, 1, null, 'yes'], Boolean);
 * // =&gt; false
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;age&apos;: 40, &apos;active&apos;: false }
+*   { 'user': 'barney', 'age': 36, 'active': false },
+*   { 'user': 'fred',   'age': 40, 'active': false }
 * ];
 *
 ...</pre></li>
@@ -16706,12 +16699,12 @@ function escape(string) {
  * @example
  *
  * var objects = [
- *   { &apos;a&apos;: 2, &apos;b&apos;: 1 },
- *   { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+ *   { 'a': 2, 'b': 1 },
+ *   { 'a': 1, 'b': 2 }
  * ];
  *
- * _.<span class="apidocCodeKeywordSpan">filter</span>(objects, _.conforms({ &apos;b&apos;: function(n) { return n &gt; 1; } }));
- * // =&gt; [{ &apos;a&apos;: 1, &apos;b&apos;: 2 }]
+ * _.<span class="apidocCodeKeywordSpan">filter</span>(objects, _.conforms({ 'b': function(n) { return n &gt; 1; } }));
+ * // =&gt; [{ 'a': 1, 'b': 2 }]
  */
 function conforms(source) {
   return baseConforms(baseClone(source, CLONE_DEEP_FLAG));
@@ -16743,17 +16736,17 @@ module.exports = conforms;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40, &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1,  &apos;active&apos;: true }
+*   { 'user': 'barney',  'age': 36, 'active': true },
+*   { 'user': 'fred',    'age': 40, 'active': false },
+*   { 'user': 'pebbles', 'age': 1,  'active': true }
 * ];
 *
 * _.<span class="apidocCodeKeywordSpan">find</span>(users, function(o) { return o.age &lt; 40; });
-* // =&gt; object for &apos;barney&apos;
+* // =&gt; object for 'barney'
 *
 * // The `_.matches` iteratee shorthand.
-* _.find(users, { &apos;age&apos;: 1, &apos;active&apos;: true });
-* // =&gt; object for &apos;pebbles&apos;
+* _.find(users, { 'age': 1, 'active': true });
+* // =&gt; object for 'pebbles'
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -16850,19 +16843,19 @@ function flattenDeep(array) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  *
- * var saves = [&apos;profile&apos;, &apos;settings&apos;];
+ * var saves = ['profile', 'settings'];
  *
  * var done = _.after(saves.length, function() {
- *   console.log(&apos;done saving!&apos;);
+ *   console.log('done saving!');
  * });
  *
  * _.<span class="apidocCodeKeywordSpan">forEach</span>(saves, function(type) {
- *   asyncSave({ &apos;type&apos;: type, &apos;complete&apos;: done });
+ *   asyncSave({ 'type': type, 'complete': done });
  * });
- * // =&gt; Logs &apos;done saving!&apos; after the two async saves have completed.
+ * // =&gt; Logs 'done saving!' after the two async saves have completed.
  */
 function after(n, func) {
-if (typeof func != &apos;function&apos;) {
+if (typeof func != 'function') {
   throw new TypeError(FUNC_ERROR_TEXT);
 ...</pre></li>
     </ul>
@@ -16910,13 +16903,13 @@ module.exports = cacheHas;
  *
  * var youngest = _
  *   .chain(users)
- *   .sortBy(&apos;age&apos;)
+ *   .sortBy('age')
  *   .map(function(o) {
- *     return o.user + &apos; is &apos; + o.age;
+ *     return o.user + ' is ' + o.age;
  *   })
  *   .<span class="apidocCodeKeywordSpan">head</span>()
  *   .value();
- * // =&gt; &apos;pebbles is 1&apos;
+ * // =&gt; 'pebbles is 1'
  */
 function chain(value) {
 var result = lodash(value);
@@ -16943,7 +16936,7 @@ return result;
  * @returns {*} Returns `value`.
  * @example
  *
- * var object = { &apos;a&apos;: 1 };
+ * var object = { 'a': 1 };
  *
  * console.log(_.<span class="apidocCodeKeywordSpan">identity</span>(object) === object);
  * // =&gt; true
@@ -16967,7 +16960,7 @@ function identity(value) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function indexOf(array, value, fromIndex) {
   var length = array == null ? 0 : array.length;
-  if (typeof fromIndex == &apos;number&apos;) {
+  if (typeof fromIndex == 'number') {
     fromIndex = fromIndex &lt; 0 ? nativeMax(length + fromIndex, 0) : fromIndex;
   } else {
     fromIndex = 0;
@@ -17012,8 +17005,8 @@ function indexOf(array, value, fromIndex) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">isArguments = function (value) {
-  return isObjectLike(value) &amp;&amp; hasOwnProperty.call(value, &apos;callee&apos;) &amp;&amp;
-    !propertyIsEnumerable.call(value, &apos;callee&apos;);
+  return isObjectLike(value) &amp;&amp; hasOwnProperty.call(value, 'callee') &amp;&amp;
+    !propertyIsEnumerable.call(value, 'callee');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * @since 0.1.0
@@ -17030,7 +17023,7 @@ function indexOf(array, value, fromIndex) {
  * // =&gt; false
  */
 var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsArguments : function(value) {
-  return isObjectLike(value) &amp;&amp; hasOwnProperty.call(value, &apos;callee&apos;) &amp;&amp;
+  return isObjectLike(value) &amp;&amp; hasOwnProperty.call(value, 'callee') &amp;&amp;
 ...</pre></li>
     </ul>
 
@@ -17118,7 +17111,7 @@ function isBoolean(value) {
  * _.<span class="apidocCodeKeywordSpan">isDate</span>(new Date);
  * // =&gt; true
  *
- * _.isDate(&apos;Mon April 23 2012&apos;);
+ * _.isDate('Mon April 23 2012');
  * // =&gt; false
  */
 var isDate = baseIsDate;
@@ -17178,8 +17171,8 @@ var isDate = baseIsDate;
  * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
  * @example
  *
- * var object = { &apos;a&apos;: 1 };
- * var other = { &apos;a&apos;: 1 };
+ * var object = { 'a': 1 };
+ * var other = { 'a': 1 };
  *
  * _.<span class="apidocCodeKeywordSpan">isEqual</span>(object, other);
  * // =&gt; true
@@ -17202,7 +17195,7 @@ function isEqual(value, other) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isFinite(value) {
-  return typeof value == &apos;number&apos; &amp;&amp; nativeIsFinite(value);
+  return typeof value == 'number' &amp;&amp; nativeIsFinite(value);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * @memberOf _
@@ -17237,7 +17230,7 @@ function isEqual(value, other) {
     return false;
   }
   // The use of `Object#toString` avoids issues with the `typeof` operator
-  // in Safari 9 which returns &apos;object&apos; for typed arrays and other constructors.
+  // in Safari 9 which returns 'object' for typed arrays and other constructors.
   var tag = baseGetTag(value);
   return tag == funcTag || tag == genTag || tag == asyncTag || tag == proxyTag;
 }</pre></li>
@@ -17335,7 +17328,7 @@ function isNull(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isNumber(value) {
-  return typeof value == &apos;number&apos; ||
+  return typeof value == 'number' ||
     (isObjectLike(value) &amp;&amp; baseGetTag(value) == numberTag);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -17368,7 +17361,7 @@ function isNull(value) {
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isObject(value) {
   var type = typeof value;
-  return value != null &amp;&amp; (type == &apos;object&apos; || type == &apos;function&apos;);
+  return value != null &amp;&amp; (type == 'object' || type == 'function');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * @memberOf _
@@ -17412,7 +17405,7 @@ function isNull(value) {
  * _.<span class="apidocCodeKeywordSpan">isRegExp</span>(/abc/);
  * // =&gt; true
  *
- * _.isRegExp(&apos;/abc/&apos;);
+ * _.isRegExp('/abc/');
  * // =&gt; false
  */
 var isRegExp = baseIsRegExp;
@@ -17429,7 +17422,7 @@ var isRegExp = baseIsRegExp;
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isString(value) {
-  return typeof value == &apos;string&apos; ||
+  return typeof value == 'string' ||
     (!isArray(value) &amp;&amp; isObjectLike(value) &amp;&amp; baseGetTag(value) == stringTag);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -17440,14 +17433,14 @@ var isRegExp = baseIsRegExp;
  * @returns {boolean} Returns `true` if `value` is a string, else `false`.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">isString</span>(&apos;abc&apos;);
+ * _.<span class="apidocCodeKeywordSpan">isString</span>('abc');
  * // =&gt; true
  *
  * _.isString(1);
  * // =&gt; false
  */
 function isString(value) {
-  return typeof value == &apos;string&apos; ||
+  return typeof value == 'string' ||
 ...</pre></li>
     </ul>
 
@@ -17476,8 +17469,8 @@ function isString(value) {
 *
 * var defaults = _.partialRight(_.assignInWith, customizer);
 *
-* defaults({ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }, { &apos;a&apos;: 3 });
-* // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+* defaults({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
+* // =&gt; { 'a': 1, 'b': 2 }
 */
 ...</pre></li>
     </ul>
@@ -17492,29 +17485,29 @@ function isString(value) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function baseIteratee(func) {
-  if (typeof func == &apos;function&apos;) {
+  if (typeof func == 'function') {
     return func;
   }
   if (func == null) {
     return identity;
   }
-  return (typeof func == &apos;object&apos; ? baseMatches : baseProperty)(func);
+  return (typeof func == 'object' ? baseMatches : baseProperty)(func);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;age&apos;: 40, &apos;active&apos;: false }
+*   { 'user': 'barney', 'age': 36, 'active': true },
+*   { 'user': 'fred',   'age': 40, 'active': false }
 * ];
 *
 * // The `_.matches` iteratee shorthand.
-* _.filter(users, _.<span class="apidocCodeKeywordSpan">iteratee</span>({ &apos;user&apos;: &apos;barney&apos;, &apos;active&apos
+* _.filter(users, _.<span class="apidocCodeKeywordSpan">iteratee</span>({ 'user': 'barney', 'active&amp;apos
 ;: true }));
-* // =&gt; [{ &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: true }]
+* // =&gt; [{ 'user': 'barney', 'age': 36, 'active': true }]
 *
 * // The `_.matchesProperty` iteratee shorthand.
-* _.filter(users, _.iteratee([&apos;user&apos;, &apos;fred&apos;]));
-* // =&gt; [{ &apos;user&apos;: &apos;fred&apos;, &apos;age&apos;: 40 }]
+* _.filter(users, _.iteratee(['user', 'fred']));
+* // =&gt; [{ 'user': 'fred', 'age': 40 }]
 *
 * // The `_.property` iteratee shorthand.
 ...</pre></li>
@@ -17541,10 +17534,10 @@ function isString(value) {
  * Foo.prototype.c = 3;
  *
  * _.<span class="apidocCodeKeywordSpan">keys</span>(new Foo);
- * // =&gt; [&apos;a&apos;, &apos;b&apos;] (iteration order is not guaranteed)
+ * // =&gt; ['a', 'b'] (iteration order is not guaranteed)
  *
- * _.keys(&apos;hi&apos;);
- * // =&gt; [&apos;0&apos;, &apos;1&apos;]
+ * _.keys('hi');
+ * // =&gt; ['0', '1']
  */
 var keys = nativeKeys;
 ...</pre></li>
@@ -17602,7 +17595,7 @@ return new LodashWrapper(this.value(), this.__chain__);
  * @returns {Function} Returns the new capped function.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">map</span>([&apos;6&apos;, &apos;8&apos;, &apos;10&apos;], _.ary(parseInt, 1));
+ * _.<span class="apidocCodeKeywordSpan">map</span>(['6', '8', '10'], _.ary(parseInt, 1));
  * // =&gt; [6, 8, 10]
  */
 function ary(func, n, guard) {
@@ -17633,13 +17626,13 @@ function ary(func, n, guard) {
 * @example
 *
 * var func = _.cond([
-*   [_.<span class="apidocCodeKeywordSpan">matches</span>({ &apos;a&apos;: 1 }),           _.constant(&apos;matches A&apos;)],
-*   [_.conforms({ &apos;b&apos;: _.isNumber }), _.constant(&apos;matches B&apos;)],
-*   [_.stubTrue,                      _.constant(&apos;no match&apos;)]
+*   [_.<span class="apidocCodeKeywordSpan">matches</span>({ 'a': 1 }),           _.constant('matches A')],
+*   [_.conforms({ 'b': _.isNumber }), _.constant('matches B')],
+*   [_.stubTrue,                      _.constant('no match')]
 * ]);
 *
-* func({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
-* // =&gt; &apos;matches A&apos;
+* func({ 'a': 1, 'b': 2 });
+* // =&gt; 'matches A'
 *
 ...</pre></li>
     </ul>
@@ -17730,7 +17723,7 @@ function min(array) {
     object = this;
     methodNames = baseFunctions(source, keys(source));
   }
-  var chain = !(isObject(options) &amp;&amp; &apos;chain&apos; in options) || !!options.chain,
+  var chain = !(isObject(options) &amp;&amp; 'chain' in options) || !!options.chain,
       isFunc = isFunction(object);
 
   baseEach(methodNames, function(methodName) {
@@ -17743,7 +17736,7 @@ function min(array) {
           var result = object(this.__wrapped__),
               actions = result.__actions__ = copyArray(this.__actions__);
 
-          actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+          actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
           result.__chain__ = chainAll;
           return result;
         }
@@ -17762,14 +17755,14 @@ function min(array) {
 *   });
 * }
 *
-* _.<span class="apidocCodeKeywordSpan">mixin</span>({ &apos;vowels&apos;: vowels });
-* _.vowels(&apos;fred&apos;);
-* // =&gt; [&apos;e&apos;]
+* _.<span class="apidocCodeKeywordSpan">mixin</span>({ 'vowels': vowels });
+* _.vowels('fred');
+* // =&gt; ['e']
 *
-* _(&apos;fred&apos;).vowels().value();
-* // =&gt; [&apos;e&apos;]
+* _('fred').vowels().value();
+* // =&gt; ['e']
 *
-* _.mixin({ &apos;vowels&apos;: vowels }, { &apos;chain&apos;: false });
+* _.mixin({ 'vowels': vowels }, { 'chain': false });
 ...</pre></li>
     </ul>
 
@@ -17783,7 +17776,7 @@ function min(array) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function negate(predicate) {
-  if (typeof predicate != &apos;function&apos;) {
+  if (typeof predicate != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   return function() {
@@ -17803,7 +17796,7 @@ function min(array) {
  * // =&gt; [1, 3, 5]
  */
 function negate(predicate) {
-  if (typeof predicate != &apos;function&apos;) {
+  if (typeof predicate != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   return function() {
@@ -17918,15 +17911,15 @@ function once(func) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * _(users).head();
- * // =&gt; { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36 }
+ * // =&gt; { 'user': 'barney', 'age': 36 }
  *
  * // A sequence with explicit chaining.
  * _(users)
  *   .chain()
  *   .head()
- *   .<span class="apidocCodeKeywordSpan">pick</span>(&apos;user&apos;)
+ *   .<span class="apidocCodeKeywordSpan">pick</span>('user')
  *   .value();
- * // =&gt; { &apos;user&apos;: &apos;barney&apos; }
+ * // =&gt; { 'user': 'barney' }
  */
 function wrapperChain() {
   return chain(this);
@@ -17987,16 +17980,16 @@ function wrapperChain() {
 * @returns {*} Returns the resolved value.
 * @example
 *
-* var object = { &apos;a&apos;: [{ &apos;b&apos;: { &apos;c1&apos;: 3, &apos;c2&apos;: _.constant(4) } }] };
+* var object = { 'a': [{ 'b': { 'c1': 3, 'c2': _.constant(4) } }] };
 *
-* _.<span class="apidocCodeKeywordSpan">result</span>(object, &apos;a[0].b.c1&apos;);
+* _.<span class="apidocCodeKeywordSpan">result</span>(object, 'a[0].b.c1');
 * // =&gt; 3
 *
-* _.result(object, &apos;a[0].b.c2&apos;);
+* _.result(object, 'a[0].b.c2');
 * // =&gt; 4
 *
-* _.result(object, &apos;a[0].b.c3&apos;, &apos;default&apos;);
-* // =&gt; &apos;default&apos;
+* _.result(object, 'a[0].b.c3', 'default');
+* // =&gt; 'default'
 ...</pre></li>
     </ul>
 
@@ -18027,10 +18020,10 @@ function wrapperChain() {
 * _.<span class="apidocCodeKeywordSpan">size</span>([1, 2, 3]);
 * // =&gt; 3
 *
-* _.size({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
+* _.size({ 'a': 1, 'b': 2 });
 * // =&gt; 2
 *
-* _.size(&apos;pebbles&apos;);
+* _.size('pebbles');
 * // =&gt; 7
 ...</pre></li>
     </ul>
@@ -18090,12 +18083,12 @@ function cloneBuffer(buffer, isDeep) {
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">some</span>([null, 0, &apos;yes&apos;, false], Boolean);
+* _.<span class="apidocCodeKeywordSpan">some</span>([null, 0, 'yes', false], Boolean);
 * // =&gt; true
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;active&apos;: false }
+*   { 'user': 'barney', 'active': true },
+*   { 'user': 'fred',   'active': false }
 * ];
 *
 ...</pre></li>
@@ -18115,26 +18108,26 @@ function cloneBuffer(buffer, isDeep) {
   iteratee = baseIteratee(iteratee);
 
   return baseMap(baseMap(collection, function(value, key, collection) {
-    return { &apos;value&apos;: value, &apos;index&apos;: index++, &apos;criteria&apos;: iteratee(value, key, collection) };
+    return { 'value': value, 'index': index++, 'criteria': iteratee(value, key, collection) };
   }).sort(function(object, other) {
     return compareAscending(object.criteria, other.criteria) || (object.index - other.index);
-  }), baseProperty(&apos;value&apos;));
+  }), baseProperty('value'));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36 },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40 },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1 }
+*   { 'user': 'barney',  'age': 36 },
+*   { 'user': 'fred',    'age': 40 },
+*   { 'user': 'pebbles', 'age': 1 }
 * ];
 *
 * var youngest = _
 *   .chain(users)
-*   .<span class="apidocCodeKeywordSpan">sortBy</span>(&apos;age&apos;)
+*   .<span class="apidocCodeKeywordSpan">sortBy</span>('age')
 *   .map(function(o) {
-*     return o.user + &apos; is &apos; + o.age;
+*     return o.user + ' is ' + o.age;
 *   })
 *   .head()
 *   .value();
-* // =&gt; &apos;pebbles is 1&apos;
+* // =&gt; 'pebbles is 1'
 */
 ...</pre></li>
     </ul>
@@ -18188,14 +18181,14 @@ function cloneBuffer(buffer, isDeep) {
  * @returns {*} Returns the result of `interceptor`.
  * @example
  *
- * _(&apos;  abc  &apos;)
+ * _('  abc  ')
  *  .chain()
  *  .trim()
  *  .<span class="apidocCodeKeywordSpan">thru</span>(function(value) {
  *    return [value];
  *  })
  *  .value();
- * // =&gt; [&apos;abc&apos;]
+ * // =&gt; ['abc']
  */
 function thru(value, interceptor) {
   return interceptor(value);
@@ -18225,11 +18218,11 @@ function thru(value, interceptor) {
 * @returns {Array} Returns the converted array.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">toArray</span>({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
+* _.<span class="apidocCodeKeywordSpan">toArray</span>({ 'a': 1, 'b': 2 });
 * // =&gt; [1, 2]
 *
-* _.toArray(&apos;abc&apos;);
-* // =&gt; [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]
+* _.toArray('abc');
+* // =&gt; ['a', 'b', 'c']
 *
 * _.toArray(1);
 * // =&gt; []
@@ -18253,15 +18246,15 @@ function thru(value, interceptor) {
  * @since 0.1.0
  * @memberOf _
  * @category Util
- * @param {string} [prefix=&apos;&apos;] The value to prefix the ID with.
+ * @param {string} [prefix=''] The value to prefix the ID with.
  * @returns {string} Returns the unique ID.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">uniqueId</span>(&apos;contact_&apos;);
- * // =&gt; &apos;contact_104&apos;
+ * _.<span class="apidocCodeKeywordSpan">uniqueId</span>('contact_');
+ * // =&gt; 'contact_104'
  *
  * _.uniqueId();
- * // =&gt; &apos;105&apos;
+ * // =&gt; '105'
  */
 function uniqueId(prefix) {
   var id = ++idCounter;
@@ -18291,8 +18284,8 @@ function uniqueId(prefix) {
  * _.<span class="apidocCodeKeywordSpan">values</span>(new Foo);
  * // =&gt; [1, 2] (iteration order is not guaranteed)
  *
- * _.values(&apos;hi&apos;);
- * // =&gt; [&apos;h&apos;, &apos;i&apos;]
+ * _.values('hi');
+ * // =&gt; ['h', 'i']
  */
 function values(object) {
   return object == null ? [] : baseValues(object, keys(object));
@@ -18321,7 +18314,7 @@ function values(object) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18335,8 +18328,8 @@ function values(object) {
  * Foo.prototype.b = 2;
  * Bar.prototype.d = 4;
  *
- * _.<span class="apidocCodeKeywordSpan">assignIn</span>({ &apos;a&apos;: 0 }, new Foo, new Bar);
- * // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2, &apos;c&apos;: 3, &apos;d&apos;: 4 }
+ * _.<span class="apidocCodeKeywordSpan">assignIn</span>({ 'a': 0 }, new Foo, new Bar);
+ * // =&gt; { 'a': 1, 'b': 2, 'c': 3, 'd': 4 }
  */
 var assignIn = createAssigner(function(object, source) {
   copyObject(source, keysIn(source), object);
@@ -18361,7 +18354,7 @@ module.exports = assignIn;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18375,12 +18368,12 @@ module.exports = assignIn;
  * @returns {Function} Returns the new restricted function.
  * @example
  *
- * jQuery(element).on(&apos;click&apos;, _.<span class="apidocCodeKeywordSpan">before</span>(5, addContactToList));
+ * jQuery(element).on('click', _.<span class="apidocCodeKeywordSpan">before</span>(5, addContactToList));
  * // =&gt; Allows adding up to 4 contacts to the list.
  */
 function before(n, func) {
 var result;
-if (typeof func != &apos;function&apos;) {
+if (typeof func != 'function') {
   throw new TypeError(FUNC_ERROR_TEXT);
 }
 ...</pre></li>
@@ -18401,7 +18394,7 @@ if (typeof func != &apos;function&apos;) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18410,19 +18403,19 @@ if (typeof func != &apos;function&apos;) {
     <li>example usage<pre class="apidocCodePre">...
 *
 * function greet(greeting, punctuation) {
-*   return greeting + &apos; &apos; + this.user + punctuation;
+*   return greeting + ' ' + this.user + punctuation;
 * }
 *
-* var object = { &apos;user&apos;: &apos;fred&apos; };
+* var object = { 'user': 'fred' };
 *
-* var bound = _.<span class="apidocCodeKeywordSpan">bind</span>(greet, object, &apos;hi&apos;);
-* bound(&apos;!&apos;);
-* // =&gt; &apos;hi fred!&apos;
+* var bound = _.<span class="apidocCodeKeywordSpan">bind</span>(greet, object, 'hi');
+* bound('!');
+* // =&gt; 'hi fred!'
 *
 * // Bound with placeholders.
-* var bound = _.bind(greet, object, _, &apos;!&apos;);
-* bound(&apos;hi&apos;);
-* // =&gt; &apos;hi fred!&apos;
+* var bound = _.bind(greet, object, _, '!');
+* bound('hi');
+* // =&gt; 'hi fred!'
 ...</pre></li>
     </ul>
 
@@ -18441,7 +18434,7 @@ if (typeof func != &apos;function&apos;) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18449,20 +18442,20 @@ if (typeof func != &apos;function&apos;) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36 },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40 },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1 }
+*   { 'user': 'barney',  'age': 36 },
+*   { 'user': 'fred',    'age': 40 },
+*   { 'user': 'pebbles', 'age': 1 }
 * ];
 *
 * var youngest = _
 *   .<span class="apidocCodeKeywordSpan">chain</span>(users)
-*   .sortBy(&apos;age&apos;)
+*   .sortBy('age')
 *   .map(function(o) {
-*     return o.user + &apos; is &apos; + o.age;
+*     return o.user + ' is ' + o.age;
 *   })
 *   .head()
 *   .value();
-* // =&gt; &apos;pebbles is 1&apos;
+* // =&gt; 'pebbles is 1'
 ...</pre></li>
     </ul>
 
@@ -18481,7 +18474,7 @@ if (typeof func != &apos;function&apos;) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18493,7 +18486,7 @@ if (typeof func != &apos;function&apos;) {
  * @see _.cloneDeep
  * @example
  *
- * var objects = [{ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }];
+ * var objects = [{ 'a': 1 }, { 'b': 2 }];
  *
  * var shallow = _.<span class="apidocCodeKeywordSpan">clone</span>(objects);
  * console.log(shallow[0] === objects[0]);
@@ -18520,7 +18513,7 @@ function clone(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18534,7 +18527,7 @@ function clone(value) {
  * @returns {Array} Returns the new array of filtered values.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">compact</span>([0, 1, false, 2, &apos;&apos;, 3]);
+ * _.<span class="apidocCodeKeywordSpan">compact</span>([0, 1, false, 2, '', 3]);
  * // =&gt; [1, 2, 3]
  */
 function compact(array) {
@@ -18560,7 +18553,7 @@ var index = -1,
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18600,7 +18593,7 @@ var index = -1,
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18615,7 +18608,7 @@ var index = -1,
 * }
 *
 * Circle.prototype = _.<span class="apidocCodeKeywordSpan">create</span>(Shape.prototype, {
-*   &apos;constructor&apos;: Circle
+*   'constructor': Circle
 * });
 *
 * var circle = new Circle;
@@ -18640,7 +18633,7 @@ var index = -1,
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18654,8 +18647,8 @@ var index = -1,
    * @see _.defaultsDeep
    * @example
    *
-   * _.<span class="apidocCodeKeywordSpan">defaults</span>({ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }, { &apos;a&apos;: 3 });
-   * // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+   * _.<span class="apidocCodeKeywordSpan">defaults</span>({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
+   * // =&gt; { 'a': 1, 'b': 2 }
    */
   var defaults = baseRest(function(object, sources) {
 object = Object(object);
@@ -18680,7 +18673,7 @@ var length = sources.length;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18696,8 +18689,8 @@ var length = sources.length;
  *
  * _.<span class="apidocCodeKeywordSpan">defer</span>(function(text) {
  *   console.log(text);
- * }, &apos;deferred&apos;);
- * // =&gt; Logs &apos;deferred&apos; after one millisecond.
+ * }, 'deferred');
+ * // =&gt; Logs 'deferred' after one millisecond.
  */
 var defer = baseRest(function(func, args) {
   return baseDelay(func, 1, args);
@@ -18720,7 +18713,7 @@ var defer = baseRest(function(func, args) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18736,8 +18729,8 @@ var defer = baseRest(function(func, args) {
  *
  * _.<span class="apidocCodeKeywordSpan">delay</span>(function(text) {
  *   console.log(text);
- * }, 1000, &apos;later&apos;);
- * // =&gt; Logs &apos;later&apos; after one second.
+ * }, 1000, 'later');
+ * // =&gt; Logs 'later' after one second.
  */
 var delay = baseRest(function(func, wait, args) {
   return baseDelay(func, toNumber(wait) || 0, args);
@@ -18760,7 +18753,7 @@ var delay = baseRest(function(func, wait, args) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18784,7 +18777,7 @@ var delay = baseRest(function(func, wait, args) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18794,12 +18787,12 @@ var delay = baseRest(function(func, wait, args) {
  * @since 0.1.0
  * @memberOf _
  * @category String
- * @param {string} [string=&apos;&apos;] The string to escape.
+ * @param {string} [string=''] The string to escape.
  * @returns {string} Returns the escaped string.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">escape</span>(&apos;fred, barney, &amp; pebbles&apos;);
- * // =&gt; &apos;fred, barney, &amp; pebbles&apos;
+ * _.<span class="apidocCodeKeywordSpan">escape</span>('fred, barney, &amp; pebbles');
+ * // =&gt; 'fred, barney, &amp; pebbles'
  */
 function escape(string) {
   string = toString(string);
@@ -18824,7 +18817,7 @@ function escape(string) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18838,12 +18831,12 @@ function escape(string) {
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">every</span>([true, 1, null, &apos;yes&apos;], Boolean);
+* _.<span class="apidocCodeKeywordSpan">every</span>([true, 1, null, 'yes'], Boolean);
 * // =&gt; false
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;age&apos;: 40, &apos;active&apos;: false }
+*   { 'user': 'barney', 'age': 36, 'active': false },
+*   { 'user': 'fred',   'age': 40, 'active': false }
 * ];
 *
 ...</pre></li>
@@ -18864,7 +18857,7 @@ function escape(string) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18888,7 +18881,7 @@ function escape(string) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18898,12 +18891,12 @@ function escape(string) {
  * @example
  *
  * var objects = [
- *   { &apos;a&apos;: 2, &apos;b&apos;: 1 },
- *   { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+ *   { 'a': 2, 'b': 1 },
+ *   { 'a': 1, 'b': 2 }
  * ];
  *
- * _.<span class="apidocCodeKeywordSpan">filter</span>(objects, _.conforms({ &apos;b&apos;: function(n) { return n &gt; 1; } }));
- * // =&gt; [{ &apos;a&apos;: 1, &apos;b&apos;: 2 }]
+ * _.<span class="apidocCodeKeywordSpan">filter</span>(objects, _.conforms({ 'b': function(n) { return n &gt; 1; } }));
+ * // =&gt; [{ 'a': 1, 'b': 2 }]
  */
 function conforms(source) {
   return baseConforms(baseClone(source, CLONE_DEEP_FLAG));
@@ -18928,7 +18921,7 @@ module.exports = conforms;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18937,17 +18930,17 @@ module.exports = conforms;
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40, &apos;active&apos;: false },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1,  &apos;active&apos;: true }
+*   { 'user': 'barney',  'age': 36, 'active': true },
+*   { 'user': 'fred',    'age': 40, 'active': false },
+*   { 'user': 'pebbles', 'age': 1,  'active': true }
 * ];
 *
 * _.<span class="apidocCodeKeywordSpan">find</span>(users, function(o) { return o.age &lt; 40; });
-* // =&gt; object for &apos;barney&apos;
+* // =&gt; object for 'barney'
 *
 * // The `_.matches` iteratee shorthand.
-* _.find(users, { &apos;age&apos;: 1, &apos;active&apos;: true });
-* // =&gt; object for &apos;pebbles&apos;
+* _.find(users, { 'age': 1, 'active': true });
+* // =&gt; object for 'pebbles'
 *
 * // The `_.matchesProperty` iteratee shorthand.
 ...</pre></li>
@@ -18968,7 +18961,7 @@ module.exports = conforms;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -18992,7 +18985,7 @@ module.exports = conforms;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19031,7 +19024,7 @@ function flatten(array) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19070,7 +19063,7 @@ function flattenDeep(array) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19078,19 +19071,19 @@ function flattenDeep(array) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  *
- * var saves = [&apos;profile&apos;, &apos;settings&apos;];
+ * var saves = ['profile', 'settings'];
  *
  * var done = _.after(saves.length, function() {
- *   console.log(&apos;done saving!&apos;);
+ *   console.log('done saving!');
  * });
  *
  * _.<span class="apidocCodeKeywordSpan">forEach</span>(saves, function(type) {
- *   asyncSave({ &apos;type&apos;: type, &apos;complete&apos;: done });
+ *   asyncSave({ 'type': type, 'complete': done });
  * });
- * // =&gt; Logs &apos;done saving!&apos; after the two async saves have completed.
+ * // =&gt; Logs 'done saving!' after the two async saves have completed.
  */
 function after(n, func) {
-if (typeof func != &apos;function&apos;) {
+if (typeof func != 'function') {
   throw new TypeError(FUNC_ERROR_TEXT);
 ...</pre></li>
     </ul>
@@ -19110,7 +19103,7 @@ if (typeof func != &apos;function&apos;) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19146,7 +19139,7 @@ module.exports = cacheHas;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19156,13 +19149,13 @@ module.exports = cacheHas;
  *
  * var youngest = _
  *   .chain(users)
- *   .sortBy(&apos;age&apos;)
+ *   .sortBy('age')
  *   .map(function(o) {
- *     return o.user + &apos; is &apos; + o.age;
+ *     return o.user + ' is ' + o.age;
  *   })
  *   .<span class="apidocCodeKeywordSpan">head</span>()
  *   .value();
- * // =&gt; &apos;pebbles is 1&apos;
+ * // =&gt; 'pebbles is 1'
  */
 function chain(value) {
 var result = lodash(value);
@@ -19186,7 +19179,7 @@ return result;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19198,7 +19191,7 @@ return result;
  * @returns {*} Returns `value`.
  * @example
  *
- * var object = { &apos;a&apos;: 1 };
+ * var object = { 'a': 1 };
  *
  * console.log(_.<span class="apidocCodeKeywordSpan">identity</span>(object) === object);
  * // =&gt; true
@@ -19226,7 +19219,7 @@ function identity(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19266,7 +19259,7 @@ function indexOf(array, value, fromIndex) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19287,7 +19280,7 @@ function indexOf(array, value, fromIndex) {
  * // =&gt; false
  */
 var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsArguments : function(value) {
-  return isObjectLike(value) &amp;&amp; hasOwnProperty.call(value, &apos;callee&apos;) &amp;&amp;
+  return isObjectLike(value) &amp;&amp; hasOwnProperty.call(value, 'callee') &amp;&amp;
 ...</pre></li>
     </ul>
 
@@ -19306,7 +19299,7 @@ var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsAr
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19346,7 +19339,7 @@ function lodash(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19386,7 +19379,7 @@ function isBoolean(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19403,7 +19396,7 @@ function isBoolean(value) {
  * _.<span class="apidocCodeKeywordSpan">isDate</span>(new Date);
  * // =&gt; true
  *
- * _.isDate(&apos;Mon April 23 2012&apos;);
+ * _.isDate('Mon April 23 2012');
  * // =&gt; false
  */
 var isDate = baseIsDate;
@@ -19425,7 +19418,7 @@ var isDate = baseIsDate;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19465,7 +19458,7 @@ var isDate = baseIsDate;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19476,8 +19469,8 @@ var isDate = baseIsDate;
  * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
  * @example
  *
- * var object = { &apos;a&apos;: 1 };
- * var other = { &apos;a&apos;: 1 };
+ * var object = { 'a': 1 };
+ * var other = { 'a': 1 };
  *
  * _.<span class="apidocCodeKeywordSpan">isEqual</span>(object, other);
  * // =&gt; true
@@ -19505,7 +19498,7 @@ function isEqual(value, other) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19545,7 +19538,7 @@ function isEqual(value, other) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19585,7 +19578,7 @@ function isFunction(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19625,7 +19618,7 @@ function isFunction(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19665,7 +19658,7 @@ function isNull(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19705,7 +19698,7 @@ function isNull(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19745,7 +19738,7 @@ function isNull(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19762,7 +19755,7 @@ function isNull(value) {
  * _.<span class="apidocCodeKeywordSpan">isRegExp</span>(/abc/);
  * // =&gt; true
  *
- * _.isRegExp(&apos;/abc/&apos;);
+ * _.isRegExp('/abc/');
  * // =&gt; false
  */
 var isRegExp = baseIsRegExp;
@@ -19784,7 +19777,7 @@ var isRegExp = baseIsRegExp;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19798,14 +19791,14 @@ var isRegExp = baseIsRegExp;
  * @returns {boolean} Returns `true` if `value` is a string, else `false`.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">isString</span>(&apos;abc&apos;);
+ * _.<span class="apidocCodeKeywordSpan">isString</span>('abc');
  * // =&gt; true
  *
  * _.isString(1);
  * // =&gt; false
  */
 function isString(value) {
-  return typeof value == &apos;string&apos; ||
+  return typeof value == 'string' ||
 ...</pre></li>
     </ul>
 
@@ -19824,7 +19817,7 @@ function isString(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19843,8 +19836,8 @@ function isString(value) {
 *
 * var defaults = _.partialRight(_.assignInWith, customizer);
 *
-* defaults({ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }, { &apos;a&apos;: 3 });
-* // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+* defaults({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
+* // =&gt; { 'a': 1, 'b': 2 }
 */
 ...</pre></li>
     </ul>
@@ -19864,7 +19857,7 @@ function isString(value) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19873,18 +19866,18 @@ function isString(value) {
     <li>example usage<pre class="apidocCodePre">...
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;age&apos;: 40, &apos;active&apos;: false }
+*   { 'user': 'barney', 'age': 36, 'active': true },
+*   { 'user': 'fred',   'age': 40, 'active': false }
 * ];
 *
 * // The `_.matches` iteratee shorthand.
-* _.filter(users, _.<span class="apidocCodeKeywordSpan">iteratee</span>({ &apos;user&apos;: &apos;barney&apos;, &apos;active&apos
+* _.filter(users, _.<span class="apidocCodeKeywordSpan">iteratee</span>({ 'user': 'barney', 'active&amp;apos
 ;: true }));
-* // =&gt; [{ &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36, &apos;active&apos;: true }]
+* // =&gt; [{ 'user': 'barney', 'age': 36, 'active': true }]
 *
 * // The `_.matchesProperty` iteratee shorthand.
-* _.filter(users, _.iteratee([&apos;user&apos;, &apos;fred&apos;]));
-* // =&gt; [{ &apos;user&apos;: &apos;fred&apos;, &apos;age&apos;: 40 }]
+* _.filter(users, _.iteratee(['user', 'fred']));
+* // =&gt; [{ 'user': 'fred', 'age': 40 }]
 *
 * // The `_.property` iteratee shorthand.
 ...</pre></li>
@@ -19917,7 +19910,7 @@ function isString(value) {
       : string.charAt(0);
 
     var trailing = strSymbols
-      ? castSlice(strSymbols, 1).<span class="apidocCodeKeywordSpan">join</span>(&apos;&apos;)
+      ? castSlice(strSymbols, 1).<span class="apidocCodeKeywordSpan">join</span>('')
       : string.slice(1);
 
     return chr[methodName]() + trailing;
@@ -19943,7 +19936,7 @@ module.exports = createCaseFirst;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -19958,10 +19951,10 @@ module.exports = createCaseFirst;
  * Foo.prototype.c = 3;
  *
  * _.<span class="apidocCodeKeywordSpan">keys</span>(new Foo);
- * // =&gt; [&apos;a&apos;, &apos;b&apos;] (iteration order is not guaranteed)
+ * // =&gt; ['a', 'b'] (iteration order is not guaranteed)
  *
- * _.keys(&apos;hi&apos;);
- * // =&gt; [&apos;0&apos;, &apos;1&apos;]
+ * _.keys('hi');
+ * // =&gt; ['0', '1']
  */
 var keys = nativeKeys;
 ...</pre></li>
@@ -19982,7 +19975,7 @@ var keys = nativeKeys;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20022,7 +20015,7 @@ return new LodashWrapper(this.value(), this.__chain__);
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20036,7 +20029,7 @@ return new LodashWrapper(this.value(), this.__chain__);
  * @returns {Function} Returns the new capped function.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">map</span>([&apos;6&apos;, &apos;8&apos;, &apos;10&apos;], _.ary(parseInt, 1));
+ * _.<span class="apidocCodeKeywordSpan">map</span>(['6', '8', '10'], _.ary(parseInt, 1));
  * // =&gt; [6, 8, 10]
  */
 function ary(func, n, guard) {
@@ -20062,7 +20055,7 @@ function ary(func, n, guard) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20076,13 +20069,13 @@ function ary(func, n, guard) {
 * @example
 *
 * var func = _.cond([
-*   [_.<span class="apidocCodeKeywordSpan">matches</span>({ &apos;a&apos;: 1 }),           _.constant(&apos;matches A&apos;)],
-*   [_.conforms({ &apos;b&apos;: _.isNumber }), _.constant(&apos;matches B&apos;)],
-*   [_.stubTrue,                      _.constant(&apos;no match&apos;)]
+*   [_.<span class="apidocCodeKeywordSpan">matches</span>({ 'a': 1 }),           _.constant('matches A')],
+*   [_.conforms({ 'b': _.isNumber }), _.constant('matches B')],
+*   [_.stubTrue,                      _.constant('no match')]
 * ]);
 *
-* func({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
-* // =&gt; &apos;matches A&apos;
+* func({ 'a': 1, 'b': 2 });
+* // =&gt; 'matches A'
 *
 ...</pre></li>
     </ul>
@@ -20102,7 +20095,7 @@ function ary(func, n, guard) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20142,7 +20135,7 @@ function max(array) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20182,7 +20175,7 @@ function min(array) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20196,14 +20189,14 @@ function min(array) {
 *   });
 * }
 *
-* _.<span class="apidocCodeKeywordSpan">mixin</span>({ &apos;vowels&apos;: vowels });
-* _.vowels(&apos;fred&apos;);
-* // =&gt; [&apos;e&apos;]
+* _.<span class="apidocCodeKeywordSpan">mixin</span>({ 'vowels': vowels });
+* _.vowels('fred');
+* // =&gt; ['e']
 *
-* _(&apos;fred&apos;).vowels().value();
-* // =&gt; [&apos;e&apos;]
+* _('fred').vowels().value();
+* // =&gt; ['e']
 *
-* _.mixin({ &apos;vowels&apos;: vowels }, { &apos;chain&apos;: false });
+* _.mixin({ 'vowels': vowels }, { 'chain': false });
 ...</pre></li>
     </ul>
 
@@ -20222,7 +20215,7 @@ function min(array) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20240,7 +20233,7 @@ function min(array) {
  * // =&gt; [1, 3, 5]
  */
 function negate(predicate) {
-  if (typeof predicate != &apos;function&apos;) {
+  if (typeof predicate != 'function') {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   return function() {
@@ -20262,7 +20255,7 @@ function negate(predicate) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20302,7 +20295,7 @@ function noConflict() {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20326,7 +20319,7 @@ function noConflict() {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20366,7 +20359,7 @@ function once(func) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20374,15 +20367,15 @@ function once(func) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * _(users).head();
- * // =&gt; { &apos;user&apos;: &apos;barney&apos;, &apos;age&apos;: 36 }
+ * // =&gt; { 'user': 'barney', 'age': 36 }
  *
  * // A sequence with explicit chaining.
  * _(users)
  *   .chain()
  *   .head()
- *   .<span class="apidocCodeKeywordSpan">pick</span>(&apos;user&apos;)
+ *   .<span class="apidocCodeKeywordSpan">pick</span>('user')
  *   .value();
- * // =&gt; { &apos;user&apos;: &apos;barney&apos; }
+ * // =&gt; { 'user': 'barney' }
  */
 function wrapperChain() {
   return chain(this);
@@ -20421,8 +20414,8 @@ stack.<span class="apidocCodeKeywordSpan">pop</span>();
 return result;
     }
     if (!(bitmask &amp; COMPARE_PARTIAL_FLAG)) {
-var objIsWrapped = objIsObj &amp;&amp; hasOwnProperty.call(object, &apos;__wrapped__&apos;),
-    othIsWrapped = othIsObj &amp;&amp; hasOwnProperty.call(other, &apos;__wrapped__&apos;);
+var objIsWrapped = objIsObj &amp;&amp; hasOwnProperty.call(object, '__wrapped__'),
+    othIsWrapped = othIsObj &amp;&amp; hasOwnProperty.call(other, '__wrapped__');
 
 if (objIsWrapped || othIsWrapped) {
 ...</pre></li>
@@ -20449,9 +20442,9 @@ if (objIsWrapped || othIsWrapped) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
            // Node.js 0.10 has enumerable non-index properties on buffers.
-           (isBuff &amp;&amp; (key == &apos;offset&apos; || key == &apos;parent&apos;)) ||
+           (isBuff &amp;&amp; (key == 'offset' || key == 'parent')) ||
            // PhantomJS 2 has enumerable non-index properties on typed arrays.
-           (isType &amp;&amp; (key == &apos;buffer&apos; || key == &apos;byteLength&apos; || key == &apos;byteOffset&apos;)) ||
+           (isType &amp;&amp; (key == 'buffer' || key == 'byteLength' || key == 'byteOffset')) ||
            // Skip index properties.
            isIndex(key, length)
         ))) {
@@ -20480,7 +20473,7 @@ module.exports = arrayLikeKeys;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20531,9 +20524,9 @@ var funcToString = funcProto.toString;
 var hasOwnProperty = objectProto.hasOwnProperty;
 
 /** Used to detect if a method is native. */
-var reIsNative = RegExp(&apos;^&apos; +
- funcToString.call(hasOwnProperty).<span class="apidocCodeKeywordSpan">replace</span>(reRegExpChar, &apos;\\$&amp;&apos;)
- .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, &apos;$1.*?&apos;) + &apos;$&apos;
+var reIsNative = RegExp('^' +
+ funcToString.call(hasOwnProperty).<span class="apidocCodeKeywordSpan">replace</span>(reRegExpChar, '\\$&amp;')
+ .replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$'
 );
 
 /**
@@ -20558,7 +20551,7 @@ var reIsNative = RegExp(&apos;^&apos; +
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20570,16 +20563,16 @@ var reIsNative = RegExp(&apos;^&apos; +
 * @returns {*} Returns the resolved value.
 * @example
 *
-* var object = { &apos;a&apos;: [{ &apos;b&apos;: { &apos;c1&apos;: 3, &apos;c2&apos;: _.constant(4) } }] };
+* var object = { 'a': [{ 'b': { 'c1': 3, 'c2': _.constant(4) } }] };
 *
-* _.<span class="apidocCodeKeywordSpan">result</span>(object, &apos;a[0].b.c1&apos;);
+* _.<span class="apidocCodeKeywordSpan">result</span>(object, 'a[0].b.c1');
 * // =&gt; 3
 *
-* _.result(object, &apos;a[0].b.c2&apos;);
+* _.result(object, 'a[0].b.c2');
 * // =&gt; 4
 *
-* _.result(object, &apos;a[0].b.c3&apos;, &apos;default&apos;);
-* // =&gt; &apos;default&apos;
+* _.result(object, 'a[0].b.c3', 'default');
+* // =&gt; 'default'
 ...</pre></li>
     </ul>
 
@@ -20658,7 +20651,7 @@ function tap(value, interceptor) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20675,10 +20668,10 @@ function tap(value, interceptor) {
 * _.<span class="apidocCodeKeywordSpan">size</span>([1, 2, 3]);
 * // =&gt; 3
 *
-* _.size({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
+* _.size({ 'a': 1, 'b': 2 });
 * // =&gt; 2
 *
-* _.size(&apos;pebbles&apos;);
+* _.size('pebbles');
 * // =&gt; 7
 ...</pre></li>
     </ul>
@@ -20698,7 +20691,7 @@ function tap(value, interceptor) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20738,7 +20731,7 @@ function cloneBuffer(buffer, isDeep) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20752,12 +20745,12 @@ function cloneBuffer(buffer, isDeep) {
 *  else `false`.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">some</span>([null, 0, &apos;yes&apos;, false], Boolean);
+* _.<span class="apidocCodeKeywordSpan">some</span>([null, 0, 'yes', false], Boolean);
 * // =&gt; true
 *
 * var users = [
-*   { &apos;user&apos;: &apos;barney&apos;, &apos;active&apos;: true },
-*   { &apos;user&apos;: &apos;fred&apos;,   &apos;active&apos;: false }
+*   { 'user': 'barney', 'active': true },
+*   { 'user': 'fred',   'active': false }
 * ];
 *
 ...</pre></li>
@@ -20816,27 +20809,27 @@ module.exports = baseSortBy;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
   return func.apply(object, arrayPush([this.value()], arguments));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-*   { &apos;user&apos;: &apos;barney&apos;,  &apos;age&apos;: 36 },
-*   { &apos;user&apos;: &apos;fred&apos;,    &apos;age&apos;: 40 },
-*   { &apos;user&apos;: &apos;pebbles&apos;, &apos;age&apos;: 1 }
+*   { 'user': 'barney',  'age': 36 },
+*   { 'user': 'fred',    'age': 40 },
+*   { 'user': 'pebbles', 'age': 1 }
 * ];
 *
 * var youngest = _
 *   .chain(users)
-*   .<span class="apidocCodeKeywordSpan">sortBy</span>(&apos;age&apos;)
+*   .<span class="apidocCodeKeywordSpan">sortBy</span>('age')
 *   .map(function(o) {
-*     return o.user + &apos; is &apos; + o.age;
+*     return o.user + ' is ' + o.age;
 *   })
 *   .head()
 *   .value();
-* // =&gt; &apos;pebbles is 1&apos;
+* // =&gt; 'pebbles is 1'
 */
 ...</pre></li>
     </ul>
@@ -20890,7 +20883,7 @@ module.exports = baseSortBy;
  * @returns {Array} Returns the converted array.
  */
 function asciiToArray(string) {
-  return string.<span class="apidocCodeKeywordSpan">split</span>(&apos;&apos;);
+  return string.<span class="apidocCodeKeywordSpan">split</span>('');
 }
 
 module.exports = asciiToArray;
@@ -20912,7 +20905,7 @@ module.exports = asciiToArray;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20952,7 +20945,7 @@ module.exports = asciiToArray;
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -20963,14 +20956,14 @@ module.exports = asciiToArray;
  * @returns {*} Returns the result of `interceptor`.
  * @example
  *
- * _(&apos;  abc  &apos;)
+ * _('  abc  ')
  *  .chain()
  *  .trim()
  *  .<span class="apidocCodeKeywordSpan">thru</span>(function(value) {
  *    return [value];
  *  })
  *  .value();
- * // =&gt; [&apos;abc&apos;]
+ * // =&gt; ['abc']
  */
 function thru(value, interceptor) {
   return interceptor(value);
@@ -20992,7 +20985,7 @@ function thru(value, interceptor) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -21006,11 +20999,11 @@ function thru(value, interceptor) {
 * @returns {Array} Returns the converted array.
 * @example
 *
-* _.<span class="apidocCodeKeywordSpan">toArray</span>({ &apos;a&apos;: 1, &apos;b&apos;: 2 });
+* _.<span class="apidocCodeKeywordSpan">toArray</span>({ 'a': 1, 'b': 2 });
 * // =&gt; [1, 2]
 *
-* _.toArray(&apos;abc&apos;);
-* // =&gt; [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]
+* _.toArray('abc');
+* // =&gt; ['a', 'b', 'c']
 *
 * _.toArray(1);
 * // =&gt; []
@@ -21047,7 +21040,7 @@ function thru(value, interceptor) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -21057,15 +21050,15 @@ function thru(value, interceptor) {
  * @since 0.1.0
  * @memberOf _
  * @category Util
- * @param {string} [prefix=&apos;&apos;] The value to prefix the ID with.
+ * @param {string} [prefix=''] The value to prefix the ID with.
  * @returns {string} Returns the unique ID.
  * @example
  *
- * _.<span class="apidocCodeKeywordSpan">uniqueId</span>(&apos;contact_&apos;);
- * // =&gt; &apos;contact_104&apos;
+ * _.<span class="apidocCodeKeywordSpan">uniqueId</span>('contact_');
+ * // =&gt; 'contact_104'
  *
  * _.uniqueId();
- * // =&gt; &apos;105&apos;
+ * // =&gt; '105'
  */
 function uniqueId(prefix) {
   var id = ++idCounter;
@@ -21110,8 +21103,8 @@ function uniqueId(prefix) {
     : equalByTag(object, other, objTag, bitmask, customizer, equalFunc, stack);
 }
 if (!(bitmask &amp; COMPARE_PARTIAL_FLAG)) {
-  var objIsWrapped = objIsObj &amp;&amp; hasOwnProperty.call(object, &apos;__wrapped__&apos;),
-      othIsWrapped = othIsObj &amp;&amp; hasOwnProperty.call(other, &apos;__wrapped__&apos;);
+  var objIsWrapped = objIsObj &amp;&amp; hasOwnProperty.call(object, '__wrapped__'),
+      othIsWrapped = othIsObj &amp;&amp; hasOwnProperty.call(other, '__wrapped__');
 
   if (objIsWrapped || othIsWrapped) {
     var objUnwrapped = objIsWrapped ? object.<span class="apidocCodeKeywordSpan">value</span>() : object,
@@ -21155,7 +21148,7 @@ if (!isSameTag) {
     var result = object(this.__wrapped__),
         actions = result.__actions__ = copyArray(this.__actions__);
 
-    actions.push({ &apos;func&apos;: func, &apos;args&apos;: arguments, &apos;thisArg&apos;: object });
+    actions.push({ 'func': func, 'args': arguments, 'thisArg': object });
     result.__chain__ = chainAll;
     return result;
   }
@@ -21172,8 +21165,8 @@ if (!isSameTag) {
  * _.<span class="apidocCodeKeywordSpan">values</span>(new Foo);
  * // =&gt; [1, 2] (iteration order is not guaranteed)
  *
- * _.values(&apos;hi&apos;);
- * // =&gt; [&apos;h&apos;, &apos;i&apos;]
+ * _.values('hi');
+ * // =&gt; ['h', 'i']
  */
 function values(object) {
   return object == null ? [] : baseValues(object, keys(object));
@@ -21319,7 +21312,7 @@ function values(object) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function memoize(func, resolver) {
-  if (typeof func != &apos;function&apos; || (resolver != null &amp;&amp; typeof resolver != &apos;function&apos;)) {
+  if (typeof func != 'function' || (resolver != null &amp;&amp; typeof resolver != 'function')) {
     throw new TypeError(FUNC_ERROR_TEXT);
   }
   var memoized = function() {
@@ -21406,9 +21399,9 @@ function values(object) {
     <li>description and source-code<pre class="apidocCodePre">function mapCacheClear() {
   this.size = 0;
   this.__data__ = {
-    &apos;hash&apos;: new Hash,
-    &apos;map&apos;: new (Map || ListCache),
-    &apos;string&apos;: new Hash
+    'hash': new Hash,
+    'map': new (Map || ListCache),
+    'string': new Hash
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -21424,7 +21417,7 @@ function values(object) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function mapCacheDelete(key) {
-  var result = getMapData(this, key)[&apos;delete&apos;](key);
+  var result = getMapData(this, key)['delete'](key);
   this.size -= result ? 1 : 0;
   return result;
 }</pre></li>
@@ -21587,8 +21580,8 @@ return result;
  *
  * var defaults = _.<span class="apidocCodeKeywordSpan">partialRight</span>(_.assignInWith, customizer);
  *
- * defaults({ &apos;a&apos;: 1 }, { &apos;b&apos;: 2 }, { &apos;a&apos;: 3 });
- * // =&gt; { &apos;a&apos;: 1, &apos;b&apos;: 2 }
+ * defaults({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
+ * // =&gt; { 'a': 1, 'b': 2 }
  */
 var assignInWith = createAssigner(function(object, source, srcIndex, customizer) {
   copyObject(source, keysIn(source), object, customizer);
@@ -21618,3 +21611,4 @@ var assignInWith = createAssigner(function(object, source, srcIndex, customizer)
     ]
 </div>
 </div>
+</body></html>
